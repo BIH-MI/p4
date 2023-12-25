@@ -1,0 +1,25 @@
+STEP 1: Anonymizing partitions
+- Split into equally sized data subsets
+- Partition (different strategies might be used)
+- Anonymize all partitions (using all privacy models defined, the utility model defined, the transformation scheme defined etc.)
+- Calculate average generalization levels (we might also try different strategies here)
+
+Step 2: Harmonization (iff the transformation model is global)
+- Use average generalization levels to anonymize all partitions again
+
+Step 3: Compliance checking (iff the privacy models include a non-monotonic model)
+- Partition dataset again but make sure that each equivalence class is assigned to just one partition (and not split between partitions; the exact partitioning strategy is irrelevant in this case).
+- Anonymize all partitions (containing already anonymized data) by suppressing all equivalence classes that do not meet the privacy models specified.
+
+Step 4: Finalization
+- Merge the partitions
+- Calculate overall utility.
+
+===============
+| OPEN ISSUES |
+===============
+- (Check for each privacy model whether local transformation is valid)
+- Poor performance on differential privacy
+  * Check local vs global differential privacy
+  * If the dataset is split up (potentially: randomly), maybe the Epsilons don't add up?
+  * Ignore or optimize time needed for parameter calculation
