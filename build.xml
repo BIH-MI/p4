@@ -1,431 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="ARX" default="release" basedir=".">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="p4">
+    <!-- Project Properties -->
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="8"/>
+    <property name="source" value="8"/>
+    <property name="bin.dir" value="bin"/>
+    <property name="src.dir" value="src/main"/>
+    <property name="jar.dir" value="dist"/>
+    <property name="jar.name" value="${jar.dir}/distributed.jar"/>
+    <property name="main.class" value="org.deidentifier.arx.distributed.Main"/>
 
-    <description>Builds, tests, and runs the project.</description>
+    <!-- Classpath Definition -->
+    <path id="p4.classpath">
+        <pathelement location="${bin.dir}"/>
+        <!-- Add all library JARs -->
+        <fileset dir="lib/ant" includes="**/*.jar"/>
+    </path>
 
-    <!-- defines the version number -->
-    <property name="arx.version" value="3.9.1" />
-
-    <!-- add extra parameter to javadoc generation to deal with errors in newer Java versions -->
-    <property name="javadoc.additionalparam" value="-notimestamp -Xdoclint:none" />
-
-    <!-- defines the to be included libraries -->
-    <fileset id="lib.jars" dir="lib/ant">
-        <or>
-            <filename name="**/colt-1.2.0.jar" />
-            <filename name="**/commons-lang-2.6.jar" />
-        	<filename name="**/commons-lang3-3.12.0.jar" />
-            <filename name="**/commons-math3-3.6.1.jar" />
-            <filename name="**/objectselector-0.1-lib.jar" />
-            <filename name="**/commons-io-2.4.jar" />
-            <filename name="**/commons-codec-1.5.jar" />
-            <filename name="**/commons-logging-1.1.jar" />
-            <filename name="**/commons-validator-1.4.1.jar" />
-            <filename name="**/dom4j-1.6.1.jar" />
-            <filename name="**/stax-api-1.0.1.jar" />
-            <filename name="**/xmlbeans-2.3.0.jar" />
-            <filename name="**/poi-3.10-FINAL-20140208.jar" />
-            <filename name="**/poi-ooxml-3.10-FINAL-20140208.jar" />
-            <filename name="**/poi-ooxml-schemas-3.10-FINAL-20140208.jar" />
-            <filename name="**/hppc-0.6.0.jar" />
-            <filename name="**/univocity-parsers-2.8.4.jar" />
-            <filename name="**/newtonraphson-0.0.1.jar" />
-            <filename name="**/jhpl-0.0.1.jar" />
-            <filename name="**/mahout-core-0.9.jar" />
-            <filename name="**/mahout-math-0.11.1.jar" />
-            <filename name="**/hadoop-core-1.2.1.jar" />
-            <filename name="**/guava-18.0.jar" />
-            <filename name="**/slf4j-api-1.7.13.jar" />
-	    	<filename name="**/pdfbox-app-2.0.1.jar" />
-	    	<filename name="**/pdfbox-layout.jar" />
-	    	<filename name="**/exp4j-0.4.8.jar" />
-	    	<filename name="**/smile-1.3.1-java7.jar" />
-            <filename name="**/libarx-3.9.1.jar" />
-        </or>
-    </fileset>
-
-    <fileset id="gui.jars" dir="lib/ant">
-        <or>
-            <filename name="**/libjhc-1.0.0-swt.jar" />
-            <filename name="**/junit-4.11.jar" />
-            <filename name="**/log4j-1.2-api-2.17.2.jar" />
-            <filename name="**/log4j-api-2.17.2.jar" />
-            <filename name="**/log4j-core-2.17.2.jar" />
-            <filename name="**/swtknob-1.0.0.jar" />
-            <filename name="**/swttable-0.0.1.jar" />
-            <filename name="**/swtchoicesdialog-0.0.1.jar" />
-            <filename name="**/swtrangeslider-0.0.1.jar" />
-            <filename name="**/swttiles-0.0.1.jar" />
-            <filename name="**/swtpreferences-0.0.1.jar" />
-            <filename name="**/swtsimplebrowser-0.0.1.jar" />
-            <filename name="**/jtds-1.3.1.jar" />
-            <filename name="**/mysql-connector-java-5.1.38-bin.jar" />
-            <filename name="**/postgresql-9.3-1101.jdbc41.jar" />
-            <filename name="**/sqlite-jdbc-3.7.2.jar" />
-            <filename name="**/ojdbc7.jar" />
-        	<filename name="**/org.eclipse.core.commands_3.9.700.v20191217-1850.jar" />
-        	<filename name="**/org.eclipse.core.runtime_3.18.0.v20200506-2143.jar" />
-        	<filename name="**/org.eclipse.draw2d_3.10.100.201606061308.jar" />
-        	<filename name="**/org.eclipse.equinox.common_3.12.0.v20200504-1602.jar" />
-        	<filename name="**/org.eclipse.jface_3.20.0.v20200505-1952.jar" />
-        	<filename name="**/org.eclipse.nebula.visualization.widgets_1.1.0.202006092019.jar" />
-        	<filename name="**/org.eclipse.nebula.visualization.xygraph_3.1.0.202006092019.jar" />
-        	<filename name="**/org.eclipse.nebula.widgets.nattable.core_1.6.0.201909181823.jar" />
-        	<filename name="**/org.eclipse.nebula.widgets.pagination_1.0.0.202006191828.jar" />
-        	<filename name="**/org.swtchart_0.8.0.v20120301.jar" />        	
-        </or>
-    </fileset>
-
-    <fileset id="test.jars" dir="lib/ant">
-        <or>
-            <filename name="**/junit-4.11.jar" />
-            <filename name="**/hamcrest-core-1.3.jar" />
-        </or>
-    </fileset>
-
-
-    <available file=".git" type="dir" property="git.present" />
-
-    <!-- https://stackoverflow.com/questions/2974106/how-to-lookup-the-latest-git-commit-hash-from-an-ant-build-script -->
-    <target name="git.revision" description="Store git revision in ${repository.version}" if="git.present">
-        <exec executable="git" outputproperty="git.revision" failifexecutionfails="false" errorproperty="">
-            <arg value="describe" />
-            <arg value="--tags" />
-            <arg value="--always" />
-            <arg value="HEAD" />
-        </exec>
-        <condition property="repository.version" value="${git.revision}" else="unknown">
-            <and>
-                <isset property="git.revision" />
-                <length string="${git.revision}" trim="yes" length="0" when="greater" />
-            </and>
-        </condition>
+    <!-- Initialize Directory Structure -->
+    <target name="init">
+        <mkdir dir="${bin.dir}"/>
     </target>
 
-    <target name="compileTest">
-        <delete dir="build/test" failonerror="true" />
-        <mkdir dir="build/test" />
-        <mkdir dir="build/junitReports" />
+    <!-- Clean Up Build Directory -->
+    <target name="clean">
+        <delete dir="${bin.dir}"/>
+    </target>
 
-        <javac includeantruntime="false" srcdir="src/main:src/gui:src/example:src/test/" destdir="build/test" source="1.8" debug="true">
-            <classpath>
-                <fileset refid="lib.jars" />
-                <fileset refid="gui.jars" />
-                <fileset refid="test.jars" />
-                <path path="lib/ant/eclipse/org.eclipse.swt.gtk.linux.x86_64_3.114.100.v20200604-0951.jar" />
-            </classpath>
+    <!-- Compile Java Source Files -->
+    <target name="compile" depends="init">
+        <javac debug="true" debuglevel="${debuglevel}" destdir="${bin.dir}" includeantruntime="false" source="${source}" target="${target}">
+            <src path="${src.dir}"/>
+            <classpath refid="p4.classpath"/>
         </javac>
-
-        <copy todir="build/test/org/deidentifier/arx/gui/resources" overwrite="true">
-            <fileset dir="src/gui/org/deidentifier/arx/gui/resources" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-            </fileset>
-        </copy>
-        <copy todir="build/test/org/deidentifier/arx/risk/resources/us" overwrite="true">
-            <fileset dir="src/main/org/deidentifier/arx/risk/resources/us" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-                <exclude name="**/*.txt" />
-            </fileset>
-        </copy>
-        <copy todir="build/test/org/deidentifier/arx/certificate/resources" overwrite="true">
-            <fileset dir="src/main/org/deidentifier/arx/certificate/resources" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-                <exclude name="**/*.txt" />
-            </fileset>
-        </copy>
     </target>
 
-    <target name="benchmark" depends="git.revision,compileTest">
-        <junit showoutput="yes" fork="yes">
-            <jvmarg value="-DBenchmark=build/junitReports" />
-            <jvmarg value="-DVersion=${git.revision}" />
-            <classpath>
-                <fileset refid="lib.jars" />
-                <fileset refid="test.jars" />
-                <path path="build/test" />
-                <path path="lib/ant/log4j/log4j-1.2-api-2.17.2.jar" />
-                <path path="lib/ant/log4j/log4j-api-2.17.2.jar" />
-                <path path="lib/ant/log4j/log4j-core-2.17.2.jar" />
-                <path path="lib/ant/sqlite/sqlite-jdbc-3.7.2.jar" />
-            	<path path="lib/ant/eclipse/org.eclipse.swt.gtk.linux.x86_64_3.114.100.v20200604-0951.jar" />
-            </classpath>
-            <batchtest todir="build/junitReports">
-                <fileset dir="src/test/">
-                    <include name="**/TestAnonymizationKAnonymity.java" />
-                    <include name="**/TestAnonymizationLDiversity.java" />
-                    <include name="**/TestAnonymizationDPresence.java" />
-                    <include name="**/TestAnonymizationTCloseness.java" />
-                    <include name="**/TestAnonymizationCombinations.java" />
-                    <include name="**/TestAnonymizationDifferentialPrivacy.java" />
-                    <include name="**/TestAnonymizationKMap.java" />
-                    <include name="**/TestAnonymizationRiskBased.java" />
-                    <include name="**/TestAnonymizationLocalRecoding.java" />
-                    <include name="**/TestAnonymizationOrderedDistanceTCloseness.java" />
-                    <include name="**/TestAnonymizationEntropyLDiversity.java" />
-                	<include name="**/TestAnonymizationProfitability.java" />
-                </fileset>
-                <formatter type="plain" usefile="false" />
-                <formatter type="xml" />
-            </batchtest>
-        </junit>
-        <antcall target="analyse-benchmark" />
-    </target>
-
-    <target name="analyse-benchmark">
-        <java jar="arx-analyse.jar" fork="true">
-        </java>
-    </target>
-
-    <target name="test" depends="compileTest">
-        <junit showoutput="yes">
-            <classpath>
-                <fileset refid="lib.jars" />
-                <fileset refid="test.jars" />
-                <path path="build/test" />
-                <path path="lib/ant/log4j/log4j-1.2-api-2.17.2.jar" />
-                <path path="lib/ant/log4j/log4j-api-2.17.2.jar" />
-                <path path="lib/ant/log4j/log4j-core-2.17.2.jar" />
-                <path path="lib/ant/sqlite/sqlite-jdbc-3.7.2.jar" />
-            	<path path="lib/ant/eclipse/org.eclipse.swt.gtk.linux.x86_64_3.114.100.v20200604-0951.jar" />
-            </classpath>
-            <batchtest todir="build/junitReports" fork="yes">
-                <fileset dir="src/test/" includes="**/Test*.java" />
-                <formatter type="plain" usefile="false" />
-                <formatter type="xml" />
-            </batchtest>
-        </junit>
-    </target>
-
-
-    <target name="release" depends="jars">
-    </target>
-
-    <target name="clean" depends="end-clean">
-        <delete dir="jars" failonerror="true" />
-    </target>
-
-    <target name="end-clean">
-        <delete dir="build/lib/ant" failonerror="true" />
-        <delete dir="build/gui" failonerror="true" />
-        <delete dir="build/extLibs" failonerror="true" />
-        <delete dir="build" failonerror="true" />
-    </target>
-
-    <target name="prepare" depends="clean">
-        <mkdir dir="build" />
-        <mkdir dir="build/extLibs" />
-        <mkdir dir="build/lib/ant" />
-        <mkdir dir="build/gui" />
-        <mkdir dir="jars" />
-    </target>
-
-    <target name="clean-javadoc">
-        <delete includeEmptyDirs="true" failonerror="false">
-            <fileset dir="doc/api" includes="**/*" defaultexcludes="yes">
-                <exclude name="doc/api/.svn" />
-            </fileset>
-        </delete>
-        <delete includeEmptyDirs="true" failonerror="false">
-            <fileset dir="doc/gui" includes="**/*" defaultexcludes="yes">
-                <exclude name="doc/gui/.svn" />
-            </fileset>
-        </delete>
-        <delete includeEmptyDirs="true" failonerror="false">
-            <fileset dir="doc/dev" includes="**/*" defaultexcludes="yes">
-                <exclude name="doc/dev/.svn" />
-            </fileset>
-        </delete>
-    </target>
-
-    <target name="javadoc-api" depends="clean-javadoc">
-        <mkdir dir="doc/api" />
-        <javadoc overview="doc/overview-api.html" destdir="doc/api" source="1.8" notree="false" nonavbar="false" noindex="false" splitindex="true" access="public" use="true" author="Florian Kohlmayer and Fabian Praßer" version="${arx.version}" windowtitle="ARX API Documentation" private="false" failonerror="true" additionalparam="${javadoc.additionalparam}">
-
-            <classpath>
-                <fileset refid="lib.jars" />
-                <path path="src/main" />
-            </classpath>
-
-            <packageset dir="src/main/" defaultexcludes="yes">
-                <exclude name="org/deidentifier/arx/algorithm/" />
-                <exclude name="org/deidentifier/arx/framework/" />
-            </packageset>
-
-        </javadoc>
-    </target>
-
-    <target name="javadoc-dev" depends="clean-javadoc">
-        <mkdir dir="doc/dev" />
-        <javadoc overview="doc/overview-dev.html" destdir="doc/dev" source="1.8" notree="false" use="true" nonavbar="false" noindex="false" splitindex="false" author="Florian Kohlmayer and Fabian Praßer" version="${arx.version}" windowtitle="ARX Developer Documentation" private="false" failonerror="true" additionalparam="${javadoc.additionalparam}">
-            <classpath>
-                <fileset refid="lib.jars" />
-                <path path="src/main" />
-            </classpath>
-
-            <packageset dir="src/main/" defaultexcludes="yes">
-            </packageset>
-
-        </javadoc>
-    </target>
-
-    <target name="javadoc-gui" depends="clean-javadoc">
-        <mkdir dir="doc/gui" />
-        <javadoc overview="doc/overview-gui.html" destdir="doc/gui" source="1.8" notree="false" use="true" nonavbar="false" noindex="false" splitindex="false" author="Florian Kohlmayer and Fabian Praßer" version="${arx.version}" windowtitle="ARX GUI Documentation" private="false" failonerror="true" additionalparam="${javadoc.additionalparam}">
-            <classpath>
-                <fileset refid="lib.jars" />
-                <fileset refid="gui.jars" />
-            	<path path="lib/ant/eclipse/org.eclipse.swt.gtk.linux.x86_64_3.114.100.v20200604-0951.jar" />
-                <path path="src/main" />
-            </classpath>
-
-            <packageset dir="src/main/" defaultexcludes="yes">
-                <exclude name="org/deidentifier/arx/algorithm/" />
-                <exclude name="org/deidentifier/arx/framework/" />
-            </packageset>
-
-            <packageset dir="src/gui/" defaultexcludes="yes">
-            </packageset>
-
-        </javadoc>
-    </target>
-
-    <target name="javadoc" depends="javadoc-api,javadoc-gui,javadoc-dev">
-    </target>
-
-    <target name="compile" depends="prepare" description="compile the source ">
-        <javac includeantruntime="false" srcdir="src/main/" destdir="build/lib/ant" source="1.8" debug="true">
-            <classpath>
-                <fileset refid="lib.jars" />
-                <path path="src/main" />
-            </classpath>
-        </javac>
-        <javac includeantruntime="false" srcdir="src/main:src/gui/" destdir="build/gui" source="1.8">
-            <classpath>
-                <fileset refid="lib.jars" />
-                <fileset refid="gui.jars" />
-            	<path path="lib/ant/eclipse/org.eclipse.swt.gtk.linux.x86_64_3.114.100.v20200604-0951.jar" />
-                <path path="src/main" />
-            </classpath>
-        </javac>
-        <copy todir="build/gui/org/deidentifier/arx/gui/resources" overwrite="true">
-            <fileset dir="src/gui/org/deidentifier/arx/gui/resources" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-            </fileset>
-        </copy>
-        <copy todir="build/main/org/deidentifier/arx/risk/resources/us" overwrite="true">
-            <fileset dir="src/main/org/deidentifier/arx/risk/resources/us" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-                <exclude name="**/*.txt" />
-            </fileset>
-        </copy>
-        <copy todir="build/main/org/deidentifier/arx/certificate/resources" overwrite="true">
-            <fileset dir="src/main/org/deidentifier/arx/certificate/resources" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-                <exclude name="**/*.txt" />
-            </fileset>
-        </copy>
-        <copy todir="build/gui/org/deidentifier/arx/risk/resources/us" overwrite="true">
-            <fileset dir="src/main/org/deidentifier/arx/risk/resources/us" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-                <exclude name="**/*.txt" />
-            </fileset>
-        </copy>
-        <copy todir="build/gui/org/deidentifier/arx/certificate/resources" overwrite="true">
-            <fileset dir="src/main/org/deidentifier/arx/certificate/resources" defaultexcludes="yes">
-                <exclude name="**/*.java" />
-                <exclude name="**/*.txt" />
-            </fileset>
-        </copy>
-    </target>
-
-    <target name="buildExternalLibs">
-        <jar jarfile="build/extLibs/lib.jar">
-            <zipgroupfileset refid="lib.jars" />
-        </jar>
-        <jar jarfile="build/extLibs/gui.jar">
-            <zipgroupfileset refid="gui.jars" />
-        </jar>
-    </target>
-	
-    <target name="distributed" depends="compile, buildExternalLibs">
-        <jar destfile="jars/distributed.jar">
-            <fileset dir="build/gui" defaultexcludes="no" />
-            <zipfileset src="build/extLibs/lib.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
+    <!-- Create JAR File -->
+    <target name="jar" depends="compile">
+        <mkdir dir="${jar.dir}"/>
+        <jar destfile="${jar.name}" basedir="${bin.dir}">
             <manifest>
-                <attribute name="Main-Class" value="org.deidentifier.arx.distributed.Main" />
+                <attribute name="Main-Class" value="${main.class}"/>
             </manifest>
         </jar>
     </target>
 
-    <target name="jar-win" depends="compile, buildExternalLibs">
-        <jar destfile="jars/arx-${arx.version}-win-64.jar">
-            <fileset dir="build/gui" defaultexcludes="no" />
-            <zipfileset src="build/extLibs/lib.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-            <zipfileset src="build/extLibs/gui.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-        	<zipfileset src="lib/ant/eclipse/org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-            <manifest>
-                <attribute name="Main-Class" value="org.deidentifier.arx.gui.Main" />
-            </manifest>
-        </jar>
-    </target>
-
-    <target name="jar-linux" depends="compile, buildExternalLibs">
-        <jar destfile="jars/arx-${arx.version}-gtk-64.jar">
-            <fileset dir="build/gui" defaultexcludes="no" />
-            <zipfileset src="build/extLibs/lib.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-            <zipfileset src="build/extLibs/gui.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-        	<zipfileset src="lib/ant/eclipse/org.eclipse.swt.gtk.linux.x86_64_3.114.100.v20200604-0951.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-            <manifest>
-                <attribute name="Main-Class" value="org.deidentifier.arx.gui.Main" />
-            </manifest>
-        </jar>
-    </target>
-
-    <target name="jar-osx" depends="compile, buildExternalLibs">
-        <jar destfile="jars/arx-${arx.version}-osx-64.jar">
-            <fileset dir="build/gui" defaultexcludes="no" />
-            <zipfileset src="build/extLibs/lib.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-            <zipfileset src="build/extLibs/gui.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-        	<zipfileset src="lib/ant/eclipse/org.eclipse.swt.cocoa.macosx.x86_64_3.114.100.v20200604-0951.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-            <manifest>
-                <attribute name="Main-Class" value="org.deidentifier.arx.gui.Main" />
-            </manifest>
-        </jar>
-    </target>
-
-    <target name="jar-libs" depends="compile, buildExternalLibs">
-        <jar destfile="jars/arx-${arx.version}-src.jar">
-            <fileset dir="src/gui" defaultexcludes="no" />
-            <fileset dir="src/main" defaultexcludes="no" />
-        </jar>
-        <jar destfile="jars/libarx-${arx.version}-src.jar">
-            <fileset dir="src/main" defaultexcludes="no" />
-            <fileset dir="src/test" defaultexcludes="no" />
-            <fileset dir="src/example" defaultexcludes="no" />
-        </jar>
-        <jar destfile="jars/libarx-${arx.version}.jar">
-            <fileset dir="build/lib/ant" defaultexcludes="no" />
-            <zipfileset src="build/extLibs/lib.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-        </jar>
-        <jar destfile="jars/libarx-${arx.version}-min.jar">
-            <fileset dir="build/lib/ant" defaultexcludes="no" />
-            <zipfileset src="lib/ant/objectselector/objectselector-0.1-lib.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
-        </jar>
-    </target>
-
-    <target name="jar-docs" depends="compile, javadoc">
-        <jar destfile="jars/libarx-${arx.version}-doc.jar">
-            <fileset dir="doc/api" defaultexcludes="no" />
-        </jar>
-        <jar destfile="jars/libarx-${arx.version}-dev-doc.jar">
-            <fileset dir="doc/dev" defaultexcludes="no" />
-        </jar>
-        <jar destfile="jars/arx-${arx.version}-doc.jar">
-            <fileset dir="doc/gui" defaultexcludes="no" />
-        </jar>
-    </target>
-
-    <target name="jars" depends="jar-win, jar-linux, jar-osx, jar-libs, jar-docs">
-        <antcall target="end-clean" />
-    </target>
+    <!-- Set Default Target -->
+    <target name="build" depends="clean,compile,jar"/>
 </project>

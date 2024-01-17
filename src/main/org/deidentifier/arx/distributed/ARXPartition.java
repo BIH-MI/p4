@@ -148,7 +148,7 @@ public class ARXPartition {
 
                 // Add
                 partition.add(current);
-                if (subset.contains(currentRow)) {
+                if (subset != null && subset.contains(currentRow)) {
                     partitionSubset.add(currentRow);
                 }
 
@@ -221,7 +221,7 @@ public class ARXPartition {
         while (iter.hasNext()) {
             int randomPartition = random.nextInt(number);
             list.get(randomPartition).add(iter.next());
-            if (subset.contains(currentIndex)) {
+            if (subset != null && subset.contains(currentIndex)) {
                 partitionIndices.get(randomPartition).add(list.get(randomPartition).size()-2); // additional -1 for header
             }
             currentIndex++;
@@ -288,7 +288,7 @@ public class ARXPartition {
 
             for (int j = 0; j< currentPartitionSize; j++) {
                 partition.add(iter.next());
-                if (subset.contains(currentIndex)) {
+                if (subset != null && subset.contains(currentIndex)) {
                     partitionSubset.add(j);
                 }
                 currentIndex++;
@@ -311,6 +311,10 @@ public class ARXPartition {
      * @param qiIndices      Array of indices used to determine the columns for sorting the data.
      */
     private static void sortData(DataHandle handle, Set<Integer> subset, int[] qiIndices) {
+        if (subset == null) {
+            handle.sort(true, qiIndices);
+            return;
+        }
         Swapper swapper = (a, b) -> {
             boolean containsA = subset.contains(a);
             boolean containsB = subset.contains(b);
