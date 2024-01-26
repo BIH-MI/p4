@@ -194,7 +194,7 @@ public class GranularityCalculation {
                                                           QualityDomainShare[] shares) {
         List<Double> granularities = new ArrayList<>();
         for (DataHandle handle : handles) {
-            granularities.add(calculateLossDirectly(handle, configuration, indices, hierarchies, shares));
+            granularities.add(calculateLossDirectly(handle.getView(), configuration, indices, hierarchies, shares));
         }
         return granularities;
     }

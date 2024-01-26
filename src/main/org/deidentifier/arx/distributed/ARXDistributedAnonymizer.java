@@ -438,9 +438,18 @@ public class ARXDistributedAnonymizer {
         // Calculate schemes
         List<Future<int[]>> futures = new ArrayList<>();
         for (ARXPartition partition : partitions) {
+            ARXConfiguration partitionConfig = config.clone();
+            if (partition.getSubset() != null) {
+                for (PrivacyCriterion privacyCriterion : partitionConfig.getPrivacyModels()) {
+                    if (privacyCriterion instanceof ModelWithExchangeableSubset) {
+                        partitionConfig.removeCriterion(privacyCriterion);
+                        partitionConfig.addPrivacyModel(((ModelWithExchangeableSubset) privacyCriterion).cloneAndExchangeDataSubset(DataSubset.create(partition.getData().getNumRows(), partition.getSubset())));
+                    }
+                }
+            }
             switch (distributionStrategy) {
             case LOCAL:
-                futures.add(new ARXWorkerLocal().transform(partition, config));
+                futures.add(new ARXWorkerLocal().transform(partition, partitionConfig));
                 break;
             default:
                 throw new IllegalStateException("Unknown distribution strategy");

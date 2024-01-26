@@ -1,50 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project basedir="." default="build" name="p4">
     <!-- Project Properties -->
+    <property name="version" value="0.0.1" />
     <property name="debuglevel" value="source,lines,vars"/>
-    <property name="target" value="8"/>
-    <property name="source" value="8"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
     <property name="bin.dir" value="bin"/>
     <property name="src.dir" value="src/main"/>
-    <property name="jar.dir" value="dist"/>
+    <property name="jar.dir" value="jars"/>
     <property name="jar.name" value="${jar.dir}/distributed.jar"/>
     <property name="main.class" value="org.deidentifier.arx.distributed.Main"/>
 
-    <!-- Classpath Definition -->
-    <path id="p4.classpath">
-        <pathelement location="${bin.dir}"/>
-        <!-- Add all library JARs -->
-        <fileset dir="lib/ant" includes="**/*.jar"/>
-    </path>
+    <!-- defines the to be included libraries -->
+    <fileset id="lib.jars" dir="lib">
+        <filename name="**/libarx-3.9.1.jar" />
+    </fileset>
 
-    <!-- Initialize Directory Structure -->
-    <target name="init">
-        <mkdir dir="${bin.dir}"/>
+    <target name="release" depends="jars">
     </target>
 
-    <!-- Clean Up Build Directory -->
-    <target name="clean">
-        <delete dir="${bin.dir}"/>
+    <target name="clean" depends="end-clean">
+        <delete dir="jars" failonerror="true" />
     </target>
 
-    <!-- Compile Java Source Files -->
-    <target name="compile" depends="init">
-        <javac debug="true" debuglevel="${debuglevel}" destdir="${bin.dir}" includeantruntime="false" source="${source}" target="${target}">
-            <src path="${src.dir}"/>
-            <classpath refid="p4.classpath"/>
+    <target name="end-clean">
+        <delete dir="build/extLibs" failonerror="true" />
+        <delete dir="build/lib" failonerror="true" />
+        <delete dir="build" failonerror="true" />
+    </target>
+
+    <target name="prepare" depends="clean">
+        <mkdir dir="build" />
+        <mkdir dir="build/extLibs" />
+        <mkdir dir="build/lib" />
+        <mkdir dir="jars" />
+    </target>
+
+    <target name="compile" depends="prepare" description="compile the source ">
+        <javac includeantruntime="false" srcdir="src" destdir="build/lib" source="${source}">
+            <classpath>
+                <fileset refid="lib.jars" />
+                <path path="src" />
+            </classpath>
         </javac>
     </target>
 
-    <!-- Create JAR File -->
-    <target name="jar" depends="compile">
-        <mkdir dir="${jar.dir}"/>
-        <jar destfile="${jar.name}" basedir="${bin.dir}">
+    <target name="buildExternalLibs">
+        <jar jarfile="build/extLibs/lib.jar">
+            <zipgroupfileset refid="lib.jars" />
+        </jar>
+    </target>
+
+    <target name="jar-libs" depends="compile, buildExternalLibs">
+        <jar destfile="${jar.name}">
+            <zipfileset src="build/extLibs/lib.jar" excludes="META-INF/*.RSA,META-INF/*.SF,META-INF/*.DSA" />
+            <fileset dir="build/lib" defaultexcludes="no" />
             <manifest>
                 <attribute name="Main-Class" value="${main.class}"/>
             </manifest>
         </jar>
     </target>
 
-    <!-- Set Default Target -->
-    <target name="build" depends="clean,compile,jar"/>
+    <target name="jars" depends="jar-libs">
+        <antcall target="end-clean" />
+    </target>
 </project>

@@ -475,7 +475,7 @@ public class Main {
         List<BenchmarkConfiguration> configs = new ArrayList<>();
 
         configs.add(new BenchmarkConfiguration(datasetName, null) {
-            public String getName() {return "5-map subset";}
+            public String getName() {return "5-map-subset";}
             public ARXConfiguration getConfig(boolean local, int threads) {
                 ARXConfiguration config = ARXConfiguration.create();
                 Data dataset = getDataset();
@@ -501,29 +501,68 @@ public class Main {
             }
         });
 
-        configs.add(new BenchmarkConfiguration(datasetName, null) {
-            public String getName() {return "5-map Estimate";}
-            public ARXConfiguration getConfig(boolean local, int threads) {
-                ARXConfiguration config = ARXConfiguration.create();
-                DataHandle handle = getDataset().getHandle();
-                ARXPopulationModel populationModel = ARXPopulationModel.create(handle.getNumRows(), 0.01d);
-                config.addPrivacyModel(new KMap(5, 0.01, populationModel, KMap.CellSizeEstimator.POISSON));
-                config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
-                config.setSuppressionLimit(1d);
-                return config;
-            }
-        });
+        //configs.add(new BenchmarkConfiguration(datasetName, null) {
+        //    public String getName() {return "delta-presence-subset";}
+        //    public ARXConfiguration getConfig(boolean local, int threads) {
+        //        ARXConfiguration config = ARXConfiguration.create();
+        //        Data dataset = getDataset();
+        //        int n = dataset.getHandle().getNumRows();
+        //        int m = (int) (dataset.getHandle().getNumRows() * 0.5); // Subset is 50% of dataset
+        //        String subsetName = datasetName + "_subset_" + n + "_" + m + ".csv";
+        //        Set<Integer> subsetIndices;
+        //        try {
+        //            // Check if the file exists
+        //            if (!Files.exists(Paths.get(subsetName))){
+        //                generateSubset(n, m, subsetName);
+        //            }
+        //            subsetIndices = loaSubsetFromFile(subsetName);
+        //        } catch (IOException e) {
+        //            throw new RuntimeException("Failed to generate subset");
+        //        }
+        //        DataSubset subset = DataSubset.create(getDataset(), subsetIndices);
+//
+        //        config.addPrivacyModel(new DPresence(0, 0.9, subset));
+        //        config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
+        //        config.setSuppressionLimit(1d);
+        //        return config;
+        //    }
+        //});
 
-        configs.add(new BenchmarkConfiguration(datasetName, null) {
-            public String getName() {return "profitability";}
-            public ARXConfiguration getConfig(boolean local, int threads) {
-                ARXConfiguration config = ARXConfiguration.create();
-                config.addPrivacyModel(new ProfitabilityProsecutor());
-                config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
-                config.setSuppressionLimit(1d);
-                return config;
-            }
-        });
+        //configs.add(new BenchmarkConfiguration(datasetName, null) {
+        //    public String getName() {return "5-map-Estimate";}
+        //    public ARXConfiguration getConfig(boolean local, int threads) {
+        //        ARXConfiguration config = ARXConfiguration.create();
+        //        DataHandle handle = getDataset().getHandle();
+        //        ARXPopulationModel populationModel = ARXPopulationModel.create(handle.getNumRows(), 0.01d);
+        //        config.addPrivacyModel(new KMap(5, 0.01, populationModel, KMap.CellSizeEstimator.POISSON));
+        //        config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
+        //        config.setSuppressionLimit(1d);
+        //        return config;
+        //    }
+        //});
+
+        //configs.add(new BenchmarkConfiguration(datasetName, null) {
+        //    public String getName() {return "profitability";}
+        //    public ARXConfiguration getConfig(boolean local, int threads) {
+        //        ARXConfiguration config = ARXConfiguration.create();
+        //        config.addPrivacyModel(new ProfitabilityProsecutor());
+        //        config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
+        //        config.setSuppressionLimit(1d);
+        //        return config;
+        //    }
+        //});
+
+        //configs.add(new BenchmarkConfiguration(datasetName, null) {
+        //    public String getName() {return "01-sample-uniqueness";}
+        //    public ARXConfiguration getConfig(boolean local, int threads) {
+        //        ARXConfiguration config = ARXConfiguration.create();
+        //        config.addPrivacyModel(new SampleUniqueness(0.01));
+        //        config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
+        //        config.setSuppressionLimit(1d);
+        //        return config;
+        //    }
+        //});
+
         return configs;
     }
 
@@ -719,18 +758,6 @@ public class Main {
             public ARXConfiguration getConfig(boolean local, int threads) {
                 ARXConfiguration config = ARXConfiguration.create();
                 config.addPrivacyModel(new AverageReidentificationRisk(0.01d));
-                config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
-                config.setSuppressionLimit(1d);
-                return config;
-            }
-        });
-
-        configs.add(new BenchmarkConfiguration(datasetName, null) {
-            public String getName() {return "0.01-sample-uniqueness";}
-            public ARXConfiguration getConfig(boolean local, int threads) {
-                ARXConfiguration config = ARXConfiguration.create();
-                DataHandle handle = getDataset().getHandle();
-                config.addPrivacyModel(new SampleUniqueness(0.01));
                 config.setQualityModel(Metric.createLossMetric(local ? 0d : 0.5d));
                 config.setSuppressionLimit(1d);
                 return config;

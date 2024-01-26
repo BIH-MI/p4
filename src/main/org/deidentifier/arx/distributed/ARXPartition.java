@@ -132,10 +132,11 @@ public class ARXPartition {
         Iterator<String[]> iter = handle.iterator();
         String[] header = iter.next();
         String[] current = iter.next();
-        int currentRow = 0;
         String[] next = iter.next();
         int size = (int)Math.floor((double)handle.getNumRows() / (double)number);
+        int currentRow = 0;
         for (int i = 0; i < number && current != null; i++) {
+            int startRowCurrentPartition = currentRow;
 
             // Build this partition
             List<String[]> partition = new ArrayList<>();
@@ -149,7 +150,8 @@ public class ARXPartition {
                 // Add
                 partition.add(current);
                 if (subset != null && subset.contains(currentRow)) {
-                    partitionSubset.add(currentRow);
+                    partitionSubset.add(currentRow - startRowCurrentPartition);
+                    System.out.print(currentRow - startRowCurrentPartition + ",");
                 }
 
                 // Proceed
