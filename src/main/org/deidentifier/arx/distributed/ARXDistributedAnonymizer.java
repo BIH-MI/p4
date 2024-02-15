@@ -26,10 +26,9 @@ import org.deidentifier.arx.*;
 import org.deidentifier.arx.ARXConfiguration.Monotonicity;
 import org.deidentifier.arx.aggregates.quality.QualityConfiguration;
 import org.deidentifier.arx.aggregates.quality.QualityDomainShare;
-import org.deidentifier.arx.criteria.EDDifferentialPrivacy;
-import org.deidentifier.arx.criteria.ModelWithExchangeableSubset;
-import org.deidentifier.arx.criteria.PrivacyCriterion;
+import org.deidentifier.arx.criteria.*;
 import org.deidentifier.arx.exceptions.RollbackRequiredException;
+import org.deidentifier.arx.framework.data.DataManager;
 
 import static org.deidentifier.arx.distributed.GranularityCalculation.*;
 
@@ -188,6 +187,7 @@ public class ARXDistributedAnonymizer {
         if (!config.isPrivacyModelSpecified(EDDifferentialPrivacy.class) &&
             transformationStrategy != TransformationStrategy.LOCAL) {
             List<int[]> transformations = getTransformations(partitions,
+                    data,
                     config,
                     distributionStrategy);
             timeAnon = System.currentTimeMillis() - timeAnon;
@@ -200,7 +200,8 @@ public class ARXDistributedAnonymizer {
         // ###############################################
 
         // Anonymize
-        List<Future<DataHandle>> futures = getAnonymization(partitions, 
+        List<Future<DataHandle>> futures = getAnonymization(partitions,
+                                                            data,
                                                             config, 
                                                             distributionStrategy, 
                                                             transformation);
@@ -253,7 +254,7 @@ public class ARXDistributedAnonymizer {
             transformation = new int[definition.getQuasiIdentifyingAttributes().size()];
             
             // Suppress equivalence classes
-            futures = getAnonymization(partitions, config, distributionStrategy, transformation);
+            futures = getAnonymization(partitions, data, config, distributionStrategy, transformation);
             
             // Wait for execution
             handles = getResults(futures);
@@ -297,6 +298,7 @@ public class ARXDistributedAnonymizer {
         long timePostprocess = System.currentTimeMillis();
         Data result = ARXPartition.getData(handles);
         timePostprocess =  System.currentTimeMillis() - timePostprocess;
+        result.getHandle().save(nodes + "_" + config.getQualityModel().getConfiguration().getGsFactor() + "_enhanced.csv");
         
         // Track memory consumption
         long maxMemory = Long.MIN_VALUE;
@@ -339,6 +341,7 @@ public class ARXDistributedAnonymizer {
      * @throws IOException 
      */
     List<Future<DataHandle>> getAnonymization(List<ARXPartition> partitions,
+                                                      Data data,
                                                       ARXConfiguration config,
                                                       DistributionStrategy distributionStrategy2,
                                                       int[] transformation) throws IOException, RollbackRequiredException {
@@ -348,8 +351,18 @@ public class ARXDistributedAnonymizer {
             if (partition.getSubset() != null) {
                 for (PrivacyCriterion privacyCriterion : partitionConfig.getPrivacyModels()) {
                     if (privacyCriterion instanceof ModelWithExchangeableSubset) {
-                        partitionConfig.removeCriterion(privacyCriterion);
-                        partitionConfig.addPrivacyModel(((ModelWithExchangeableSubset) privacyCriterion).cloneAndExchangeDataSubset(DataSubset.create(partition.getData().getNumRows(), partition.getSubset())));
+                        if (privacyCriterion.isSubsetAvailable()) {
+                            partitionConfig.removeCriterion(privacyCriterion);
+                            partitionConfig.addPrivacyModel(((ModelWithExchangeableSubset) privacyCriterion).cloneAndExchangeDataSubset(DataSubset.create(partition.getData().getNumRows(), partition.getSubset())));
+                        } else if (privacyCriterion instanceof KMap) {
+                            //DataManager
+                            ARXAnonymizerIntermediate anonymizer = new ARXAnonymizerIntermediate();
+                            DataManager dataManager = anonymizer.getDataManagerInstance(data, partitionConfig);
+                            privacyCriterion.initialize(dataManager, config);
+                            int derivedK = ((KMap) privacyCriterion).getDerivedK();
+                            partitionConfig.removeCriterion(privacyCriterion);
+                            partitionConfig.addPrivacyModel(new KAnonymity(derivedK));
+                        }
                     }
                 }
             }
@@ -433,7 +446,7 @@ public class ARXDistributedAnonymizer {
      * @throws InterruptedException
      * @throws ExecutionException
      */
-    private List<int[]> getTransformations(List<ARXPartition> partitions, ARXConfiguration config, DistributionStrategy distributionStrategy) throws IOException, InterruptedException, ExecutionException {
+    private List<int[]> getTransformations(List<ARXPartition> partitions, Data data, ARXConfiguration config, DistributionStrategy distributionStrategy) throws IOException, InterruptedException, ExecutionException {
         
         // Calculate schemes
         List<Future<int[]>> futures = new ArrayList<>();
@@ -442,8 +455,19 @@ public class ARXDistributedAnonymizer {
             if (partition.getSubset() != null) {
                 for (PrivacyCriterion privacyCriterion : partitionConfig.getPrivacyModels()) {
                     if (privacyCriterion instanceof ModelWithExchangeableSubset) {
-                        partitionConfig.removeCriterion(privacyCriterion);
-                        partitionConfig.addPrivacyModel(((ModelWithExchangeableSubset) privacyCriterion).cloneAndExchangeDataSubset(DataSubset.create(partition.getData().getNumRows(), partition.getSubset())));
+                        if (privacyCriterion.isSubsetAvailable()) {
+                            partitionConfig.removeCriterion(privacyCriterion);
+                            partitionConfig.addPrivacyModel(((ModelWithExchangeableSubset) privacyCriterion).cloneAndExchangeDataSubset(DataSubset.create(partition.getData().getNumRows(), partition.getSubset())));
+                        } else if (privacyCriterion instanceof KMap) {
+                            //DataManager
+                            ARXAnonymizerIntermediate anonymizer = new ARXAnonymizerIntermediate();
+                            DataManager dataManager = anonymizer.getDataManagerInstance(data, partitionConfig);
+                            privacyCriterion.initialize(dataManager, config);
+                            int derivedK = ((KMap) privacyCriterion).getDerivedK();
+                            data.getHandle().release();
+                            partitionConfig.removeCriterion(privacyCriterion);
+                            partitionConfig.addPrivacyModel(new KAnonymity(derivedK));
+                        }
                     }
                 }
             }
