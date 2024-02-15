@@ -1,3 +1,19 @@
+/*
+ * ARX Data Anonymization Tool
+ * Copyright 2012 - 2022 Fabian Prasser and contributors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package org.deidentifier.arx.distributed;
 
 import org.deidentifier.arx.DataHandle;
@@ -14,8 +30,22 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+/**
+ * Class with methods from ARX that enable calculation of granularity.
+ */
 public class GranularityCalculation {
 
+    /**
+     * Method to calculate the loss directly.
+     * This enables more control over used hierarchies, in particular having hierarchies that exceed the scope of the
+     * presented data handle.
+     * @param output
+     * @param configuration
+     * @param indices
+     * @param hierarchies
+     * @param shares
+     * @return
+     */
     static double calculateLossDirectly(DataHandle output,
                                         QualityConfiguration configuration,
                                         int[] indices,

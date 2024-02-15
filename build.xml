@@ -9,7 +9,7 @@
     <property name="src.dir" value="src/main"/>
     <property name="jar.dir" value="jars"/>
     <property name="jar.name" value="${jar.dir}/distributed.jar"/>
-    <property name="main.class" value="org.deidentifier.arx.distributed.Main"/>
+    <property name="main.class" value="experiments.Main"/>
 
     <!-- defines the to be included libraries -->
     <fileset id="lib.jars" dir="lib">
