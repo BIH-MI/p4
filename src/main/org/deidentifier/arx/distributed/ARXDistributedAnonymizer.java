@@ -28,7 +28,6 @@ import org.deidentifier.arx.aggregates.quality.QualityConfiguration;
 import org.deidentifier.arx.aggregates.quality.QualityDomainShare;
 import org.deidentifier.arx.criteria.*;
 import org.deidentifier.arx.exceptions.RollbackRequiredException;
-import org.deidentifier.arx.framework.data.DataManager;
 
 import static org.deidentifier.arx.distributed.GranularityCalculation.*;
 
@@ -355,11 +354,7 @@ public class ARXDistributedAnonymizer {
                             partitionConfig.removeCriterion(privacyCriterion);
                             partitionConfig.addPrivacyModel(((ModelWithExchangeableSubset) privacyCriterion).cloneAndExchangeDataSubset(DataSubset.create(partition.getData().getNumRows(), partition.getSubset())));
                         } else if (privacyCriterion instanceof KMap) {
-                            //DataManager
-                            ARXAnonymizerIntermediate anonymizer = new ARXAnonymizerIntermediate();
-                            DataManager dataManager = anonymizer.getDataManagerInstance(data, partitionConfig);
-                            privacyCriterion.initialize(dataManager, config);
-                            int derivedK = ((KMap) privacyCriterion).getDerivedK();
+                            int derivedK = ((KMap) privacyCriterion).getDerivedKForEstimator(data.getHandle().getNumRows());
                             partitionConfig.removeCriterion(privacyCriterion);
                             partitionConfig.addPrivacyModel(new KAnonymity(derivedK));
                         }
@@ -459,12 +454,7 @@ public class ARXDistributedAnonymizer {
                             partitionConfig.removeCriterion(privacyCriterion);
                             partitionConfig.addPrivacyModel(((ModelWithExchangeableSubset) privacyCriterion).cloneAndExchangeDataSubset(DataSubset.create(partition.getData().getNumRows(), partition.getSubset())));
                         } else if (privacyCriterion instanceof KMap) {
-                            //DataManager
-                            ARXAnonymizerIntermediate anonymizer = new ARXAnonymizerIntermediate();
-                            DataManager dataManager = anonymizer.getDataManagerInstance(data, partitionConfig);
-                            privacyCriterion.initialize(dataManager, config);
-                            int derivedK = ((KMap) privacyCriterion).getDerivedK();
-                            data.getHandle().release();
+                            int derivedK = ((KMap) privacyCriterion).getDerivedKForEstimator(data.getHandle().getNumRows());
                             partitionConfig.removeCriterion(privacyCriterion);
                             partitionConfig.addPrivacyModel(new KAnonymity(derivedK));
                         }

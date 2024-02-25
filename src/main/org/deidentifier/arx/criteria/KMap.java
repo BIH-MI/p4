@@ -291,6 +291,35 @@ public class KMap extends ImplicitPrivacyCriterion implements ModelWithExchangea
     }
 
     /**
+     * Returns the derived k for estimator, given the sizeDataset.
+     * @param sizeDataset
+     * @return
+     */
+    public int getDerivedKForEstimator(int sizeDataset) {
+
+        // TODO: Needed for backwards compatibility of ARX 3.4.0 with previous versions
+        if (this.populationModel != null) {
+            this.populationModel.makeBackwardsCompatible(sizeDataset);
+        }
+
+        // TODO: consider subset/inclusion
+        double samplingFraction =
+                (double) sizeDataset /
+                        (double) this.populationModel.getPopulationSize();
+
+        // Derive k
+        switch (this.estimator) {
+            case POISSON:
+                return calculateKPoisson(samplingFraction * (double) this.k);
+            case ZERO_TRUNCATED_POISSON:
+                return calculateKZeroPoisson(samplingFraction * (double) this.k);
+            default:
+                throw new IllegalArgumentException("Unknown estimator: " + this.estimator);
+
+        }
+    }
+
+    /**
      * Return true if the population has been modeled explicitly.
      * This implies that no approximation is performed.
      * @return
