@@ -1,0 +1,2177 @@
+Dataset;Config;Local;Sorted;Threads;Granularity;Memory;Measurements
+adult;5-anonymity;false;true;1;0.751394968;49010192;20
+adult;5-anonymity;true;true;1;0.919444023;48172744;19
+adult;5-anonymity;false;true;2;0.745059974;51806360;23
+adult;5-anonymity;true;true;2;0.91779559;48321456;24
+adult;5-anonymity;false;true;3;0.747578729;53277888;24
+adult;5-anonymity;true;true;3;0.917721184;50067448;22
+adult;5-anonymity;false;true;4;0.735343109;59319240;25
+adult;5-anonymity;true;true;4;0.913586599;52965352;21
+adult;5-anonymity;false;true;5;0.729010751;63126720;24
+adult;5-anonymity;true;true;5;0.909952818;55178824;23
+adult;5-anonymity;false;true;6;0.728378045;63318168;24
+adult;5-anonymity;true;true;6;0.908759138;54012896;22
+adult;5-anonymity;false;true;7;0.720530443;71684272;23
+adult;5-anonymity;true;true;7;0.90617655;54585304;23
+adult;5-anonymity;false;true;8;0.714081341;70856048;24
+adult;5-anonymity;true;true;8;0.906634819;55333304;22
+adult;5-anonymity;false;true;9;0.707104674;72213592;23
+adult;5-anonymity;true;true;9;0.903715107;55727920;22
+adult;5-anonymity;false;true;10;0.711875091;77715120;23
+adult;5-anonymity;true;true;10;0.90500161;57857048;23
+adult;5-anonymity;false;true;11;0.699451638;78461264;23
+adult;5-anonymity;true;true;11;0.900154932;56997176;25
+adult;5-anonymity;false;true;12;0.694115285;82227536;20
+adult;5-anonymity;true;true;12;0.898246171;57392832;21
+adult;5-anonymity;false;true;13;0.691452222;84821728;24
+adult;5-anonymity;true;true;13;0.8983528;59949728;25
+adult;5-anonymity;false;true;14;0.691565083;94633512;24
+adult;5-anonymity;true;true;14;0.8967328;59700856;23
+adult;5-anonymity;false;true;15;0.69332447;96251376;22
+adult;5-anonymity;true;true;15;0.896694703;60775288;25
+adult;5-anonymity;false;true;16;0.682028258;99323648;22
+adult;5-anonymity;true;true;16;0.893356796;61300360;24
+adult;5-anonymity;false;true;17;0.678750366;106512760;25
+adult;5-anonymity;true;true;17;0.891952123;61779704;23
+adult;5-anonymity;false;true;18;0.680797429;101889048;23
+adult;5-anonymity;true;true;18;0.889981874;62713488;24
+adult;5-anonymity;false;true;19;0.679369033;109769176;19
+adult;5-anonymity;true;true;19;0.889340078;63276400;26
+adult;5-anonymity;false;true;20;0.675964197;117257424;22
+adult;5-anonymity;true;true;20;0.889167075;63839216;28
+adult;5-anonymity;false;true;21;0.672761867;115196672;23
+adult;5-anonymity;true;true;21;0.887321874;63383592;23
+adult;5-anonymity;false;true;22;0.66661173;125608520;27
+adult;5-anonymity;true;true;22;0.885947684;66023288;26
+adult;5-anonymity;false;true;23;0.672675433;133724240;17
+adult;5-anonymity;true;true;23;0.885594587;66858056;26
+adult;5-anonymity;false;true;24;0.665603968;127351264;23
+adult;5-anonymity;true;true;24;0.886078368;67533360;23
+adult;5-anonymity;false;true;25;0.646630559;135182976;24
+adult;5-anonymity;true;true;25;0.883910009;67064464;22
+adult;5-anonymity;false;true;26;0.660870995;140517072;24
+adult;5-anonymity;true;true;26;0.881682372;68090352;31
+adult;5-anonymity;false;true;27;0.641925278;142791640;27
+adult;5-anonymity;true;true;27;0.880635248;70506712;23
+adult;5-anonymity;false;true;28;0.641767852;142790296;23
+adult;5-anonymity;true;true;28;0.879860836;68069920;28
+adult;5-anonymity;false;true;29;0.662113247;148923320;23
+adult;5-anonymity;true;true;29;0.87854136;70788592;26
+adult;5-anonymity;false;true;30;0.660975326;151680264;24
+adult;5-anonymity;true;true;30;0.87785291;69396728;23
+adult;5-anonymity;false;true;31;0.640719222;152136512;21
+adult;5-anonymity;true;true;31;0.876932182;71567832;22
+adult;5-anonymity;false;true;32;0.638685785;168028256;18
+adult;5-anonymity;true;true;32;0.874172758;72369752;24
+adult;5-anonymity;false;true;33;0.659105665;166551496;25
+adult;5-anonymity;true;true;33;0.874818199;71210648;26
+adult;5-anonymity;false;true;34;0.637404799;166802896;26
+adult;5-anonymity;true;true;34;0.874289705;71790552;24
+adult;5-anonymity;false;true;35;0.653621249;170708240;22
+adult;5-anonymity;true;true;35;0.871958286;74737640;24
+adult;5-anonymity;false;true;36;0.635106833;177772352;25
+adult;5-anonymity;true;true;36;0.871393147;74401144;23
+adult;5-anonymity;false;true;37;0.637930694;167635936;22
+adult;5-anonymity;true;true;37;0.871690003;74814448;21
+adult;5-anonymity;false;true;38;0.65015458;184439272;25
+adult;5-anonymity;true;true;38;0.869372743;91334184;27
+adult;5-anonymity;false;true;39;0.632625338;183580528;24
+adult;5-anonymity;true;true;39;0.870042759;76677808;23
+adult;5-anonymity;false;true;40;0.631126676;183043288;27
+adult;5-anonymity;true;true;40;0.869000519;76819096;26
+adult;5-anonymity;false;true;41;0.646665721;183038336;24
+adult;5-anonymity;true;true;41;0.867002482;78401688;27
+adult;5-anonymity;false;true;42;0.628765838;202522856;25
+adult;5-anonymity;true;true;42;0.867011096;83753464;24
+adult;5-anonymity;false;true;43;0.628707883;192832216;21
+adult;5-anonymity;true;true;43;0.865832647;78765720;26
+adult;5-anonymity;false;true;44;0.629597674;199894024;25
+adult;5-anonymity;true;true;44;0.865046025;83710288;21
+adult;5-anonymity;false;true;45;0.626987283;204136216;26
+adult;5-anonymity;true;true;45;0.86503775;82987752;25
+adult;5-anonymity;false;true;46;0.628280198;205341504;24
+adult;5-anonymity;true;true;46;0.863975919;98515216;27
+adult;5-anonymity;false;true;47;0.626716184;220580416;23
+adult;5-anonymity;true;true;47;0.86215678;82824696;25
+adult;5-anonymity;false;true;48;0.628106432;215408472;26
+adult;5-anonymity;true;true;48;0.862184788;84878928;27
+adult;5-anonymity;false;true;49;0.626952022;210612056;24
+adult;5-anonymity;true;true;49;0.862271858;101659600;27
+adult;5-anonymity;false;true;50;0.625709241;222808896;22
+adult;5-anonymity;true;true;50;0.860576161;84842144;26
+adult;5-anonymity;false;true;51;0.625151859;224105032;25
+adult;5-anonymity;true;true;51;0.85968365;83934088;25
+adult;5-anonymity;false;true;52;0.623370684;238778680;23
+adult;5-anonymity;true;true;52;0.85898796;85491808;24
+adult;5-anonymity;false;true;53;0.621636667;258233920;27
+adult;5-anonymity;true;true;53;0.857630564;88856768;24
+adult;5-anonymity;false;true;54;0.62403708;258131608;21
+adult;5-anonymity;true;true;54;0.858673353;88874344;26
+adult;5-anonymity;false;true;55;0.622456246;239626784;27
+adult;5-anonymity;true;true;55;0.856909892;86223080;25
+adult;5-anonymity;false;true;56;0.619414944;263203216;27
+adult;5-anonymity;true;true;56;0.856869894;88573296;26
+adult;5-anonymity;false;true;57;0.618984286;273219736;22
+adult;5-anonymity;true;true;57;0.855151365;88982736;24
+adult;5-anonymity;false;true;58;0.630513268;273299496;22
+adult;5-anonymity;true;true;58;0.855599157;107357136;23
+adult;5-anonymity;false;true;59;0.622161645;259392280;25
+adult;5-anonymity;true;true;59;0.856084915;105281896;25
+adult;5-anonymity;false;true;60;0.617994935;257599848;23
+adult;5-anonymity;true;true;60;0.853366447;91890000;26
+adult;5-anonymity;false;true;61;0.616874367;291317088;22
+adult;5-anonymity;true;true;61;0.853830712;136921680;26
+adult;5-anonymity;false;true;62;0.618935648;306873144;26
+adult;5-anonymity;true;true;62;0.853834962;92501344;24
+adult;5-anonymity;false;true;63;0.617980959;281532200;23
+adult;5-anonymity;true;true;63;0.853661809;275882024;23
+adult;5-anonymity;false;true;64;0.618860128;296924224;26
+adult;5-anonymity;true;true;64;0.853140599;95533944;28
+adult;11-anonymity;false;true;1;0.751394968;56063096;21
+adult;11-anonymity;true;true;1;0.919444023;55465912;21
+adult;11-anonymity;false;true;2;0.745059974;58726640;23
+adult;11-anonymity;true;true;2;0.91779559;54990320;21
+adult;11-anonymity;false;true;3;0.747578729;59661064;24
+adult;11-anonymity;true;true;3;0.917721184;55740144;21
+adult;11-anonymity;false;true;4;0.735343109;64413792;25
+adult;11-anonymity;true;true;4;0.913586599;56298088;23
+adult;11-anonymity;false;true;5;0.729010751;66283968;23
+adult;11-anonymity;true;true;5;0.909952818;57003064;24
+adult;11-anonymity;false;true;6;0.728378045;67684584;24
+adult;11-anonymity;true;true;6;0.908759138;58025248;23
+adult;11-anonymity;false;true;7;0.720530443;73499376;23
+adult;11-anonymity;true;true;7;0.90617655;58343264;23
+adult;11-anonymity;false;true;8;0.714081341;74466232;22
+adult;11-anonymity;true;true;8;0.906634819;58943632;22
+adult;11-anonymity;false;true;9;0.707104674;75230064;23
+adult;11-anonymity;true;true;9;0.903715107;59579288;22
+adult;11-anonymity;false;true;10;0.711875091;79955040;24
+adult;11-anonymity;true;true;10;0.90500161;60776896;24
+adult;11-anonymity;false;true;11;0.699451638;82568192;24
+adult;11-anonymity;true;true;11;0.900154932;61030184;22
+adult;11-anonymity;false;true;12;0.694115285;85957984;25
+adult;11-anonymity;true;true;12;0.898246171;61038696;21
+adult;11-anonymity;false;true;13;0.691452222;88611424;23
+adult;11-anonymity;true;true;13;0.8983528;62165296;25
+adult;11-anonymity;false;true;14;0.691565083;98909040;24
+adult;11-anonymity;true;true;14;0.8967328;62983192;22
+adult;11-anonymity;false;true;15;0.69332447;97810824;25
+adult;11-anonymity;true;true;15;0.896694703;62550504;25
+adult;11-anonymity;false;true;16;0.682028258;104287616;22
+adult;11-anonymity;true;true;16;0.893356796;63701384;24
+adult;11-anonymity;false;true;17;0.678750366;106311680;21
+adult;11-anonymity;true;true;17;0.891952123;63600288;22
+adult;11-anonymity;false;true;18;0.680797429;108746640;22
+adult;11-anonymity;true;true;18;0.889981874;64873872;25
+adult;11-anonymity;false;true;19;0.679369033;112524424;22
+adult;11-anonymity;true;true;19;0.889340078;67371864;26
+adult;11-anonymity;false;true;20;0.675964197;116661232;23
+adult;11-anonymity;true;true;20;0.889167075;66039864;25
+adult;11-anonymity;false;true;21;0.672761867;119022920;24
+adult;11-anonymity;true;true;21;0.887321874;67056824;25
+adult;11-anonymity;false;true;22;0.66661173;125237664;25
+adult;11-anonymity;true;true;22;0.885947684;67218720;23
+adult;11-anonymity;false;true;23;0.672675433;133115216;22
+adult;11-anonymity;true;true;23;0.885594587;68930760;22
+adult;11-anonymity;false;true;24;0.665603968;134950504;26
+adult;11-anonymity;true;true;24;0.886078368;69341264;25
+adult;11-anonymity;false;true;25;0.646630559;132507376;23
+adult;11-anonymity;true;true;25;0.883910009;69746184;22
+adult;11-anonymity;false;true;26;0.660870995;141425384;24
+adult;11-anonymity;true;true;26;0.881682372;71181456;27
+adult;11-anonymity;false;true;27;0.641925278;142406776;23
+adult;11-anonymity;true;true;27;0.880635248;70442000;23
+adult;11-anonymity;false;true;28;0.641767852;147471312;21
+adult;11-anonymity;true;true;28;0.879860836;71907400;23
+adult;11-anonymity;false;true;29;0.662113247;153212248;24
+adult;11-anonymity;true;true;29;0.87854136;72518360;29
+adult;11-anonymity;false;true;30;0.660975326;158547368;23
+adult;11-anonymity;true;true;30;0.87785291;72667400;25
+adult;11-anonymity;false;true;31;0.640719222;155908824;24
+adult;11-anonymity;true;true;31;0.876932182;73803584;27
+adult;11-anonymity;false;true;32;0.638685785;166295248;26
+adult;11-anonymity;true;true;32;0.874172758;75913056;23
+adult;11-anonymity;false;true;33;0.659105665;175262584;23
+adult;11-anonymity;true;true;33;0.874818199;75659232;27
+adult;11-anonymity;false;true;34;0.637404799;170828840;27
+adult;11-anonymity;true;true;34;0.874289705;73187656;24
+adult;11-anonymity;false;true;35;0.653621249;183354112;25
+adult;11-anonymity;true;true;35;0.871958286;74876456;23
+adult;11-anonymity;false;true;36;0.635106833;173786224;23
+adult;11-anonymity;true;true;36;0.871393147;76953056;23
+adult;11-anonymity;false;true;37;0.637930694;172897496;26
+adult;11-anonymity;true;true;37;0.871690003;76504904;21
+adult;11-anonymity;false;true;38;0.65015458;183646968;25
+adult;11-anonymity;true;true;38;0.869372743;79575640;26
+adult;11-anonymity;false;true;39;0.632625338;173423424;22
+adult;11-anonymity;true;true;39;0.870042759;78468504;21
+adult;11-anonymity;false;true;40;0.631126676;180889208;26
+adult;11-anonymity;true;true;40;0.869000519;79627768;23
+adult;11-anonymity;false;true;41;0.646665721;182681312;27
+adult;11-anonymity;true;true;41;0.867002482;79676440;26
+adult;11-anonymity;false;true;42;0.628765838;184841136;23
+adult;11-anonymity;true;true;42;0.867011096;85395832;24
+adult;11-anonymity;false;true;43;0.628707883;200119696;22
+adult;11-anonymity;true;true;43;0.865832647;82243888;26
+adult;11-anonymity;false;true;44;0.629597674;209334160;26
+adult;11-anonymity;true;true;44;0.865046025;81241040;24
+adult;11-anonymity;false;true;45;0.626987283;197505696;22
+adult;11-anonymity;true;true;45;0.86503775;86077080;24
+adult;11-anonymity;false;true;46;0.628280198;214046848;22
+adult;11-anonymity;true;true;46;0.863975919;84587048;25
+adult;11-anonymity;false;true;47;0.626716184;207510976;25
+adult;11-anonymity;true;true;47;0.86215678;85562568;26
+adult;11-anonymity;false;true;48;0.628106432;212589856;25
+adult;11-anonymity;true;true;48;0.862184788;84277640;25
+adult;11-anonymity;false;true;49;0.626952022;229867680;22
+adult;11-anonymity;true;true;49;0.862271858;101415096;26
+adult;11-anonymity;false;true;50;0.625709241;217844744;23
+adult;11-anonymity;true;true;50;0.860576161;101514104;27
+adult;11-anonymity;false;true;51;0.625151859;225606104;26
+adult;11-anonymity;true;true;51;0.85968365;97386064;25
+adult;11-anonymity;false;true;52;0.623370684;227542776;25
+adult;11-anonymity;true;true;52;0.85898796;87677648;27
+adult;11-anonymity;false;true;53;0.621636667;248813544;27
+adult;11-anonymity;true;true;53;0.857630564;101460320;27
+adult;11-anonymity;false;true;54;0.62403708;227063200;25
+adult;11-anonymity;true;true;54;0.858673353;104185576;24
+adult;11-anonymity;false;true;55;0.622456246;266210320;26
+adult;11-anonymity;true;true;55;0.856909892;106734920;24
+adult;11-anonymity;false;true;56;0.619414944;282825672;25
+adult;11-anonymity;true;true;56;0.856869894;89931904;26
+adult;11-anonymity;false;true;57;0.618984286;276638656;26
+adult;11-anonymity;true;true;57;0.855151365;90708680;28
+adult;11-anonymity;false;true;58;0.630513268;252323840;24
+adult;11-anonymity;true;true;58;0.855599157;106960896;26
+adult;11-anonymity;false;true;59;0.622161645;272431872;26
+adult;11-anonymity;true;true;59;0.856084915;92894000;24
+adult;11-anonymity;false;true;60;0.617994935;265495712;22
+adult;11-anonymity;true;true;60;0.853366447;108330936;30
+adult;11-anonymity;false;true;61;0.616874367;265397088;25
+adult;11-anonymity;true;true;61;0.853830712;94888032;30
+adult;11-anonymity;false;true;62;0.618935648;279709632;29
+adult;11-anonymity;true;true;62;0.853834962;94623168;25
+adult;11-anonymity;false;true;63;0.617980959;316309752;21
+adult;11-anonymity;true;true;63;0.853661809;93944896;24
+adult;11-anonymity;false;true;64;0.618860128;301984992;22
+adult;11-anonymity;true;true;64;0.853140599;97224344;24
+adult;distinct-3-diversity;false;true;1;0.830035652;51874312;20
+adult;distinct-3-diversity;true;true;1;0.952796079;49867880;17
+adult;distinct-3-diversity;false;true;2;0.823942495;50660256;30
+adult;distinct-3-diversity;true;true;2;0.945166406;50143224;18
+adult;distinct-3-diversity;false;true;3;0.806382782;50626960;28
+adult;distinct-3-diversity;true;true;3;0.94945164;50564368;18
+adult;distinct-3-diversity;false;true;4;0.800359296;52424696;28
+adult;distinct-3-diversity;true;true;4;0.943110787;50883152;19
+adult;distinct-3-diversity;false;true;5;0.813474578;51952904;24
+adult;distinct-3-diversity;true;true;5;0.943418424;50412464;20
+adult;distinct-3-diversity;false;true;6;0.794850186;51835376;28
+adult;distinct-3-diversity;true;true;6;0.942202112;51089392;21
+adult;distinct-3-diversity;false;true;7;0.800530493;53144880;24
+adult;distinct-3-diversity;true;true;7;0.940146271;51485704;17
+adult;distinct-3-diversity;false;true;8;0.790135613;52471656;22
+adult;distinct-3-diversity;true;true;8;0.940559972;52032312;17
+adult;distinct-3-diversity;false;true;9;0.784929827;53660024;23
+adult;distinct-3-diversity;true;true;9;0.938719869;51810488;17
+adult;distinct-3-diversity;false;true;10;0.785867311;55046520;20
+adult;distinct-3-diversity;true;true;10;0.939316357;52419832;14
+adult;distinct-3-diversity;false;true;11;0.780420758;54796288;25
+adult;distinct-3-diversity;true;true;11;0.936985984;52322248;15
+adult;distinct-3-diversity;false;true;12;0.777585895;55526176;26
+adult;distinct-3-diversity;true;true;12;0.933901821;52701016;17
+adult;distinct-3-diversity;false;true;13;0.775126986;55755296;27
+adult;distinct-3-diversity;true;true;13;0.934163168;52572824;14
+adult;distinct-3-diversity;false;true;14;0.774306807;56975296;26
+adult;distinct-3-diversity;true;true;14;0.934086711;52852536;15
+adult;distinct-3-diversity;false;true;15;0.777392896;56460936;26
+adult;distinct-3-diversity;true;true;15;0.933404726;52863256;17
+adult;distinct-3-diversity;false;true;16;0.773053392;57944456;25
+adult;distinct-3-diversity;true;true;16;0.931339644;52950584;14
+adult;distinct-3-diversity;false;true;17;0.768562884;58668520;25
+adult;distinct-3-diversity;true;true;17;0.93201877;52990720;14
+adult;distinct-3-diversity;false;true;18;0.766131308;58614072;24
+adult;distinct-3-diversity;true;true;18;0.928512329;53629928;17
+adult;distinct-3-diversity;false;true;19;0.764423775;60017464;24
+adult;distinct-3-diversity;true;true;19;0.929174891;53972760;17
+adult;distinct-3-diversity;false;true;20;0.763301477;60551024;24
+adult;distinct-3-diversity;true;true;20;0.927919143;54103872;18
+adult;distinct-3-diversity;false;true;21;0.759435714;60485224;24
+adult;distinct-3-diversity;true;true;21;0.926693667;54304648;17
+adult;distinct-3-diversity;false;true;22;0.758591279;62119296;25
+adult;distinct-3-diversity;true;true;22;0.926325998;54815424;17
+adult;distinct-3-diversity;false;true;23;0.760117447;63494184;23
+adult;distinct-3-diversity;true;true;23;0.926459822;54874784;20
+adult;distinct-3-diversity;false;true;24;0.756736467;63285976;24
+adult;distinct-3-diversity;true;true;24;0.925890496;54561256;14
+adult;distinct-3-diversity;false;true;25;0.758065509;62956216;23
+adult;distinct-3-diversity;true;true;25;0.925605906;54620592;23
+adult;distinct-3-diversity;false;true;26;0.752241396;65753384;19
+adult;distinct-3-diversity;true;true;26;0.923953315;55263032;14
+adult;distinct-3-diversity;false;true;27;0.750170266;65843304;23
+adult;distinct-3-diversity;true;true;27;0.923807861;55239880;16
+adult;distinct-3-diversity;false;true;28;0.746902751;66407024;22
+adult;distinct-3-diversity;true;true;28;0.922339843;55341208;15
+adult;distinct-3-diversity;false;true;29;0.747538909;67772416;23
+adult;distinct-3-diversity;true;true;29;0.922338971;56326800;26
+adult;distinct-3-diversity;false;true;30;0.7501712;66684192;23
+adult;distinct-3-diversity;true;true;30;0.921780508;56111856;16
+adult;distinct-3-diversity;false;true;31;0.746647913;69431264;23
+adult;distinct-3-diversity;true;true;31;0.920549476;56318632;16
+adult;distinct-3-diversity;false;true;32;0.73724484;70643072;24
+adult;distinct-3-diversity;true;true;32;0.919685894;56484480;25
+adult;distinct-3-diversity;false;true;33;0.739003462;69836008;23
+adult;distinct-3-diversity;true;true;33;0.919490918;56517504;25
+adult;distinct-3-diversity;false;true;34;0.737304305;68075704;24
+adult;distinct-3-diversity;true;true;34;0.918980152;56670320;24
+adult;distinct-3-diversity;false;true;35;0.732716153;70221192;23
+adult;distinct-3-diversity;true;true;35;0.917033009;56793024;17
+adult;distinct-3-diversity;false;true;36;0.732290427;71312344;22
+adult;distinct-3-diversity;true;true;36;0.91744575;57085840;17
+adult;distinct-3-diversity;false;true;37;0.735546759;70339368;22
+adult;distinct-3-diversity;true;true;37;0.917847056;56939344;17
+adult;distinct-3-diversity;false;true;38;0.731956836;72033184;22
+adult;distinct-3-diversity;true;true;38;0.915503664;57114760;18
+adult;distinct-3-diversity;false;true;39;0.729766221;73626400;20
+adult;distinct-3-diversity;true;true;39;0.915137889;57329424;19
+adult;distinct-3-diversity;false;true;40;0.725779193;73778880;22
+adult;distinct-3-diversity;true;true;40;0.915253077;57622536;17
+adult;distinct-3-diversity;false;true;41;0.730702459;75660560;21
+adult;distinct-3-diversity;true;true;41;0.914947549;58452344;17
+adult;distinct-3-diversity;false;true;42;0.723189168;75445416;25
+adult;distinct-3-diversity;true;true;42;0.912880115;58181024;17
+adult;distinct-3-diversity;false;true;43;0.723570629;75746520;25
+adult;distinct-3-diversity;true;true;43;0.913244297;58580120;18
+adult;distinct-3-diversity;false;true;44;0.721067029;77832168;23
+adult;distinct-3-diversity;true;true;44;0.912170932;58678376;19
+adult;distinct-3-diversity;false;true;45;0.722364849;77249880;23
+adult;distinct-3-diversity;true;true;45;0.912349124;58561144;18
+adult;distinct-3-diversity;false;true;46;0.722506875;97985408;24
+adult;distinct-3-diversity;true;true;46;0.911087226;58557200;17
+adult;distinct-3-diversity;false;true;47;0.722045258;78995952;24
+adult;distinct-3-diversity;true;true;47;0.911466976;59841136;30
+adult;distinct-3-diversity;false;true;48;0.722415584;79593960;24
+adult;distinct-3-diversity;true;true;48;0.910207217;59796920;20
+adult;distinct-3-diversity;false;true;49;0.720850035;82658784;23
+adult;distinct-3-diversity;true;true;49;0.911161093;60364096;19
+adult;distinct-3-diversity;false;true;50;0.718488346;81219024;20
+adult;distinct-3-diversity;true;true;50;0.909819605;60995856;21
+adult;distinct-3-diversity;false;true;51;0.712511697;82325784;26
+adult;distinct-3-diversity;true;true;51;0.908617608;59730872;19
+adult;distinct-3-diversity;false;true;52;0.715185561;84120840;22
+adult;distinct-3-diversity;true;true;52;0.908859528;60777488;18
+adult;distinct-3-diversity;false;true;53;0.711522687;95474656;25
+adult;distinct-3-diversity;true;true;53;0.907644602;60671320;26
+adult;distinct-3-diversity;false;true;54;0.71073255;87163000;25
+adult;distinct-3-diversity;true;true;54;0.908150525;61952760;28
+adult;distinct-3-diversity;false;true;55;0.713748298;85561472;27
+adult;distinct-3-diversity;true;true;55;0.907679532;77220456;21
+adult;distinct-3-diversity;false;true;56;0.708915406;119920064;26
+adult;distinct-3-diversity;true;true;56;0.906946153;75603336;28
+adult;distinct-3-diversity;false;true;57;0.70698947;89396216;25
+adult;distinct-3-diversity;true;true;57;0.906669981;61175968;25
+adult;distinct-3-diversity;false;true;58;0.706105569;92836600;26
+adult;distinct-3-diversity;true;true;58;0.906899792;61162112;22
+adult;distinct-3-diversity;false;true;59;0.709337909;95195312;25
+adult;distinct-3-diversity;true;true;59;0.906488012;61817752;18
+adult;distinct-3-diversity;false;true;60;0.706331501;89563496;24
+adult;distinct-3-diversity;true;true;60;0.90475189;74247688;18
+adult;distinct-3-diversity;false;true;61;0.706224629;91083520;25
+adult;distinct-3-diversity;true;true;61;0.90488312;77563320;20
+adult;distinct-3-diversity;false;true;62;0.707216918;92294264;31
+adult;distinct-3-diversity;true;true;62;0.905199184;62419576;22
+adult;distinct-3-diversity;false;true;63;0.70688138;90671456;19
+adult;distinct-3-diversity;true;true;63;0.905167538;78449352;25
+adult;distinct-3-diversity;false;true;64;0.706622544;98916520;22
+adult;distinct-3-diversity;true;true;64;0.904307197;77888592;17
+adult;distinct-5-diversity;false;true;1;0.769658122;54322688;24
+adult;distinct-5-diversity;true;true;1;0.923095675;53683736;21
+adult;distinct-5-diversity;false;true;2;0.726717251;53736664;25
+adult;distinct-5-diversity;true;true;2;0.921937667;53919104;23
+adult;distinct-5-diversity;false;true;3;0.762860891;53050248;28
+adult;distinct-5-diversity;true;true;3;0.919659138;53370992;19
+adult;distinct-5-diversity;false;true;4;0.721854367;54733024;23
+adult;distinct-5-diversity;true;true;4;0.913443058;54989432;18
+adult;distinct-5-diversity;false;true;5;0.747798469;54959944;23
+adult;distinct-5-diversity;true;true;5;0.914773876;53767640;18
+adult;distinct-5-diversity;false;true;6;0.743987795;55820616;26
+adult;distinct-5-diversity;true;true;6;0.910622575;53162384;18
+adult;distinct-5-diversity;false;true;7;0.738774392;56389056;27
+adult;distinct-5-diversity;true;true;7;0.907379327;54119704;19
+adult;distinct-5-diversity;false;true;8;0.713865899;57017800;24
+adult;distinct-5-diversity;true;true;8;0.906195555;53882800;16
+adult;distinct-5-diversity;false;true;9;0.705391721;57258160;25
+adult;distinct-5-diversity;true;true;9;0.903453245;53983248;17
+adult;distinct-5-diversity;false;true;10;0.708865083;60222744;23
+adult;distinct-5-diversity;true;true;10;0.904160181;54445320;21
+adult;distinct-5-diversity;false;true;11;0.706367341;59214368;21
+adult;distinct-5-diversity;true;true;11;0.899568496;53998088;21
+adult;distinct-5-diversity;false;true;12;0.699574439;60321224;23
+adult;distinct-5-diversity;true;true;12;0.898023774;54531168;16
+adult;distinct-5-diversity;false;true;13;0.701272857;61074872;20
+adult;distinct-5-diversity;true;true;13;0.89578075;54901824;22
+adult;distinct-5-diversity;false;true;14;0.697762706;61216200;19
+adult;distinct-5-diversity;true;true;14;0.896990633;54689616;17
+adult;distinct-5-diversity;false;true;15;0.700835592;63596416;21
+adult;distinct-5-diversity;true;true;15;0.894782086;54478008;18
+adult;distinct-5-diversity;false;true;16;0.694658029;64024208;19
+adult;distinct-5-diversity;true;true;16;0.892645173;54725792;21
+adult;distinct-5-diversity;false;true;17;0.69178884;63770632;26
+adult;distinct-5-diversity;true;true;17;0.891313676;55122184;18
+adult;distinct-5-diversity;false;true;18;0.685638015;67017168;28
+adult;distinct-5-diversity;true;true;18;0.886473699;55387296;23
+adult;distinct-5-diversity;false;true;19;0.689436019;67886168;25
+adult;distinct-5-diversity;true;true;19;0.887071341;55875232;23
+adult;distinct-5-diversity;false;true;20;0.689540546;67844752;24
+adult;distinct-5-diversity;true;true;20;0.886306583;55820688;21
+adult;distinct-5-diversity;false;true;21;0.655107657;68627368;25
+adult;distinct-5-diversity;true;true;21;0.883825924;56116424;24
+adult;distinct-5-diversity;false;true;22;0.65698565;70301680;25
+adult;distinct-5-diversity;true;true;22;0.884024426;56676656;20
+adult;distinct-5-diversity;false;true;23;0.682718382;72182584;25
+adult;distinct-5-diversity;true;true;23;0.882935065;56879688;20
+adult;distinct-5-diversity;false;true;24;0.6549695;73536896;26
+adult;distinct-5-diversity;true;true;24;0.881890907;56718344;23
+adult;distinct-5-diversity;false;true;25;0.68090513;72880168;24
+adult;distinct-5-diversity;true;true;25;0.881930862;56609288;20
+adult;distinct-5-diversity;false;true;26;0.651686587;77115200;20
+adult;distinct-5-diversity;true;true;26;0.878071067;56713064;22
+adult;distinct-5-diversity;false;true;27;0.651248373;73526168;25
+adult;distinct-5-diversity;true;true;27;0.877181776;57014608;22
+adult;distinct-5-diversity;false;true;28;0.671920041;77844648;26
+adult;distinct-5-diversity;true;true;28;0.876758895;57338944;20
+adult;distinct-5-diversity;false;true;29;0.660062066;76425400;23
+adult;distinct-5-diversity;true;true;29;0.87386464;57683936;20
+adult;distinct-5-diversity;false;true;30;0.649189272;77566080;25
+adult;distinct-5-diversity;true;true;30;0.873865014;57933272;20
+adult;distinct-5-diversity;false;true;31;0.651333392;78396632;21
+adult;distinct-5-diversity;true;true;31;0.873398109;58006320;21
+adult;distinct-5-diversity;false;true;32;0.646323924;83634032;24
+adult;distinct-5-diversity;true;true;32;0.869246349;58758832;22
+adult;distinct-5-diversity;false;true;33;0.645579335;84603256;24
+adult;distinct-5-diversity;true;true;33;0.869740281;58042336;20
+adult;distinct-5-diversity;false;true;34;0.645642094;81687536;24
+adult;distinct-5-diversity;true;true;34;0.869524303;58590904;22
+adult;distinct-5-diversity;false;true;35;0.641056546;86560480;24
+adult;distinct-5-diversity;true;true;35;0.865245683;58866824;21
+adult;distinct-5-diversity;false;true;36;0.637851509;83378256;27
+adult;distinct-5-diversity;true;true;36;0.866557035;58818744;20
+adult;distinct-5-diversity;false;true;37;0.645389374;83291128;20
+adult;distinct-5-diversity;true;true;37;0.867410818;59059544;25
+adult;distinct-5-diversity;false;true;38;0.640378304;95180456;25
+adult;distinct-5-diversity;true;true;38;0.86589425;59335904;24
+adult;distinct-5-diversity;false;true;39;0.639617089;84371968;20
+adult;distinct-5-diversity;true;true;39;0.865280338;59881344;23
+adult;distinct-5-diversity;false;true;40;0.638254625;84869664;20
+adult;distinct-5-diversity;true;true;40;0.863208128;59581712;23
+adult;distinct-5-diversity;false;true;41;0.639350682;86896800;21
+adult;distinct-5-diversity;true;true;41;0.862246414;60394176;21
+adult;distinct-5-diversity;false;true;42;0.638238778;86653928;20
+adult;distinct-5-diversity;true;true;42;0.860904591;59913152;24
+adult;distinct-5-diversity;false;true;43;0.633574931;86125904;20
+adult;distinct-5-diversity;true;true;43;0.858980474;60643144;23
+adult;distinct-5-diversity;false;true;44;0.63296382;88464072;20
+adult;distinct-5-diversity;true;true;44;0.859398508;60903960;23
+adult;distinct-5-diversity;false;true;45;0.631299654;91100144;22
+adult;distinct-5-diversity;true;true;45;0.860032042;60701272;23
+adult;distinct-5-diversity;false;true;46;0.631097735;92527288;21
+adult;distinct-5-diversity;true;true;46;0.857850687;61128792;22
+adult;distinct-5-diversity;false;true;47;0.634842653;89016544;21
+adult;distinct-5-diversity;true;true;47;0.856844398;60942896;25
+adult;distinct-5-diversity;false;true;48;0.634209679;94171320;23
+adult;distinct-5-diversity;true;true;48;0.857818673;61396376;23
+adult;distinct-5-diversity;false;true;49;0.634230894;92251400;26
+adult;distinct-5-diversity;true;true;49;0.857533032;61767768;24
+adult;distinct-5-diversity;false;true;50;0.634259152;94235768;21
+adult;distinct-5-diversity;true;true;50;0.854662308;61491952;20
+adult;distinct-5-diversity;false;true;51;0.631902015;95958656;26
+adult;distinct-5-diversity;true;true;51;0.851845566;62049984;26
+adult;distinct-5-diversity;false;true;52;0.632448217;98288600;27
+adult;distinct-5-diversity;true;true;52;0.853320859;62610312;22
+adult;distinct-5-diversity;false;true;53;0.6212145;102461976;25
+adult;distinct-5-diversity;true;true;53;0.852669667;63143248;23
+adult;distinct-5-diversity;false;true;54;0.633492;100388048;23
+adult;distinct-5-diversity;true;true;54;0.851061875;62972712;21
+adult;distinct-5-diversity;false;true;55;0.632369979;101026328;19
+adult;distinct-5-diversity;true;true;55;0.851738422;63424520;21
+adult;distinct-5-diversity;false;true;56;0.623257435;103402312;23
+adult;distinct-5-diversity;true;true;56;0.848658232;63340368;24
+adult;distinct-5-diversity;false;true;57;0.626977447;99786072;23
+adult;distinct-5-diversity;true;true;57;0.847783529;63505656;23
+adult;distinct-5-diversity;false;true;58;0.623160337;102934592;25
+adult;distinct-5-diversity;true;true;58;0.84881777;63508048;24
+adult;distinct-5-diversity;false;true;59;0.628945969;106476632;18
+adult;distinct-5-diversity;true;true;59;0.847848218;79008144;22
+adult;distinct-5-diversity;false;true;60;0.62550655;107173672;22
+adult;distinct-5-diversity;true;true;60;0.846453111;64109112;24
+adult;distinct-5-diversity;false;true;61;0.624339593;108867456;20
+adult;distinct-5-diversity;true;true;61;0.846097479;81435608;21
+adult;distinct-5-diversity;false;true;62;0.628343508;111677392;25
+adult;distinct-5-diversity;true;true;62;0.846722791;128706800;24
+adult;distinct-5-diversity;false;true;63;0.622885076;105130768;20
+adult;distinct-5-diversity;true;true;63;0.84514069;79184744;19
+adult;distinct-5-diversity;false;true;64;0.626320548;122063736;20
+adult;distinct-5-diversity;true;true;64;0.844808798;80470688;22
+adult;entropy-3-diversity;false;true;1;0.789613181;57603360;26
+adult;entropy-3-diversity;true;true;1;0.924024464;57718176;23
+adult;entropy-3-diversity;false;true;2;0.782659112;57829992;31
+adult;entropy-3-diversity;true;true;2;0.923698539;57934144;25
+adult;entropy-3-diversity;false;true;3;0.789592988;58035584;35
+adult;entropy-3-diversity;true;true;3;0.918212222;58188416;27
+adult;entropy-3-diversity;false;true;4;0.772858843;58210192;30
+adult;entropy-3-diversity;true;true;4;0.916679784;55636816;25
+adult;entropy-3-diversity;false;true;5;0.772336142;56634224;32
+adult;entropy-3-diversity;true;true;5;0.915714676;55002536;27
+adult;entropy-3-diversity;false;true;6;0.768539179;57461800;31
+adult;entropy-3-diversity;true;true;6;0.913309821;55038752;28
+adult;entropy-3-diversity;false;true;7;0.759657058;57610392;28
+adult;entropy-3-diversity;true;true;7;0.910586865;55300440;25
+adult;entropy-3-diversity;false;true;8;0.757173082;59328232;32
+adult;entropy-3-diversity;true;true;8;0.911318784;55669360;24
+adult;entropy-3-diversity;false;true;9;0.744040196;59147728;30
+adult;entropy-3-diversity;true;true;9;0.90481367;55580296;25
+adult;entropy-3-diversity;false;true;10;0.750614082;60593584;29
+adult;entropy-3-diversity;true;true;10;0.908489013;55831232;26
+adult;entropy-3-diversity;false;true;11;0.724704773;61177712;27
+adult;entropy-3-diversity;true;true;11;0.905687536;56418096;26
+adult;entropy-3-diversity;false;true;12;0.736913113;62291256;28
+adult;entropy-3-diversity;true;true;12;0.898022817;57132704;27
+adult;entropy-3-diversity;false;true;13;0.720400763;63243344;26
+adult;entropy-3-diversity;true;true;13;0.904969119;56912512;26
+adult;entropy-3-diversity;false;true;14;0.730851211;62521240;33
+adult;entropy-3-diversity;true;true;14;0.903473873;58247672;29
+adult;entropy-3-diversity;false;true;15;0.721694716;65172240;32
+adult;entropy-3-diversity;true;true;15;0.900390822;57545192;31
+adult;entropy-3-diversity;false;true;16;0.725697757;63308496;33
+adult;entropy-3-diversity;true;true;16;0.89889008;58040464;25
+adult;entropy-3-diversity;false;true;17;0.715056384;64751128;25
+adult;entropy-3-diversity;true;true;17;0.896905188;58229064;30
+adult;entropy-3-diversity;false;true;18;0.716788975;66037416;26
+adult;entropy-3-diversity;true;true;18;0.892271602;58858872;30
+adult;entropy-3-diversity;false;true;19;0.71248905;67750216;27
+adult;entropy-3-diversity;true;true;19;0.893383209;59196152;30
+adult;entropy-3-diversity;false;true;20;0.719030591;66582184;27
+adult;entropy-3-diversity;true;true;20;0.890694964;60619600;24
+adult;entropy-3-diversity;false;true;21;0.70816275;68601136;35
+adult;entropy-3-diversity;true;true;21;0.888121283;61387992;27
+adult;entropy-3-diversity;false;true;22;0.709725804;69387216;32
+adult;entropy-3-diversity;true;true;22;0.890545792;61185656;31
+adult;entropy-3-diversity;false;true;23;0.708657636;70616464;34
+adult;entropy-3-diversity;true;true;23;0.888241594;61568744;28
+adult;entropy-3-diversity;false;true;24;0.706228139;71559448;33
+adult;entropy-3-diversity;true;true;24;0.889029812;61236640;25
+adult;entropy-3-diversity;false;true;25;0.707885197;71803160;29
+adult;entropy-3-diversity;true;true;25;0.886867169;61718104;29
+adult;entropy-3-diversity;false;true;26;0.703795508;74139824;34
+adult;entropy-3-diversity;true;true;26;0.888520584;61200464;34
+adult;entropy-3-diversity;false;true;27;0.68960581;73139160;31
+adult;entropy-3-diversity;true;true;27;0.885832641;62035696;33
+adult;entropy-3-diversity;false;true;28;0.703828816;73659112;31
+adult;entropy-3-diversity;true;true;28;0.884543779;61441112;26
+adult;entropy-3-diversity;false;true;29;0.699124186;74031976;32
+adult;entropy-3-diversity;true;true;29;0.885250948;62043888;25
+adult;entropy-3-diversity;false;true;30;0.701514108;76263712;32
+adult;entropy-3-diversity;true;true;30;0.8838466;243427232;29
+adult;entropy-3-diversity;false;true;31;0.702399959;77866080;31
+adult;entropy-3-diversity;true;true;31;0.884830046;61602168;31
+adult;entropy-3-diversity;false;true;32;0.698776589;78453368;30
+adult;entropy-3-diversity;true;true;32;0.880742937;63656896;34
+adult;entropy-3-diversity;false;true;33;0.6973866;81485968;33
+adult;entropy-3-diversity;true;true;33;0.880739106;64274208;29
+adult;entropy-3-diversity;false;true;34;0.686582585;79147192;34
+adult;entropy-3-diversity;true;true;34;0.878265907;157266728;35
+adult;entropy-3-diversity;false;true;35;0.660318507;82208696;33
+adult;entropy-3-diversity;true;true;35;0.877013739;63170712;27
+adult;entropy-3-diversity;false;true;36;0.687461966;80655448;31
+adult;entropy-3-diversity;true;true;36;0.873512238;66217496;27
+adult;entropy-3-diversity;false;true;37;0.661351215;80403880;34
+adult;entropy-3-diversity;true;true;37;0.874789946;64515296;34
+adult;entropy-3-diversity;false;true;38;0.686768756;84203368;31
+adult;entropy-3-diversity;true;true;38;0.873160338;65889856;32
+adult;entropy-3-diversity;false;true;39;0.656679261;84532128;32
+adult;entropy-3-diversity;true;true;39;0.874236651;67081376;34
+adult;entropy-3-diversity;false;true;40;0.657048904;83059024;32
+adult;entropy-3-diversity;true;true;40;0.870590983;65864600;39
+adult;entropy-3-diversity;false;true;41;0.655171742;84058256;33
+adult;entropy-3-diversity;true;true;41;0.868491503;76646984;28
+adult;entropy-3-diversity;false;true;42;0.678467915;87730648;33
+adult;entropy-3-diversity;true;true;42;0.866412159;67638736;31
+adult;entropy-3-diversity;false;true;43;0.679985163;87108512;33
+adult;entropy-3-diversity;true;true;43;0.868580288;66284352;35
+adult;entropy-3-diversity;false;true;44;0.655090098;86822552;33
+adult;entropy-3-diversity;true;true;44;0.867034116;68407984;33
+adult;entropy-3-diversity;false;true;45;0.650263793;102240472;26
+adult;entropy-3-diversity;true;true;45;0.865957561;68185936;28
+adult;entropy-3-diversity;false;true;46;0.676495466;91692528;35
+adult;entropy-3-diversity;true;true;46;0.863625106;69199064;30
+adult;entropy-3-diversity;false;true;47;0.650846385;90650736;30
+adult;entropy-3-diversity;true;true;47;0.863039746;70307896;31
+adult;entropy-3-diversity;false;true;48;0.651739325;94337232;34
+adult;entropy-3-diversity;true;true;48;0.863547787;75717784;29
+adult;entropy-3-diversity;false;true;49;0.651324414;91614936;30
+adult;entropy-3-diversity;true;true;49;0.860521366;69670248;33
+adult;entropy-3-diversity;false;true;50;0.649966279;95169088;32
+adult;entropy-3-diversity;true;true;50;0.861106328;91880392;30
+adult;entropy-3-diversity;false;true;51;0.647111718;94225792;27
+adult;entropy-3-diversity;true;true;51;0.856408481;83295232;32
+adult;entropy-3-diversity;false;true;52;0.646867345;93069744;32
+adult;entropy-3-diversity;true;true;52;0.862011683;86606512;31
+adult;entropy-3-diversity;false;true;53;0.650838011;100343792;32
+adult;entropy-3-diversity;true;true;53;0.854605567;71167544;31
+adult;entropy-3-diversity;false;true;54;0.644873595;96645144;27
+adult;entropy-3-diversity;true;true;54;0.857105081;72939344;33
+adult;entropy-3-diversity;false;true;55;0.666049074;98198360;32
+adult;entropy-3-diversity;true;true;55;0.853322755;74964960;27
+adult;entropy-3-diversity;false;true;56;0.665447422;99312624;27
+adult;entropy-3-diversity;true;true;56;0.852549556;73201336;33
+adult;entropy-3-diversity;false;true;57;0.642979453;104630888;28
+adult;entropy-3-diversity;true;true;57;0.851338132;72325200;29
+adult;entropy-3-diversity;false;true;58;0.651343276;102714472;36
+adult;entropy-3-diversity;true;true;58;0.85510198;79873184;30
+adult;entropy-3-diversity;false;true;59;0.664690567;110357632;33
+adult;entropy-3-diversity;true;true;59;0.855480569;72216120;29
+adult;entropy-3-diversity;false;true;60;0.663206732;109871800;30
+adult;entropy-3-diversity;true;true;60;0.849677162;75419128;24
+adult;entropy-3-diversity;false;true;61;0.662240985;108676200;28
+adult;entropy-3-diversity;true;true;61;0.850122853;72754976;36
+adult;entropy-3-diversity;false;true;62;0.649573321;222966144;32
+adult;entropy-3-diversity;true;true;62;0.852051507;80864896;26
+adult;entropy-3-diversity;false;true;63;0.6498198;218079664;24
+adult;entropy-3-diversity;true;true;63;0.850036543;77625040;27
+adult;entropy-3-diversity;false;true;64;0.649698519;112124552;32
+adult;entropy-3-diversity;true;true;64;0.848997097;92574016;28
+adult;0.2-equal-closeness (global distribution);false;true;1;0.476580732;58720104;26
+adult;0.2-equal-closeness (global distribution);true;true;1;0.686406471;57317504;22
+adult;0.2-equal-closeness (global distribution);false;true;2;0.429628681;61543504;27
+adult;0.2-equal-closeness (global distribution);true;true;2;0.674836775;58226792;23
+adult;0.2-equal-closeness (global distribution);false;true;3;0.442982117;60881024;30
+adult;0.2-equal-closeness (global distribution);true;true;3;0.657588214;58258472;23
+adult;0.2-equal-closeness (global distribution);false;true;4;0.451084146;62478888;29
+adult;0.2-equal-closeness (global distribution);true;true;4;0.635059891;58947920;24
+adult;0.2-equal-closeness (global distribution);false;true;5;0.456400023;64650344;33
+adult;0.2-equal-closeness (global distribution);true;true;5;0.630363698;59318872;23
+adult;0.2-equal-closeness (global distribution);false;true;6;0.439146181;65447424;31
+adult;0.2-equal-closeness (global distribution);true;true;6;0.631551002;60595872;19
+adult;0.2-equal-closeness (global distribution);false;true;7;0.388525876;67104800;29
+adult;0.2-equal-closeness (global distribution);true;true;7;0.612908375;60644968;26
+adult;0.2-equal-closeness (global distribution);false;true;8;0.43291926;67828976;26
+adult;0.2-equal-closeness (global distribution);true;true;8;0.619040655;60937504;26
+adult;0.2-equal-closeness (global distribution);false;true;9;0.422816257;68175072;30
+adult;0.2-equal-closeness (global distribution);true;true;9;0.60463299;62925248;26
+adult;0.2-equal-closeness (global distribution);false;true;10;0.388037455;69822504;28
+adult;0.2-equal-closeness (global distribution);true;true;10;0.609713234;62417528;25
+adult;0.2-equal-closeness (global distribution);false;true;11;0.418207357;70832128;28
+adult;0.2-equal-closeness (global distribution);true;true;11;0.610892811;64110816;29
+adult;0.2-equal-closeness (global distribution);false;true;12;0.410866855;73650632;28
+adult;0.2-equal-closeness (global distribution);true;true;12;0.587577397;63122464;26
+adult;0.2-equal-closeness (global distribution);false;true;13;0.418119432;73078184;31
+adult;0.2-equal-closeness (global distribution);true;true;13;0.595832914;64938480;27
+adult;0.2-equal-closeness (global distribution);false;true;14;0.425523779;74028816;25
+adult;0.2-equal-closeness (global distribution);true;true;14;0.589934414;65874800;26
+adult;0.2-equal-closeness (global distribution);false;true;15;0.420643703;76483440;29
+adult;0.2-equal-closeness (global distribution);true;true;15;0.581281944;66419008;24
+adult;0.2-equal-closeness (global distribution);false;true;16;0.427363014;76794176;25
+adult;0.2-equal-closeness (global distribution);true;true;16;0.593521906;65418464;26
+adult;0.2-equal-closeness (global distribution);false;true;17;0.348627042;77238272;29
+adult;0.2-equal-closeness (global distribution);true;true;17;0.57733274;68349640;27
+adult;0.2-equal-closeness (global distribution);false;true;18;0.403220467;78626128;29
+adult;0.2-equal-closeness (global distribution);true;true;18;0.571489961;68696736;25
+adult;0.2-equal-closeness (global distribution);false;true;19;0.408454569;80401376;25
+adult;0.2-equal-closeness (global distribution);true;true;19;0.574685655;69665816;29
+adult;0.2-equal-closeness (global distribution);false;true;20;0.406531294;81419384;28
+adult;0.2-equal-closeness (global distribution);true;true;20;0.566196393;70131624;28
+adult;0.2-equal-closeness (global distribution);false;true;21;0.396766168;82998824;28
+adult;0.2-equal-closeness (global distribution);true;true;21;0.5640344;70432288;27
+adult;0.2-equal-closeness (global distribution);false;true;22;0.406356988;85979024;26
+adult;0.2-equal-closeness (global distribution);true;true;22;0.587854624;72214216;27
+adult;0.2-equal-closeness (global distribution);false;true;23;0.394610295;86475568;27
+adult;0.2-equal-closeness (global distribution);true;true;23;0.572448695;71707504;30
+adult;0.2-equal-closeness (global distribution);false;true;24;0.415311603;86712304;30
+adult;0.2-equal-closeness (global distribution);true;true;24;0.564705689;70137208;30
+adult;0.2-equal-closeness (global distribution);false;true;25;0.407023886;91052432;27
+adult;0.2-equal-closeness (global distribution);true;true;25;0.558043248;72939008;24
+adult;0.2-equal-closeness (global distribution);false;true;26;0.380050332;89743504;27
+adult;0.2-equal-closeness (global distribution);true;true;26;0.558708438;75106776;30
+adult;0.2-equal-closeness (global distribution);false;true;27;0.382822802;89351496;30
+adult;0.2-equal-closeness (global distribution);true;true;27;0.578604683;73626440;34
+adult;0.2-equal-closeness (global distribution);false;true;28;0.376730832;92161144;34
+adult;0.2-equal-closeness (global distribution);true;true;28;0.561603651;75228632;29
+adult;0.2-equal-closeness (global distribution);false;true;29;0.396692992;92541920;35
+adult;0.2-equal-closeness (global distribution);true;true;29;0.555027216;77646616;31
+adult;0.2-equal-closeness (global distribution);false;true;30;0.390298327;97264568;38
+adult;0.2-equal-closeness (global distribution);true;true;30;0.563595898;90850760;29
+adult;0.2-equal-closeness (global distribution);false;true;31;0.392120525;93955112;27
+adult;0.2-equal-closeness (global distribution);true;true;31;0.56323214;76497432;34
+adult;0.2-equal-closeness (global distribution);false;true;32;0.378867849;97137344;28
+adult;0.2-equal-closeness (global distribution);true;true;32;0.560378145;77064336;33
+adult;0.2-equal-closeness (global distribution);false;true;33;0.367692585;98059200;27
+adult;0.2-equal-closeness (global distribution);true;true;33;0.5565291;78114288;33
+adult;0.2-equal-closeness (global distribution);false;true;34;0.364362428;102156048;27
+adult;0.2-equal-closeness (global distribution);true;true;34;0.555770552;94189344;29
+adult;0.2-equal-closeness (global distribution);false;true;35;0.376721389;98760048;28
+adult;0.2-equal-closeness (global distribution);true;true;35;0.546170649;79007984;33
+adult;0.2-equal-closeness (global distribution);false;true;36;0.36702904;97598344;27
+adult;0.2-equal-closeness (global distribution);true;true;36;0.542340851;97803336;31
+adult;0.2-equal-closeness (global distribution);false;true;37;0.374918935;98417760;30
+adult;0.2-equal-closeness (global distribution);true;true;37;0.557250225;99664280;33
+adult;0.2-equal-closeness (global distribution);false;true;38;0.377118797;101930736;28
+adult;0.2-equal-closeness (global distribution);true;true;38;0.548783164;83973992;36
+adult;0.2-equal-closeness (global distribution);false;true;39;0.293973925;102562792;28
+adult;0.2-equal-closeness (global distribution);true;true;39;0.555141211;82672648;33
+adult;0.2-equal-closeness (global distribution);false;true;40;0.36618325;104237352;38
+adult;0.2-equal-closeness (global distribution);true;true;40;0.54965749;96719872;27
+adult;0.2-equal-closeness (global distribution);false;true;41;0.289373692;110095216;28
+adult;0.2-equal-closeness (global distribution);true;true;41;0.548402897;85007552;34
+adult;0.2-equal-closeness (global distribution);false;true;42;0.375608085;103980200;28
+adult;0.2-equal-closeness (global distribution);true;true;42;0.543915647;85243824;33
+adult;0.2-equal-closeness (global distribution);false;true;43;0.386593911;110259936;28
+adult;0.2-equal-closeness (global distribution);true;true;43;0.545253377;88445736;34
+adult;0.2-equal-closeness (global distribution);false;true;44;0.381916609;109088640;29
+adult;0.2-equal-closeness (global distribution);true;true;44;0.540577321;90491344;31
+adult;0.2-equal-closeness (global distribution);false;true;45;0.377667086;105220120;28
+adult;0.2-equal-closeness (global distribution);true;true;45;0.524442354;107288056;31
+adult;0.2-equal-closeness (global distribution);false;true;46;0.37459685;109567320;25
+adult;0.2-equal-closeness (global distribution);true;true;46;0.535435048;96460744;32
+adult;0.2-equal-closeness (global distribution);false;true;47;0.371219078;129955752;28
+adult;0.2-equal-closeness (global distribution);true;true;47;0.53510187;104416560;34
+adult;0.2-equal-closeness (global distribution);false;true;48;0.379219743;296343560;28
+adult;0.2-equal-closeness (global distribution);true;true;48;0.537077606;88704344;31
+adult;0.2-equal-closeness (global distribution);false;true;49;0.281615349;111128336;28
+adult;0.2-equal-closeness (global distribution);true;true;49;0.538171351;102018336;34
+adult;0.2-equal-closeness (global distribution);false;true;50;0.374173037;133755880;26
+adult;0.2-equal-closeness (global distribution);true;true;50;0.529197679;106726664;29
+adult;0.2-equal-closeness (global distribution);false;true;51;0.358824476;116059624;34
+adult;0.2-equal-closeness (global distribution);true;true;51;0.532697664;107603120;34
+adult;0.2-equal-closeness (global distribution);false;true;52;0.36769892;117402280;31
+adult;0.2-equal-closeness (global distribution);true;true;52;0.528435176;90774416;34
+adult;0.2-equal-closeness (global distribution);false;true;53;0.272412632;120411864;31
+adult;0.2-equal-closeness (global distribution);true;true;53;0.514871492;91084160;30
+adult;0.2-equal-closeness (global distribution);false;true;54;0.367881713;186576920;27
+adult;0.2-equal-closeness (global distribution);true;true;54;0.535368437;100235832;28
+adult;0.2-equal-closeness (global distribution);false;true;55;0.26405695;119576552;30
+adult;0.2-equal-closeness (global distribution);true;true;55;0.522566836;109669296;31
+adult;0.2-equal-closeness (global distribution);false;true;56;0.361345357;123252072;28
+adult;0.2-equal-closeness (global distribution);true;true;56;0.52962233;111522128;29
+adult;0.2-equal-closeness (global distribution);false;true;57;0.355745315;121607656;25
+adult;0.2-equal-closeness (global distribution);true;true;57;0.52847022;110204280;31
+adult;0.2-equal-closeness (global distribution);false;true;58;0.360892372;127774496;26
+adult;0.2-equal-closeness (global distribution);true;true;58;0.524084686;114924864;30
+adult;0.2-equal-closeness (global distribution);false;true;59;0.3739742;171985256;25
+adult;0.2-equal-closeness (global distribution);true;true;59;0.524123103;113372656;33
+adult;0.2-equal-closeness (global distribution);false;true;60;0.358285866;132736080;28
+adult;0.2-equal-closeness (global distribution);true;true;60;0.517774272;111614000;34
+adult;0.2-equal-closeness (global distribution);false;true;61;0.34931304;154338088;32
+adult;0.2-equal-closeness (global distribution);true;true;61;0.515302714;107057016;28
+adult;0.2-equal-closeness (global distribution);false;true;62;0.357581678;140190968;27
+adult;0.2-equal-closeness (global distribution);true;true;62;0.520000045;113482472;33
+adult;0.2-equal-closeness (global distribution);false;true;63;0.360965385;190582264;32
+adult;0.2-equal-closeness (global distribution);true;true;63;0.519600672;103351472;30
+adult;0.2-equal-closeness (global distribution);false;true;64;0.350280124;132486704;32
+adult;0.2-equal-closeness (global distribution);true;true;64;0.521377477;112768968;30
+adult;0.5-equal-closeness (global distribution);false;true;1;0.774509118;53567928;20
+adult;0.5-equal-closeness (global distribution);true;true;1;0.889231412;51657616;20
+adult;0.5-equal-closeness (global distribution);false;true;2;0.73126568;52762624;32
+adult;0.5-equal-closeness (global distribution);true;true;2;0.887280486;52686568;25
+adult;0.5-equal-closeness (global distribution);false;true;3;0.759582059;52900224;32
+adult;0.5-equal-closeness (global distribution);true;true;3;0.886433836;53704512;28
+adult;0.5-equal-closeness (global distribution);false;true;4;0.728185016;56082880;34
+adult;0.5-equal-closeness (global distribution);true;true;4;0.877168977;53603144;36
+adult;0.5-equal-closeness (global distribution);false;true;5;0.752968751;54030376;32
+adult;0.5-equal-closeness (global distribution);true;true;5;0.87836508;54417104;26
+adult;0.5-equal-closeness (global distribution);false;true;6;0.745714017;54552936;29
+adult;0.5-equal-closeness (global distribution);true;true;6;0.874913153;55353504;26
+adult;0.5-equal-closeness (global distribution);false;true;7;0.749062558;55655552;29
+adult;0.5-equal-closeness (global distribution);true;true;7;0.878070553;55344344;28
+adult;0.5-equal-closeness (global distribution);false;true;8;0.741687164;55794216;31
+adult;0.5-equal-closeness (global distribution);true;true;8;0.874061325;55705504;27
+adult;0.5-equal-closeness (global distribution);false;true;9;0.729382682;55734664;28
+adult;0.5-equal-closeness (global distribution);true;true;9;0.8675175;56209112;26
+adult;0.5-equal-closeness (global distribution);false;true;10;0.736575392;56885680;28
+adult;0.5-equal-closeness (global distribution);true;true;10;0.875600474;56160168;27
+adult;0.5-equal-closeness (global distribution);false;true;11;0.73094192;57462608;28
+adult;0.5-equal-closeness (global distribution);true;true;11;0.872110163;56299712;25
+adult;0.5-equal-closeness (global distribution);false;true;12;0.717180502;57765264;30
+adult;0.5-equal-closeness (global distribution);true;true;12;0.863657338;56507208;27
+adult;0.5-equal-closeness (global distribution);false;true;13;0.722959663;60442656;35
+adult;0.5-equal-closeness (global distribution);true;true;13;0.859227766;57989456;28
+adult;0.5-equal-closeness (global distribution);false;true;14;0.714570041;61189312;34
+adult;0.5-equal-closeness (global distribution);true;true;14;0.860723075;59190768;28
+adult;0.5-equal-closeness (global distribution);false;true;15;0.716597614;60988624;30
+adult;0.5-equal-closeness (global distribution);true;true;15;0.865163674;58698328;26
+adult;0.5-equal-closeness (global distribution);false;true;16;0.721532826;62737616;34
+adult;0.5-equal-closeness (global distribution);true;true;16;0.859048455;59349352;26
+adult;0.5-equal-closeness (global distribution);false;true;17;0.707538317;62368440;31
+adult;0.5-equal-closeness (global distribution);true;true;17;0.858765419;60794920;27
+adult;0.5-equal-closeness (global distribution);false;true;18;0.701135575;66283808;28
+adult;0.5-equal-closeness (global distribution);true;true;18;0.859318092;59720360;27
+adult;0.5-equal-closeness (global distribution);false;true;19;0.705545782;64236368;36
+adult;0.5-equal-closeness (global distribution);true;true;19;0.861290898;60594416;29
+adult;0.5-equal-closeness (global distribution);false;true;20;0.708239494;66708528;29
+adult;0.5-equal-closeness (global distribution);true;true;20;0.857479171;61219864;31
+adult;0.5-equal-closeness (global distribution);false;true;21;0.702573469;66542032;27
+adult;0.5-equal-closeness (global distribution);true;true;21;0.862415258;62216200;28
+adult;0.5-equal-closeness (global distribution);false;true;22;0.702209052;68242104;32
+adult;0.5-equal-closeness (global distribution);true;true;22;0.857535336;62987048;25
+adult;0.5-equal-closeness (global distribution);false;true;23;0.70097363;68696968;29
+adult;0.5-equal-closeness (global distribution);true;true;23;0.854244699;64244112;28
+adult;0.5-equal-closeness (global distribution);false;true;24;0.694025254;69247944;34
+adult;0.5-equal-closeness (global distribution);true;true;24;0.854059817;63451920;31
+adult;0.5-equal-closeness (global distribution);false;true;25;0.700277574;69366128;30
+adult;0.5-equal-closeness (global distribution);true;true;25;0.85654257;64559848;27
+adult;0.5-equal-closeness (global distribution);false;true;26;0.696495391;70835792;26
+adult;0.5-equal-closeness (global distribution);true;true;26;0.855093919;64863216;28
+adult;0.5-equal-closeness (global distribution);false;true;27;0.687720873;71080096;32
+adult;0.5-equal-closeness (global distribution);true;true;27;0.856418442;65697648;31
+adult;0.5-equal-closeness (global distribution);false;true;28;0.695151499;72578576;26
+adult;0.5-equal-closeness (global distribution);true;true;28;0.848881845;67895336;35
+adult;0.5-equal-closeness (global distribution);false;true;29;0.692033729;76558312;29
+adult;0.5-equal-closeness (global distribution);true;true;29;0.847737493;68842792;27
+adult;0.5-equal-closeness (global distribution);false;true;30;0.68789581;74470856;32
+adult;0.5-equal-closeness (global distribution);true;true;30;0.856605831;65234504;30
+adult;0.5-equal-closeness (global distribution);false;true;31;0.691513116;72613400;33
+adult;0.5-equal-closeness (global distribution);true;true;31;0.848882362;67452376;31
+adult;0.5-equal-closeness (global distribution);false;true;32;0.687397158;77945600;29
+adult;0.5-equal-closeness (global distribution);true;true;32;0.848316051;68476120;28
+adult;0.5-equal-closeness (global distribution);false;true;33;0.686038886;78988472;27
+adult;0.5-equal-closeness (global distribution);true;true;33;0.847115364;67700736;31
+adult;0.5-equal-closeness (global distribution);false;true;34;0.687733702;76904240;31
+adult;0.5-equal-closeness (global distribution);true;true;34;0.846091713;69045216;28
+adult;0.5-equal-closeness (global distribution);false;true;35;0.674871042;78765800;32
+adult;0.5-equal-closeness (global distribution);true;true;35;0.847438773;69065792;32
+adult;0.5-equal-closeness (global distribution);false;true;36;0.680031777;77341240;25
+adult;0.5-equal-closeness (global distribution);true;true;36;0.850635191;84003776;32
+adult;0.5-equal-closeness (global distribution);false;true;37;0.688407498;95405304;31
+adult;0.5-equal-closeness (global distribution);true;true;37;0.843971793;71606976;29
+adult;0.5-equal-closeness (global distribution);false;true;38;0.672529949;80101488;33
+adult;0.5-equal-closeness (global distribution);true;true;38;0.84097227;69868184;32
+adult;0.5-equal-closeness (global distribution);false;true;39;0.677812877;82435080;27
+adult;0.5-equal-closeness (global distribution);true;true;39;0.8472626;72296560;29
+adult;0.5-equal-closeness (global distribution);false;true;40;0.681275932;78347128;28
+adult;0.5-equal-closeness (global distribution);true;true;40;0.844548566;73834608;35
+adult;0.5-equal-closeness (global distribution);false;true;41;0.673234329;84321288;31
+adult;0.5-equal-closeness (global distribution);true;true;41;0.843092408;86102368;39
+adult;0.5-equal-closeness (global distribution);false;true;42;0.676171514;84660240;33
+adult;0.5-equal-closeness (global distribution);true;true;42;0.843456109;76879400;31
+adult;0.5-equal-closeness (global distribution);false;true;43;0.678409879;84558432;33
+adult;0.5-equal-closeness (global distribution);true;true;43;0.840838726;72802888;36
+adult;0.5-equal-closeness (global distribution);false;true;44;0.668774638;85993888;32
+adult;0.5-equal-closeness (global distribution);true;true;44;0.836946764;78042448;32
+adult;0.5-equal-closeness (global distribution);false;true;45;0.671275382;88000288;31
+adult;0.5-equal-closeness (global distribution);true;true;45;0.843799192;72875176;31
+adult;0.5-equal-closeness (global distribution);false;true;46;0.677837093;86982152;34
+adult;0.5-equal-closeness (global distribution);true;true;46;0.84340227;74130104;37
+adult;0.5-equal-closeness (global distribution);false;true;47;0.668566757;88460360;32
+adult;0.5-equal-closeness (global distribution);true;true;47;0.838812402;89238736;35
+adult;0.5-equal-closeness (global distribution);false;true;48;0.67270573;88328152;30
+adult;0.5-equal-closeness (global distribution);true;true;48;0.844112328;78992328;31
+adult;0.5-equal-closeness (global distribution);false;true;49;0.677807722;88477992;34
+adult;0.5-equal-closeness (global distribution);true;true;49;0.840434857;76569728;34
+adult;0.5-equal-closeness (global distribution);false;true;50;0.666897842;89807520;33
+adult;0.5-equal-closeness (global distribution);true;true;50;0.842041647;93040976;27
+adult;0.5-equal-closeness (global distribution);false;true;51;0.668772212;90461760;33
+adult;0.5-equal-closeness (global distribution);true;true;51;0.840329879;76904880;28
+adult;0.5-equal-closeness (global distribution);false;true;52;0.672810176;92817104;32
+adult;0.5-equal-closeness (global distribution);true;true;52;0.836005199;80462048;29
+adult;0.5-equal-closeness (global distribution);false;true;53;0.664817612;94311584;33
+adult;0.5-equal-closeness (global distribution);true;true;53;0.835939986;78574160;34
+adult;0.5-equal-closeness (global distribution);false;true;54;0.666795721;96899888;34
+adult;0.5-equal-closeness (global distribution);true;true;54;0.837773948;82290880;31
+adult;0.5-equal-closeness (global distribution);false;true;55;0.671503336;94343136;36
+adult;0.5-equal-closeness (global distribution);true;true;55;0.832555634;100410856;31
+adult;0.5-equal-closeness (global distribution);false;true;56;0.663538627;98512496;28
+adult;0.5-equal-closeness (global distribution);true;true;56;0.833617975;97088016;30
+adult;0.5-equal-closeness (global distribution);false;true;57;0.665728862;96269944;28
+adult;0.5-equal-closeness (global distribution);true;true;57;0.835440057;81238520;29
+adult;0.5-equal-closeness (global distribution);false;true;58;0.666692892;98009568;29
+adult;0.5-equal-closeness (global distribution);true;true;58;0.830533708;82120504;34
+adult;0.5-equal-closeness (global distribution);false;true;59;0.66088369;105440832;31
+adult;0.5-equal-closeness (global distribution);true;true;59;0.835265738;82543600;33
+adult;0.5-equal-closeness (global distribution);false;true;60;0.663093593;101380832;30
+adult;0.5-equal-closeness (global distribution);true;true;60;0.835497518;82810672;28
+adult;0.5-equal-closeness (global distribution);false;true;61;0.667288075;107148040;27
+adult;0.5-equal-closeness (global distribution);true;true;61;0.830139522;82421424;32
+adult;0.5-equal-closeness (global distribution);false;true;62;0.635158978;107925152;27
+adult;0.5-equal-closeness (global distribution);true;true;62;0.833406925;86904528;31
+adult;0.5-equal-closeness (global distribution);false;true;63;0.664007371;105998920;27
+adult;0.5-equal-closeness (global distribution);true;true;63;0.830114342;96721496;36
+adult;0.5-equal-closeness (global distribution);false;true;64;0.666092655;105328808;25
+adult;0.5-equal-closeness (global distribution);true;true;64;0.832468685;88454528;40
+adult;1-disclosure-privacy;false;true;1;0.283709534;59748624;26
+adult;1-disclosure-privacy;true;true;1;0.461120908;58892888;23
+adult;1-disclosure-privacy;false;true;2;0.230546599;59211632;25
+adult;1-disclosure-privacy;true;true;2;0.211978506;59872808;22
+adult;1-disclosure-privacy;false;true;3;0.315640504;61033344;31
+adult;1-disclosure-privacy;true;true;3;0.15911189;57291520;24
+adult;1-disclosure-privacy;false;true;4;0.161113602;59820536;29
+adult;1-disclosure-privacy;true;true;4;0.169320151;58160512;24
+adult;1-disclosure-privacy;false;true;5;0.197041525;62176344;24
+adult;1-disclosure-privacy;true;true;5;0.207408849;58912904;23
+adult;1-disclosure-privacy;false;true;6;0.241527834;62066576;32
+adult;1-disclosure-privacy;true;true;6;0.144959441;59049920;22
+adult;1-disclosure-privacy;false;true;7;0.189445482;64306448;30
+adult;1-disclosure-privacy;true;true;7;0.208753574;58779520;25
+adult;1-disclosure-privacy;false;true;8;0.255138977;64843200;29
+adult;1-disclosure-privacy;true;true;8;0.121035214;60844000;23
+adult;1-disclosure-privacy;false;true;9;0.18916771;66542440;28
+adult;1-disclosure-privacy;true;true;9;0.138169199;59898632;23
+adult;1-disclosure-privacy;false;true;10;0.271611914;67028440;29
+adult;1-disclosure-privacy;true;true;10;0.189401166;60903560;25
+adult;1-disclosure-privacy;false;true;11;0.227353738;68666048;28
+adult;1-disclosure-privacy;true;true;11;0.139866262;61918912;25
+adult;1-disclosure-privacy;false;true;12;0.20098462;69645376;28
+adult;1-disclosure-privacy;true;true;12;0.141642256;61455824;26
+adult;1-disclosure-privacy;false;true;13;0.144538493;72337456;28
+adult;1-disclosure-privacy;true;true;13;0.139867215;63198904;22
+adult;1-disclosure-privacy;false;true;14;0.180518318;74292256;30
+adult;1-disclosure-privacy;true;true;14;0.150102493;64973832;28
+adult;1-disclosure-privacy;false;true;15;0.131878348;74881104;27
+adult;1-disclosure-privacy;true;true;15;0.13274707;64609696;25
+adult;1-disclosure-privacy;false;true;16;0.224171509;75736624;29
+adult;1-disclosure-privacy;true;true;16;0.164487261;64105264;29
+adult;1-disclosure-privacy;false;true;17;0.162319651;76489904;31
+adult;1-disclosure-privacy;true;true;17;0.140810419;65684048;25
+adult;1-disclosure-privacy;false;true;18;0.128059704;78331360;30
+adult;1-disclosure-privacy;true;true;18;0.141067001;65116880;25
+adult;1-disclosure-privacy;false;true;19;0.119375176;80259312;29
+adult;1-disclosure-privacy;true;true;19;0.121605543;68286688;27
+adult;1-disclosure-privacy;false;true;20;0.132038127;80913184;27
+adult;1-disclosure-privacy;true;true;20;0.181636025;67785280;28
+adult;1-disclosure-privacy;false;true;21;0.110138938;80931032;27
+adult;1-disclosure-privacy;true;true;21;0.167453644;70266200;28
+adult;1-disclosure-privacy;false;true;22;0.126783265;84485768;28
+adult;1-disclosure-privacy;true;true;22;0.1526035;67943680;24
+adult;1-disclosure-privacy;false;true;23;0.122635781;84143848;29
+adult;1-disclosure-privacy;true;true;23;0.165050261;68459624;29
+adult;1-disclosure-privacy;false;true;24;0.143281079;85813232;27
+adult;1-disclosure-privacy;true;true;24;0.151641671;71630688;27
+adult;1-disclosure-privacy;false;true;25;0.182855846;87005688;27
+adult;1-disclosure-privacy;true;true;25;0.1730146;69413800;31
+adult;1-disclosure-privacy;false;true;26;0.069191752;87824440;28
+adult;1-disclosure-privacy;true;true;26;0.156325134;70769392;27
+adult;1-disclosure-privacy;false;true;27;0.14531993;89976992;36
+adult;1-disclosure-privacy;true;true;27;0.156662468;72452520;30
+adult;1-disclosure-privacy;false;true;28;0.246670325;88403624;26
+adult;1-disclosure-privacy;true;true;28;0.152189529;69903824;32
+adult;1-disclosure-privacy;false;true;29;0.246243201;90865920;28
+adult;1-disclosure-privacy;true;true;29;0.137423422;74490696;30
+adult;1-disclosure-privacy;false;true;30;0.124898383;91883840;30
+adult;1-disclosure-privacy;true;true;30;0.128448701;75449384;30
+adult;1-disclosure-privacy;false;true;31;0.087191874;95177736;27
+adult;1-disclosure-privacy;true;true;31;0.167082047;75317856;31
+adult;1-disclosure-privacy;false;true;32;0.112164819;101650520;27
+adult;1-disclosure-privacy;true;true;32;0.138023868;76245976;31
+adult;1-disclosure-privacy;false;true;33;0.100980534;94148016;30
+adult;1-disclosure-privacy;true;true;33;0.142150338;77227576;32
+adult;1-disclosure-privacy;false;true;34;0.105846411;99675984;27
+adult;1-disclosure-privacy;true;true;34;0.128723358;91884328;32
+adult;1-disclosure-privacy;false;true;35;0.13292139;96634512;30
+adult;1-disclosure-privacy;true;true;35;0.148519137;75842536;31
+adult;1-disclosure-privacy;false;true;36;0.073000339;113206424;30
+adult;1-disclosure-privacy;true;true;36;0.152507477;93138032;30
+adult;1-disclosure-privacy;false;true;37;0.117982562;97508360;29
+adult;1-disclosure-privacy;true;true;37;0.140262328;91776016;32
+adult;1-disclosure-privacy;false;true;38;0.127502625;100869512;29
+adult;1-disclosure-privacy;true;true;38;0.136990474;79995000;30
+adult;1-disclosure-privacy;false;true;39;0.125790689;101744800;25
+adult;1-disclosure-privacy;true;true;39;0.168829056;79687144;30
+adult;1-disclosure-privacy;false;true;40;0.213231032;97611688;26
+adult;1-disclosure-privacy;true;true;40;0.154882534;79889048;37
+adult;1-disclosure-privacy;false;true;41;0.128352662;107629944;26
+adult;1-disclosure-privacy;true;true;41;0.143826482;93719168;30
+adult;1-disclosure-privacy;false;true;42;0.138937916;105372224;32
+adult;1-disclosure-privacy;true;true;42;0.135317021;80361024;30
+adult;1-disclosure-privacy;false;true;43;0.103132657;104319224;28
+adult;1-disclosure-privacy;true;true;43;0.183769973;81158112;32
+adult;1-disclosure-privacy;false;true;44;0.108867629;107585680;28
+adult;1-disclosure-privacy;true;true;44;0.134870467;103172200;31
+adult;1-disclosure-privacy;false;true;45;0.060556131;115702640;29
+adult;1-disclosure-privacy;true;true;45;0.146512019;85239920;29
+adult;1-disclosure-privacy;false;true;46;0.227949045;111956824;27
+adult;1-disclosure-privacy;true;true;46;0.140524211;97401152;35
+adult;1-disclosure-privacy;false;true;47;0.079659208;110080560;30
+adult;1-disclosure-privacy;true;true;47;0.136544746;85821192;31
+adult;1-disclosure-privacy;false;true;48;0.211248509;115611320;38
+adult;1-disclosure-privacy;true;true;48;0.168543037;100667488;31
+adult;1-disclosure-privacy;false;true;49;0.110167728;108673192;28
+adult;1-disclosure-privacy;true;true;49;0.178229887;99523992;34
+adult;1-disclosure-privacy;false;true;50;0.079487047;112118144;27
+adult;1-disclosure-privacy;true;true;50;0.144775196;86040664;35
+adult;1-disclosure-privacy;false;true;51;0.138716462;114293304;27
+adult;1-disclosure-privacy;true;true;51;0.156163463;88994720;28
+adult;1-disclosure-privacy;false;true;52;0.072468044;113529760;29
+adult;1-disclosure-privacy;true;true;52;0.159926525;89458888;30
+adult;1-disclosure-privacy;false;true;53;0.112238084;120500512;30
+adult;1-disclosure-privacy;true;true;53;0.155103046;89005376;27
+adult;1-disclosure-privacy;false;true;54;0.141086897;116420360;29
+adult;1-disclosure-privacy;true;true;54;0.159722905;109558896;29
+adult;1-disclosure-privacy;false;true;55;0.118338874;122482920;28
+adult;1-disclosure-privacy;true;true;55;0.181762879;108006856;28
+adult;1-disclosure-privacy;false;true;56;0.090537001;122752800;27
+adult;1-disclosure-privacy;true;true;56;0.140554753;106624448;29
+adult;1-disclosure-privacy;false;true;57;0.185058764;121879600;27
+adult;1-disclosure-privacy;true;true;57;0.1565871;102863720;29
+adult;1-disclosure-privacy;false;true;58;0.101898231;115339528;27
+adult;1-disclosure-privacy;true;true;58;0.173549801;109754544;29
+adult;1-disclosure-privacy;false;true;59;0.161706778;130173984;28
+adult;1-disclosure-privacy;true;true;59;0.171756708;109397816;34
+adult;1-disclosure-privacy;false;true;60;0.094368979;135268176;29
+adult;1-disclosure-privacy;true;true;60;0.166390773;98210712;30
+adult;1-disclosure-privacy;false;true;61;0.096118075;134472320;28
+adult;1-disclosure-privacy;true;true;61;0.164347627;96899264;33
+adult;1-disclosure-privacy;false;true;62;0.092333808;193736832;29
+adult;1-disclosure-privacy;true;true;62;0.174854075;115195440;26
+adult;1-disclosure-privacy;false;true;63;0.150504723;122716448;28
+adult;1-disclosure-privacy;true;true;63;0.181630342;94708864;30
+adult;1-disclosure-privacy;false;true;64;0.277238729;137179488;30
+adult;1-disclosure-privacy;true;true;64;0.142772454;117180688;28
+adult;2-disclosure-privacy;false;true;1;0.42560079;62613496;23
+adult;2-disclosure-privacy;true;true;1;0.743288371;58498048;22
+adult;2-disclosure-privacy;false;true;2;0.196545129;61519816;25
+adult;2-disclosure-privacy;true;true;2;0.377866834;60279960;21
+adult;2-disclosure-privacy;false;true;3;0.230142057;62327224;30
+adult;2-disclosure-privacy;true;true;3;0.465954445;60607888;25
+adult;2-disclosure-privacy;false;true;4;0.388810502;64704232;30
+adult;2-disclosure-privacy;true;true;4;0.44421422;61610632;25
+adult;2-disclosure-privacy;false;true;5;0.309019253;65379120;38
+adult;2-disclosure-privacy;true;true;5;0.435326913;60881072;23
+adult;2-disclosure-privacy;false;true;6;0.353432966;66429336;32
+adult;2-disclosure-privacy;true;true;6;0.447920633;61755360;25
+adult;2-disclosure-privacy;false;true;7;0.153141577;67870712;31
+adult;2-disclosure-privacy;true;true;7;0.469629968;60818128;24
+adult;2-disclosure-privacy;false;true;8;0.367193805;68276472;31
+adult;2-disclosure-privacy;true;true;8;0.42208129;62520904;22
+adult;2-disclosure-privacy;false;true;9;0.379926489;68846248;31
+adult;2-disclosure-privacy;true;true;9;0.459680221;62172192;25
+adult;2-disclosure-privacy;false;true;10;0.367083019;70129616;29
+adult;2-disclosure-privacy;true;true;10;0.448870365;64225168;25
+adult;2-disclosure-privacy;false;true;11;0.341761104;70485040;27
+adult;2-disclosure-privacy;true;true;11;0.464883882;64190288;22
+adult;2-disclosure-privacy;false;true;12;0.153348718;71706936;28
+adult;2-disclosure-privacy;true;true;12;0.420963169;65065312;28
+adult;2-disclosure-privacy;false;true;13;0.256017609;72294808;31
+adult;2-disclosure-privacy;true;true;13;0.438563158;65007856;29
+adult;2-disclosure-privacy;false;true;14;0.247080779;74699016;29
+adult;2-disclosure-privacy;true;true;14;0.451119164;66573736;28
+adult;2-disclosure-privacy;false;true;15;0.152693402;76077392;32
+adult;2-disclosure-privacy;true;true;15;0.438200647;66200808;29
+adult;2-disclosure-privacy;false;true;16;0.20986262;75644208;30
+adult;2-disclosure-privacy;true;true;16;0.445899537;64900592;24
+adult;2-disclosure-privacy;false;true;17;0.174232374;77983000;30
+adult;2-disclosure-privacy;true;true;17;0.445933943;67098640;23
+adult;2-disclosure-privacy;false;true;18;0.236016019;77933920;31
+adult;2-disclosure-privacy;true;true;18;0.456992085;67990000;28
+adult;2-disclosure-privacy;false;true;19;0.20492445;80328416;29
+adult;2-disclosure-privacy;true;true;19;0.459899021;67143248;26
+adult;2-disclosure-privacy;false;true;20;0.279288509;79381120;30
+adult;2-disclosure-privacy;true;true;20;0.455298726;68040432;31
+adult;2-disclosure-privacy;false;true;21;0.230402671;79844888;29
+adult;2-disclosure-privacy;true;true;21;0.436415977;68057616;22
+adult;2-disclosure-privacy;false;true;22;0.254552085;82915544;28
+adult;2-disclosure-privacy;true;true;22;0.465829768;67611488;26
+adult;2-disclosure-privacy;false;true;23;0.232237539;82998752;29
+adult;2-disclosure-privacy;true;true;23;0.453273602;68633960;27
+adult;2-disclosure-privacy;false;true;24;0.253344055;82022256;29
+adult;2-disclosure-privacy;true;true;24;0.45557819;70268536;27
+adult;2-disclosure-privacy;false;true;25;0.210282288;84816944;27
+adult;2-disclosure-privacy;true;true;25;0.450483308;70225056;32
+adult;2-disclosure-privacy;false;true;26;0.282229562;85520288;27
+adult;2-disclosure-privacy;true;true;26;0.440236651;72132520;31
+adult;2-disclosure-privacy;false;true;27;0.260008632;86386616;29
+adult;2-disclosure-privacy;true;true;27;0.466074357;71472968;30
+adult;2-disclosure-privacy;false;true;28;0.252160003;87063336;28
+adult;2-disclosure-privacy;true;true;28;0.44769258;74313096;28
+adult;2-disclosure-privacy;false;true;29;0.285924653;88892456;27
+adult;2-disclosure-privacy;true;true;29;0.458160341;73024336;26
+adult;2-disclosure-privacy;false;true;30;0.269357449;88445944;28
+adult;2-disclosure-privacy;true;true;30;0.461698007;74204640;25
+adult;2-disclosure-privacy;false;true;31;0.264223698;88145160;28
+adult;2-disclosure-privacy;true;true;31;0.466151113;73466208;29
+adult;2-disclosure-privacy;false;true;32;0.292306471;90018944;37
+adult;2-disclosure-privacy;true;true;32;0.436124511;74011960;26
+adult;2-disclosure-privacy;false;true;33;0.269433334;92648456;35
+adult;2-disclosure-privacy;true;true;33;0.44060321;74272600;30
+adult;2-disclosure-privacy;false;true;34;0.259419137;94341408;30
+adult;2-disclosure-privacy;true;true;34;0.47226238;77268800;26
+adult;2-disclosure-privacy;false;true;35;0.327424142;92837752;35
+adult;2-disclosure-privacy;true;true;35;0.459359981;74661720;32
+adult;2-disclosure-privacy;false;true;36;0.329839492;92242752;28
+adult;2-disclosure-privacy;true;true;36;0.456324325;74125840;35
+adult;2-disclosure-privacy;false;true;37;0.336083053;93686224;30
+adult;2-disclosure-privacy;true;true;37;0.447215261;75577504;26
+adult;2-disclosure-privacy;false;true;38;0.324058743;93259712;29
+adult;2-disclosure-privacy;true;true;38;0.458327574;77226928;31
+adult;2-disclosure-privacy;false;true;39;0.293446372;93868376;30
+adult;2-disclosure-privacy;true;true;39;0.471968873;77769904;33
+adult;2-disclosure-privacy;false;true;40;0.33596685;94024064;29
+adult;2-disclosure-privacy;true;true;40;0.453742053;75339056;29
+adult;2-disclosure-privacy;false;true;41;0.31329517;96371192;31
+adult;2-disclosure-privacy;true;true;41;0.460242699;88278960;34
+adult;2-disclosure-privacy;false;true;42;0.370865629;97053920;28
+adult;2-disclosure-privacy;true;true;42;0.456829768;78754344;34
+adult;2-disclosure-privacy;false;true;43;0.351063498;97784960;28
+adult;2-disclosure-privacy;true;true;43;0.452978992;77242264;33
+adult;2-disclosure-privacy;false;true;44;0.358611489;100135464;28
+adult;2-disclosure-privacy;true;true;44;0.443034165;80580560;31
+adult;2-disclosure-privacy;false;true;45;0.372038892;101371720;29
+adult;2-disclosure-privacy;true;true;45;0.450134974;94421312;26
+adult;2-disclosure-privacy;false;true;46;0.402480534;101126176;30
+adult;2-disclosure-privacy;true;true;46;0.470607095;79681336;27
+adult;2-disclosure-privacy;false;true;47;0.357179001;104492368;29
+adult;2-disclosure-privacy;true;true;47;0.447787997;93974032;28
+adult;2-disclosure-privacy;false;true;48;0.38033916;104692264;28
+adult;2-disclosure-privacy;true;true;48;0.456991729;83710208;30
+adult;2-disclosure-privacy;false;true;49;0.408950063;102935432;28
+adult;2-disclosure-privacy;true;true;49;0.472531217;79663096;27
+adult;2-disclosure-privacy;false;true;50;0.385639555;157082888;30
+adult;2-disclosure-privacy;true;true;50;0.44254815;82620400;29
+adult;2-disclosure-privacy;false;true;51;0.384804156;106458840;27
+adult;2-disclosure-privacy;true;true;51;0.455221651;82112248;33
+adult;2-disclosure-privacy;false;true;52;0.380007824;109062896;29
+adult;2-disclosure-privacy;true;true;52;0.474685736;85659112;28
+adult;2-disclosure-privacy;false;true;53;0.392027649;109153000;26
+adult;2-disclosure-privacy;true;true;53;0.458470824;81727152;33
+adult;2-disclosure-privacy;false;true;54;0.410523456;105987168;35
+adult;2-disclosure-privacy;true;true;54;0.443002012;85389080;30
+adult;2-disclosure-privacy;false;true;55;0.37541394;104635624;32
+adult;2-disclosure-privacy;true;true;55;0.444084384;90160456;33
+adult;2-disclosure-privacy;false;true;56;0.36702087;109913008;29
+adult;2-disclosure-privacy;true;true;56;0.470188174;86694912;27
+adult;2-disclosure-privacy;false;true;57;0.418709919;247676112;26
+adult;2-disclosure-privacy;true;true;57;0.45082337;86817480;30
+adult;2-disclosure-privacy;false;true;58;0.377071641;116730424;28
+adult;2-disclosure-privacy;true;true;58;0.46820187;85200584;28
+adult;2-disclosure-privacy;false;true;59;0.422307501;111604144;28
+adult;2-disclosure-privacy;true;true;59;0.457988;86653104;33
+adult;2-disclosure-privacy;false;true;60;0.373966489;114540648;26
+adult;2-disclosure-privacy;true;true;60;0.461964595;105227120;30
+adult;2-disclosure-privacy;false;true;61;0.375356705;112631128;32
+adult;2-disclosure-privacy;true;true;61;0.464080939;105925400;31
+adult;2-disclosure-privacy;false;true;62;0.42767681;138528984;29
+adult;2-disclosure-privacy;true;true;62;0.441049187;93614912;32
+adult;2-disclosure-privacy;false;true;63;0.363379817;115069320;35
+adult;2-disclosure-privacy;true;true;63;0.471931894;90498808;32
+adult;2-disclosure-privacy;false;true;64;0.405178968;116277016;27
+adult;2-disclosure-privacy;true;true;64;0.471933389;215675616;33
+adult;1-enhanced-likeness (global distribution);false;true;1;0.466478042;66407016;24
+adult;1-enhanced-likeness (global distribution);true;true;1;0.563771778;65500848;22
+adult;1-enhanced-likeness (global distribution);false;true;2;0.288174586;66592976;27
+adult;1-enhanced-likeness (global distribution);true;true;2;0.543980309;64438576;22
+adult;1-enhanced-likeness (global distribution);false;true;3;0.284900155;66722968;26
+adult;1-enhanced-likeness (global distribution);true;true;3;0.521555861;64519352;23
+adult;1-enhanced-likeness (global distribution);false;true;4;0.335377279;68798296;28
+adult;1-enhanced-likeness (global distribution);true;true;4;0.504292257;66014456;24
+adult;1-enhanced-likeness (global distribution);false;true;5;0.272832286;69802432;36
+adult;1-enhanced-likeness (global distribution);true;true;5;0.50966943;66961648;23
+adult;1-enhanced-likeness (global distribution);false;true;6;0.31303596;71480768;28
+adult;1-enhanced-likeness (global distribution);true;true;6;0.517020098;68201520;23
+adult;1-enhanced-likeness (global distribution);false;true;7;0.323047123;72814312;30
+adult;1-enhanced-likeness (global distribution);true;true;7;0.497218267;68172096;25
+adult;1-enhanced-likeness (global distribution);false;true;8;0.25825323;73178232;29
+adult;1-enhanced-likeness (global distribution);true;true;8;0.479847119;68233272;24
+adult;1-enhanced-likeness (global distribution);false;true;9;0.260902792;74611688;29
+adult;1-enhanced-likeness (global distribution);true;true;9;0.498932227;68724632;26
+adult;1-enhanced-likeness (global distribution);false;true;10;0.260512577;76343976;29
+adult;1-enhanced-likeness (global distribution);true;true;10;0.493824965;72163248;25
+adult;1-enhanced-likeness (global distribution);false;true;11;0.282517501;76364928;27
+adult;1-enhanced-likeness (global distribution);true;true;11;0.488118232;69746128;24
+adult;1-enhanced-likeness (global distribution);false;true;12;0.25556193;77641456;29
+adult;1-enhanced-likeness (global distribution);true;true;12;0.480675204;69969696;24
+adult;1-enhanced-likeness (global distribution);false;true;13;0.27310945;79172448;27
+adult;1-enhanced-likeness (global distribution);true;true;13;0.469397192;71433872;24
+adult;1-enhanced-likeness (global distribution);false;true;14;0.290493034;81532840;26
+adult;1-enhanced-likeness (global distribution);true;true;14;0.455930621;71661432;26
+adult;1-enhanced-likeness (global distribution);false;true;15;0.28232118;84031712;26
+adult;1-enhanced-likeness (global distribution);true;true;15;0.467730717;72605616;21
+adult;1-enhanced-likeness (global distribution);false;true;16;0.283308038;82954336;28
+adult;1-enhanced-likeness (global distribution);true;true;16;0.472300665;74830088;26
+adult;1-enhanced-likeness (global distribution);false;true;17;0.257982297;85372184;29
+adult;1-enhanced-likeness (global distribution);true;true;17;0.449097032;73954304;21
+adult;1-enhanced-likeness (global distribution);false;true;18;0.258314255;87872448;25
+adult;1-enhanced-likeness (global distribution);true;true;18;0.462442042;74809648;30
+adult;1-enhanced-likeness (global distribution);false;true;19;0.259411322;88385640;28
+adult;1-enhanced-likeness (global distribution);true;true;19;0.445381828;75617928;27
+adult;1-enhanced-likeness (global distribution);false;true;20;0.260359194;88458720;27
+adult;1-enhanced-likeness (global distribution);true;true;20;0.460882752;74771496;28
+adult;1-enhanced-likeness (global distribution);false;true;21;0.237229097;88360136;27
+adult;1-enhanced-likeness (global distribution);true;true;21;0.447834047;77390288;32
+adult;1-enhanced-likeness (global distribution);false;true;22;0.249544602;92908160;27
+adult;1-enhanced-likeness (global distribution);true;true;22;0.440131297;81371904;28
+adult;1-enhanced-likeness (global distribution);false;true;23;0.261929598;92714384;27
+adult;1-enhanced-likeness (global distribution);true;true;23;0.446516262;79940992;29
+adult;1-enhanced-likeness (global distribution);false;true;24;0.254309541;91591728;27
+adult;1-enhanced-likeness (global distribution);true;true;24;0.443755261;78349584;23
+adult;1-enhanced-likeness (global distribution);false;true;25;0.26368759;93816256;26
+adult;1-enhanced-likeness (global distribution);true;true;25;0.439730521;79761640;30
+adult;1-enhanced-likeness (global distribution);false;true;26;0.283164572;94351552;28
+adult;1-enhanced-likeness (global distribution);true;true;26;0.445038109;81045368;30
+adult;1-enhanced-likeness (global distribution);false;true;27;0.261806009;99267632;34
+adult;1-enhanced-likeness (global distribution);true;true;27;0.43671821;81985216;32
+adult;1-enhanced-likeness (global distribution);false;true;28;0.247830821;99371936;28
+adult;1-enhanced-likeness (global distribution);true;true;28;0.438937994;82812984;30
+adult;1-enhanced-likeness (global distribution);false;true;29;0.258967247;101093872;36
+adult;1-enhanced-likeness (global distribution);true;true;29;0.437152329;84066136;28
+adult;1-enhanced-likeness (global distribution);false;true;30;0.267853502;99081008;28
+adult;1-enhanced-likeness (global distribution);true;true;30;0.440047926;85065176;30
+adult;1-enhanced-likeness (global distribution);false;true;31;0.259214483;102094544;27
+adult;1-enhanced-likeness (global distribution);true;true;31;0.452618911;83701576;27
+adult;1-enhanced-likeness (global distribution);false;true;32;0.250315558;100688504;30
+adult;1-enhanced-likeness (global distribution);true;true;32;0.436643409;85657976;31
+adult;1-enhanced-likeness (global distribution);false;true;33;0.265220133;103107480;31
+adult;1-enhanced-likeness (global distribution);true;true;33;0.426069218;81935736;30
+adult;1-enhanced-likeness (global distribution);false;true;34;0.255307012;100112128;29
+adult;1-enhanced-likeness (global distribution);true;true;34;0.433914458;84260112;29
+adult;1-enhanced-likeness (global distribution);false;true;35;0.226840404;107871392;29
+adult;1-enhanced-likeness (global distribution);true;true;35;0.4364265;86331232;28
+adult;1-enhanced-likeness (global distribution);false;true;36;0.227803966;103424648;29
+adult;1-enhanced-likeness (global distribution);true;true;36;0.424125457;98831144;27
+adult;1-enhanced-likeness (global distribution);false;true;37;0.25864821;106123040;30
+adult;1-enhanced-likeness (global distribution);true;true;37;0.417542;89995640;32
+adult;1-enhanced-likeness (global distribution);false;true;38;0.213713743;107047936;28
+adult;1-enhanced-likeness (global distribution);true;true;38;0.422531935;100625752;26
+adult;1-enhanced-likeness (global distribution);false;true;39;0.232727187;110666088;29
+adult;1-enhanced-likeness (global distribution);true;true;39;0.407845468;90428992;31
+adult;1-enhanced-likeness (global distribution);false;true;40;0.23788903;107365656;29
+adult;1-enhanced-likeness (global distribution);true;true;40;0.410614547;102687184;32
+adult;1-enhanced-likeness (global distribution);false;true;41;0.239214566;334300976;28
+adult;1-enhanced-likeness (global distribution);true;true;41;0.419548516;112534888;33
+adult;1-enhanced-likeness (global distribution);false;true;42;0.221145073;109835528;30
+adult;1-enhanced-likeness (global distribution);true;true;42;0.40618891;108250688;30
+adult;1-enhanced-likeness (global distribution);false;true;43;0.219237561;113066944;30
+adult;1-enhanced-likeness (global distribution);true;true;43;0.424492837;90609488;27
+adult;1-enhanced-likeness (global distribution);false;true;44;0.241096664;116680520;35
+adult;1-enhanced-likeness (global distribution);true;true;44;0.410850276;90628288;34
+adult;1-enhanced-likeness (global distribution);false;true;45;0.227040899;115558960;29
+adult;1-enhanced-likeness (global distribution);true;true;45;0.423745715;109799008;31
+adult;1-enhanced-likeness (global distribution);false;true;46;0.209732164;123737120;35
+adult;1-enhanced-likeness (global distribution);true;true;46;0.395468986;128172832;29
+adult;1-enhanced-likeness (global distribution);false;true;47;0.254523445;121677168;26
+adult;1-enhanced-likeness (global distribution);true;true;47;0.407629384;107993272;34
+adult;1-enhanced-likeness (global distribution);false;true;48;0.219940151;116509784;32
+adult;1-enhanced-likeness (global distribution);true;true;48;0.400739957;108984520;31
+adult;1-enhanced-likeness (global distribution);false;true;49;0.229380038;123307496;27
+adult;1-enhanced-likeness (global distribution);true;true;49;0.405259994;96604312;31
+adult;1-enhanced-likeness (global distribution);false;true;50;0.233939317;120339144;29
+adult;1-enhanced-likeness (global distribution);true;true;50;0.397593312;108912608;34
+adult;1-enhanced-likeness (global distribution);false;true;51;0.229502221;121547224;28
+adult;1-enhanced-likeness (global distribution);true;true;51;0.42373024;97733256;32
+adult;1-enhanced-likeness (global distribution);false;true;52;0.199951823;121645024;27
+adult;1-enhanced-likeness (global distribution);true;true;52;0.406404603;112898464;31
+adult;1-enhanced-likeness (global distribution);false;true;53;0.20410539;126241584;29
+adult;1-enhanced-likeness (global distribution);true;true;53;0.401053032;113369192;33
+adult;1-enhanced-likeness (global distribution);false;true;54;0.21619108;126124032;28
+adult;1-enhanced-likeness (global distribution);true;true;54;0.397908206;117233464;27
+adult;1-enhanced-likeness (global distribution);false;true;55;0.208324867;151214392;27
+adult;1-enhanced-likeness (global distribution);true;true;55;0.399399149;111627504;31
+adult;1-enhanced-likeness (global distribution);false;true;56;0.193770721;129169592;29
+adult;1-enhanced-likeness (global distribution);true;true;56;0.393701489;103384024;28
+adult;1-enhanced-likeness (global distribution);false;true;57;0.232121544;134384648;27
+adult;1-enhanced-likeness (global distribution);true;true;57;0.396345417;103232176;33
+adult;1-enhanced-likeness (global distribution);false;true;58;0.23824495;133703112;29
+adult;1-enhanced-likeness (global distribution);true;true;58;0.409467842;117780496;29
+adult;1-enhanced-likeness (global distribution);false;true;59;0.202857309;149382712;29
+adult;1-enhanced-likeness (global distribution);true;true;59;0.397473398;117482008;30
+adult;1-enhanced-likeness (global distribution);false;true;60;0.188149439;136134560;27
+adult;1-enhanced-likeness (global distribution);true;true;60;0.388331435;105761696;30
+adult;1-enhanced-likeness (global distribution);false;true;61;0.203961776;137663888;29
+adult;1-enhanced-likeness (global distribution);true;true;61;0.385733939;128039432;30
+adult;1-enhanced-likeness (global distribution);false;true;62;0.206217216;154203832;29
+adult;1-enhanced-likeness (global distribution);true;true;62;0.391346896;106759608;31
+adult;1-enhanced-likeness (global distribution);false;true;63;0.182849503;140594288;29
+adult;1-enhanced-likeness (global distribution);true;true;63;0.37630006;120629888;30
+adult;1-enhanced-likeness (global distribution);false;true;64;0.200982167;143709984;33
+adult;1-enhanced-likeness (global distribution);true;true;64;0.395619832;130520152;32
+adult;2-enhanced-likeness (global distribution);false;true;1;0.54269445;65139440;23
+adult;2-enhanced-likeness (global distribution);true;true;1;0.68531303;65374896;23
+adult;2-enhanced-likeness (global distribution);false;true;2;0.496923163;67116744;26
+adult;2-enhanced-likeness (global distribution);true;true;2;0.665696435;64786008;23
+adult;2-enhanced-likeness (global distribution);false;true;3;0.465334278;67260576;30
+adult;2-enhanced-likeness (global distribution);true;true;3;0.67993955;66374584;23
+adult;2-enhanced-likeness (global distribution);false;true;4;0.461393475;69332040;28
+adult;2-enhanced-likeness (global distribution);true;true;4;0.651049092;66295976;25
+adult;2-enhanced-likeness (global distribution);false;true;5;0.507119886;70006152;31
+adult;2-enhanced-likeness (global distribution);true;true;5;0.642522698;66719112;24
+adult;2-enhanced-likeness (global distribution);false;true;6;0.43447837;70174152;30
+adult;2-enhanced-likeness (global distribution);true;true;6;0.641754466;68714048;25
+adult;2-enhanced-likeness (global distribution);false;true;7;0.43428091;72749664;29
+adult;2-enhanced-likeness (global distribution);true;true;7;0.630424731;68481040;18
+adult;2-enhanced-likeness (global distribution);false;true;8;0.41716595;72768280;28
+adult;2-enhanced-likeness (global distribution);true;true;8;0.635733791;69103976;24
+adult;2-enhanced-likeness (global distribution);false;true;9;0.419748773;73599784;28
+adult;2-enhanced-likeness (global distribution);true;true;9;0.62950196;69117784;26
+adult;2-enhanced-likeness (global distribution);false;true;10;0.411281372;75357512;29
+adult;2-enhanced-likeness (global distribution);true;true;10;0.624577399;71195880;25
+adult;2-enhanced-likeness (global distribution);false;true;11;0.398870104;75699472;27
+adult;2-enhanced-likeness (global distribution);true;true;11;0.614354052;70634120;28
+adult;2-enhanced-likeness (global distribution);false;true;12;0.403134325;77778040;29
+adult;2-enhanced-likeness (global distribution);true;true;12;0.618250474;69571200;25
+adult;2-enhanced-likeness (global distribution);false;true;13;0.396238748;78428344;27
+adult;2-enhanced-likeness (global distribution);true;true;13;0.616104842;71795552;23
+adult;2-enhanced-likeness (global distribution);false;true;14;0.424765744;80724224;31
+adult;2-enhanced-likeness (global distribution);true;true;14;0.615161253;72868320;26
+adult;2-enhanced-likeness (global distribution);false;true;15;0.438910197;79066984;31
+adult;2-enhanced-likeness (global distribution);true;true;15;0.614525352;72815136;26
+adult;2-enhanced-likeness (global distribution);false;true;16;0.394550469;81404304;31
+adult;2-enhanced-likeness (global distribution);true;true;16;0.605059423;73842024;28
+adult;2-enhanced-likeness (global distribution);false;true;17;0.409580394;83227536;29
+adult;2-enhanced-likeness (global distribution);true;true;17;0.612634887;72375528;27
+adult;2-enhanced-likeness (global distribution);false;true;18;0.416928112;86543104;30
+adult;2-enhanced-likeness (global distribution);true;true;18;0.615140136;72798616;27
+adult;2-enhanced-likeness (global distribution);false;true;19;0.411794953;86052000;28
+adult;2-enhanced-likeness (global distribution);true;true;19;0.598683883;74119264;27
+adult;2-enhanced-likeness (global distribution);false;true;20;0.413697299;87104528;28
+adult;2-enhanced-likeness (global distribution);true;true;20;0.596416315;75039888;31
+adult;2-enhanced-likeness (global distribution);false;true;21;0.380708993;87694816;29
+adult;2-enhanced-likeness (global distribution);true;true;21;0.594117603;74428440;29
+adult;2-enhanced-likeness (global distribution);false;true;22;0.408806907;92219488;27
+adult;2-enhanced-likeness (global distribution);true;true;22;0.605702374;77230176;28
+adult;2-enhanced-likeness (global distribution);false;true;23;0.382465446;90636416;27
+adult;2-enhanced-likeness (global distribution);true;true;23;0.594471723;76245056;30
+adult;2-enhanced-likeness (global distribution);false;true;24;0.373367684;92105176;28
+adult;2-enhanced-likeness (global distribution);true;true;24;0.594312584;76035784;29
+adult;2-enhanced-likeness (global distribution);false;true;25;0.343032121;91196720;34
+adult;2-enhanced-likeness (global distribution);true;true;25;0.597071147;78688728;29
+adult;2-enhanced-likeness (global distribution);false;true;26;0.373195814;93164384;28
+adult;2-enhanced-likeness (global distribution);true;true;26;0.598628842;79330048;31
+adult;2-enhanced-likeness (global distribution);false;true;27;0.370985162;94045816;28
+adult;2-enhanced-likeness (global distribution);true;true;27;0.587731331;78895480;31
+adult;2-enhanced-likeness (global distribution);false;true;28;0.396906674;95737096;28
+adult;2-enhanced-likeness (global distribution);true;true;28;0.600244353;80512104;31
+adult;2-enhanced-likeness (global distribution);false;true;29;0.377937826;96228904;33
+adult;2-enhanced-likeness (global distribution);true;true;29;0.584477247;81883240;30
+adult;2-enhanced-likeness (global distribution);false;true;30;0.377745886;96958080;33
+adult;2-enhanced-likeness (global distribution);true;true;30;0.590735496;80106840;30
+adult;2-enhanced-likeness (global distribution);false;true;31;0.398510232;98562416;29
+adult;2-enhanced-likeness (global distribution);true;true;31;0.599180614;80641664;24
+adult;2-enhanced-likeness (global distribution);false;true;32;0.401347278;99425136;28
+adult;2-enhanced-likeness (global distribution);true;true;32;0.588832095;81818832;32
+adult;2-enhanced-likeness (global distribution);false;true;33;0.35984665;101427800;30
+adult;2-enhanced-likeness (global distribution);true;true;33;0.588261082;79958008;32
+adult;2-enhanced-likeness (global distribution);false;true;34;0.365559328;102935832;32
+adult;2-enhanced-likeness (global distribution);true;true;34;0.5867531;83420632;28
+adult;2-enhanced-likeness (global distribution);false;true;35;0.409182868;105307432;31
+adult;2-enhanced-likeness (global distribution);true;true;35;0.589566818;83696632;31
+adult;2-enhanced-likeness (global distribution);false;true;36;0.369182664;102942944;28
+adult;2-enhanced-likeness (global distribution);true;true;36;0.593920946;82773424;32
+adult;2-enhanced-likeness (global distribution);false;true;37;0.354312013;102081320;30
+adult;2-enhanced-likeness (global distribution);true;true;37;0.588964579;101520656;28
+adult;2-enhanced-likeness (global distribution);false;true;38;0.372543755;134284240;28
+adult;2-enhanced-likeness (global distribution);true;true;38;0.590017962;102012800;32
+adult;2-enhanced-likeness (global distribution);false;true;39;0.366153974;102532136;28
+adult;2-enhanced-likeness (global distribution);true;true;39;0.587773068;104379896;32
+adult;2-enhanced-likeness (global distribution);false;true;40;0.373244051;101511104;30
+adult;2-enhanced-likeness (global distribution);true;true;40;0.583621987;102120288;32
+adult;2-enhanced-likeness (global distribution);false;true;41;0.360035185;108842520;28
+adult;2-enhanced-likeness (global distribution);true;true;41;0.587531911;87307200;32
+adult;2-enhanced-likeness (global distribution);false;true;42;0.360562294;112791360;30
+adult;2-enhanced-likeness (global distribution);true;true;42;0.59107386;86415704;31
+adult;2-enhanced-likeness (global distribution);false;true;43;0.377788735;111032344;30
+adult;2-enhanced-likeness (global distribution);true;true;43;0.569950852;88241056;33
+adult;2-enhanced-likeness (global distribution);false;true;44;0.364510971;108193904;27
+adult;2-enhanced-likeness (global distribution);true;true;44;0.580188963;90361768;27
+adult;2-enhanced-likeness (global distribution);false;true;45;0.351276278;109249280;30
+adult;2-enhanced-likeness (global distribution);true;true;45;0.581760131;105721104;26
+adult;2-enhanced-likeness (global distribution);false;true;46;0.373330133;131043296;29
+adult;2-enhanced-likeness (global distribution);true;true;46;0.584393958;90543120;33
+adult;2-enhanced-likeness (global distribution);false;true;47;0.379521299;116486064;30
+adult;2-enhanced-likeness (global distribution);true;true;47;0.578407159;104476752;32
+adult;2-enhanced-likeness (global distribution);false;true;48;0.358116084;116174024;28
+adult;2-enhanced-likeness (global distribution);true;true;48;0.578461624;104984080;37
+adult;2-enhanced-likeness (global distribution);false;true;49;0.365997542;222152184;27
+adult;2-enhanced-likeness (global distribution);true;true;49;0.577416385;90149504;30
+adult;2-enhanced-likeness (global distribution);false;true;50;0.374070377;121692472;29
+adult;2-enhanced-likeness (global distribution);true;true;50;0.570852338;93627000;32
+adult;2-enhanced-likeness (global distribution);false;true;51;0.36788596;118521488;26
+adult;2-enhanced-likeness (global distribution);true;true;51;0.580194504;106095160;27
+adult;2-enhanced-likeness (global distribution);false;true;52;0.361825784;119863576;29
+adult;2-enhanced-likeness (global distribution);true;true;52;0.565647564;104900848;35
+adult;2-enhanced-likeness (global distribution);false;true;53;0.363463813;116976104;27
+adult;2-enhanced-likeness (global distribution);true;true;53;0.574458774;108173536;36
+adult;2-enhanced-likeness (global distribution);false;true;54;0.345263168;127305984;35
+adult;2-enhanced-likeness (global distribution);true;true;54;0.567849946;90129248;29
+adult;2-enhanced-likeness (global distribution);false;true;55;0.358856328;127536344;29
+adult;2-enhanced-likeness (global distribution);true;true;55;0.566933315;97048272;32
+adult;2-enhanced-likeness (global distribution);false;true;56;0.356099163;148097080;34
+adult;2-enhanced-likeness (global distribution);true;true;56;0.567798798;113682288;31
+adult;2-enhanced-likeness (global distribution);false;true;57;0.370743876;127295944;28
+adult;2-enhanced-likeness (global distribution);true;true;57;0.563929502;97673304;37
+adult;2-enhanced-likeness (global distribution);false;true;58;0.35576019;126578504;33
+adult;2-enhanced-likeness (global distribution);true;true;58;0.568646622;110496424;37
+adult;2-enhanced-likeness (global distribution);false;true;59;0.363176392;135003416;30
+adult;2-enhanced-likeness (global distribution);true;true;59;0.563020867;111041968;33
+adult;2-enhanced-likeness (global distribution);false;true;60;0.364347124;142991720;28
+adult;2-enhanced-likeness (global distribution);true;true;60;0.55984842;108201880;35
+adult;2-enhanced-likeness (global distribution);false;true;61;0.351623909;131132576;33
+adult;2-enhanced-likeness (global distribution);true;true;61;0.560507941;98344768;33
+adult;2-enhanced-likeness (global distribution);false;true;62;0.359341032;137758960;39
+adult;2-enhanced-likeness (global distribution);true;true;62;0.563080764;103518536;35
+adult;2-enhanced-likeness (global distribution);false;true;63;0.367567857;135440488;31
+adult;2-enhanced-likeness (global distribution);true;true;63;0.568457156;98773304;33
+adult;2-enhanced-likeness (global distribution);false;true;64;0.364486771;136872752;31
+adult;2-enhanced-likeness (global distribution);true;true;64;0.552687029;115589808;34
+adult;0.05-average-risk;false;true;1;0.801258508;68685376;21
+adult;0.05-average-risk;true;true;1;0.887049425;67593408;21
+adult;0.05-average-risk;false;true;2;0.795243145;68247720;21
+adult;0.05-average-risk;true;true;2;0.878715238;67756864;21
+adult;0.05-average-risk;false;true;3;0.79311321;68549616;21
+adult;0.05-average-risk;true;true;3;0.879700281;69066768;21
+adult;0.05-average-risk;false;true;4;0.783336972;72494616;22
+adult;0.05-average-risk;true;true;4;0.869747485;68644544;21
+adult;0.05-average-risk;false;true;5;0.779729416;73584552;22
+adult;0.05-average-risk;true;true;5;0.868144844;69494840;21
+adult;0.05-average-risk;false;true;6;0.771277812;73944368;22
+adult;0.05-average-risk;true;true;6;0.863931909;69180776;21
+adult;0.05-average-risk;false;true;7;0.765724518;77673336;22
+adult;0.05-average-risk;true;true;7;0.858765819;69627200;21
+adult;0.05-average-risk;false;true;8;0.747038014;77534040;23
+adult;0.05-average-risk;true;true;8;0.855115129;70822688;21
+adult;0.05-average-risk;false;true;9;0.733464575;78644488;22
+adult;0.05-average-risk;true;true;9;0.85203457;70895072;21
+adult;0.05-average-risk;false;true;10;0.736904049;82257968;22
+adult;0.05-average-risk;true;true;10;0.851818712;71632928;22
+adult;0.05-average-risk;false;true;11;0.732067287;85668480;21
+adult;0.05-average-risk;true;true;11;0.845330818;72388296;22
+adult;0.05-average-risk;false;true;12;0.710133431;85839272;22
+adult;0.05-average-risk;true;true;12;0.841986001;72430064;22
+adult;0.05-average-risk;false;true;13;0.708941838;87880928;23
+adult;0.05-average-risk;true;true;13;0.840980652;73233688;21
+adult;0.05-average-risk;false;true;14;0.727098032;94835936;22
+adult;0.05-average-risk;true;true;14;0.839753364;73430472;22
+adult;0.05-average-risk;false;true;15;0.72712368;93620216;23
+adult;0.05-average-risk;true;true;15;0.836181358;73086944;22
+adult;0.05-average-risk;false;true;16;0.722357606;97507432;22
+adult;0.05-average-risk;true;true;16;0.831824683;74890256;22
+adult;0.05-average-risk;false;true;17;0.719720117;102929464;23
+adult;0.05-average-risk;true;true;17;0.830835822;75654984;22
+adult;0.05-average-risk;false;true;18;0.716092582;101670904;23
+adult;0.05-average-risk;true;true;18;0.826301078;76780608;23
+adult;0.05-average-risk;false;true;19;0.715461707;106376408;24
+adult;0.05-average-risk;true;true;19;0.825832875;75549536;23
+adult;0.05-average-risk;false;true;20;0.714996967;110416376;23
+adult;0.05-average-risk;true;true;20;0.824377454;77650040;22
+adult;0.05-average-risk;false;true;21;0.710126314;107643264;23
+adult;0.05-average-risk;true;true;21;0.820684301;77878968;23
+adult;0.05-average-risk;false;true;22;0.71204018;112084016;23
+adult;0.05-average-risk;true;true;22;0.81733307;78837528;23
+adult;0.05-average-risk;false;true;23;0.712828837;116763632;26
+adult;0.05-average-risk;true;true;23;0.817887633;78356176;23
+adult;0.05-average-risk;false;true;24;0.70928564;121856176;24
+adult;0.05-average-risk;true;true;24;0.818297976;78983848;23
+adult;0.05-average-risk;false;true;25;0.707577423;121477304;24
+adult;0.05-average-risk;true;true;25;0.815935321;80278248;23
+adult;0.05-average-risk;false;true;26;0.705039137;125336248;24
+adult;0.05-average-risk;true;true;26;0.81119901;81126592;24
+adult;0.05-average-risk;false;true;27;0.700119197;126082744;20
+adult;0.05-average-risk;true;true;27;0.808400403;80584392;23
+adult;0.05-average-risk;false;true;28;0.696132891;127894152;24
+adult;0.05-average-risk;true;true;28;0.80756157;81597528;24
+adult;0.05-average-risk;false;true;29;0.699132747;138441552;25
+adult;0.05-average-risk;true;true;29;0.805118412;81688320;25
+adult;0.05-average-risk;false;true;30;0.698152049;133357168;25
+adult;0.05-average-risk;true;true;30;0.803130894;82554944;25
+adult;0.05-average-risk;false;true;31;0.692753581;135294568;23
+adult;0.05-average-risk;true;true;31;0.802275102;83032664;24
+adult;0.05-average-risk;false;true;32;0.690070667;143922712;24
+adult;0.05-average-risk;true;true;32;0.798124696;85651440;25
+adult;0.05-average-risk;false;true;33;0.680409408;141971256;25
+adult;0.05-average-risk;true;true;33;0.796279619;85333896;23
+adult;0.05-average-risk;false;true;34;0.68905357;143358464;25
+adult;0.05-average-risk;true;true;34;0.795673453;85373128;25
+adult;0.05-average-risk;false;true;35;0.683153621;160733472;27
+adult;0.05-average-risk;true;true;35;0.792719069;88287696;26
+adult;0.05-average-risk;false;true;36;0.682627184;147920024;26
+adult;0.05-average-risk;true;true;36;0.792409496;88018296;26
+adult;0.05-average-risk;false;true;37;0.674048386;149321480;26
+adult;0.05-average-risk;true;true;37;0.791579316;86494304;25
+adult;0.05-average-risk;false;true;38;0.670975749;158525104;29
+adult;0.05-average-risk;true;true;38;0.789612683;88120096;25
+adult;0.05-average-risk;false;true;39;0.667562193;151577000;22
+adult;0.05-average-risk;true;true;39;0.790070686;88966000;27
+adult;0.05-average-risk;false;true;40;0.661205215;159140592;21
+adult;0.05-average-risk;true;true;40;0.787042357;88379096;25
+adult;0.05-average-risk;false;true;41;0.667294112;165858568;19
+adult;0.05-average-risk;true;true;41;0.782595051;90081448;25
+adult;0.05-average-risk;false;true;42;0.660088527;190453288;26
+adult;0.05-average-risk;true;true;42;0.782635499;89137256;26
+adult;0.05-average-risk;false;true;43;0.660302908;179339200;22
+adult;0.05-average-risk;true;true;43;0.781921967;105473640;26
+adult;0.05-average-risk;false;true;44;0.661716328;174080280;27
+adult;0.05-average-risk;true;true;44;0.78160799;109031744;25
+adult;0.05-average-risk;false;true;45;0.656860984;173379688;26
+adult;0.05-average-risk;true;true;45;0.778152137;109840728;25
+adult;0.05-average-risk;false;true;46;0.657591677;190488368;27
+adult;0.05-average-risk;true;true;46;0.77660089;107139120;27
+adult;0.05-average-risk;false;true;47;0.656935921;189238424;23
+adult;0.05-average-risk;true;true;47;0.774680238;110466704;26
+adult;0.05-average-risk;false;true;48;0.660289232;204457864;24
+adult;0.05-average-risk;true;true;48;0.774347193;94028720;26
+adult;0.05-average-risk;false;true;49;0.658622014;195621744;25
+adult;0.05-average-risk;true;true;49;0.772188368;111816744;26
+adult;0.05-average-risk;false;true;50;0.656439757;198981680;24
+adult;0.05-average-risk;true;true;50;0.771080421;112149728;29
+adult;0.05-average-risk;false;true;51;0.644180514;231924040;25
+adult;0.05-average-risk;true;true;51;0.767698634;113846376;25
+adult;0.05-average-risk;false;true;52;0.65430055;229674256;25
+adult;0.05-average-risk;true;true;52;0.767913835;113962152;27
+adult;0.05-average-risk;false;true;53;0.6509674;234955240;25
+adult;0.05-average-risk;true;true;53;0.764116357;115660568;23
+adult;0.05-average-risk;false;true;54;0.652963579;226870456;23
+adult;0.05-average-risk;true;true;54;0.765466336;114170464;28
+adult;0.05-average-risk;false;true;55;0.651523234;228458688;24
+adult;0.05-average-risk;true;true;55;0.762451017;116483072;25
+adult;0.05-average-risk;false;true;56;0.648147161;229918576;28
+adult;0.05-average-risk;true;true;56;0.761170349;115686744;30
+adult;0.05-average-risk;false;true;57;0.64522448;260684168;25
+adult;0.05-average-risk;true;true;57;0.758216531;101877824;26
+adult;0.05-average-risk;false;true;58;0.646453389;238733824;25
+adult;0.05-average-risk;true;true;58;0.75806981;102381216;27
+adult;0.05-average-risk;false;true;59;0.648474633;246176680;26
+adult;0.05-average-risk;true;true;59;0.757622015;120026488;26
+adult;0.05-average-risk;false;true;60;0.644540093;230402024;25
+adult;0.05-average-risk;true;true;60;0.753675077;118278184;25
+adult;0.05-average-risk;false;true;61;0.639789775;251869392;24
+adult;0.05-average-risk;true;true;61;0.75261726;120367160;28
+adult;0.05-average-risk;false;true;62;0.644876269;239024000;25
+adult;0.05-average-risk;true;true;62;0.754234805;105779736;27
+adult;0.05-average-risk;false;true;63;0.643358975;263324264;27
+adult;0.05-average-risk;true;true;63;0.7537613;230668376;30
+adult;0.05-average-risk;false;true;64;0.641299622;265026712;25
+adult;0.05-average-risk;true;true;64;0.752478394;206164944;28
+adult;0.01-average-risk;false;true;1;0.696914371;71590056;23
+adult;0.01-average-risk;true;true;1;0.798034818;70776616;25
+adult;0.01-average-risk;false;true;2;0.658048806;74549736;21
+adult;0.01-average-risk;true;true;2;0.784244945;70115856;21
+adult;0.01-average-risk;false;true;3;0.665669002;75532464;22
+adult;0.01-average-risk;true;true;3;0.786943772;70633616;20
+adult;0.01-average-risk;false;true;4;0.649262566;83955256;22
+adult;0.01-average-risk;true;true;4;0.76769386;70727136;20
+adult;0.01-average-risk;false;true;5;0.651415882;84435968;21
+adult;0.01-average-risk;true;true;5;0.76497212;71643592;21
+adult;0.01-average-risk;false;true;6;0.646426354;85797248;23
+adult;0.01-average-risk;true;true;6;0.757626218;71857192;21
+adult;0.01-average-risk;false;true;7;0.639070379;95007624;21
+adult;0.01-average-risk;true;true;7;0.74950386;72385528;22
+adult;0.01-average-risk;false;true;8;0.621954618;94455456;22
+adult;0.01-average-risk;true;true;8;0.741577999;73617888;21
+adult;0.01-average-risk;false;true;9;0.610064584;99275496;21
+adult;0.01-average-risk;true;true;9;0.734851467;74972568;21
+adult;0.01-average-risk;false;true;10;0.627484425;106569584;24
+adult;0.01-average-risk;true;true;10;0.733849582;75808176;22
+adult;0.01-average-risk;false;true;11;0.601032925;105028760;22
+adult;0.01-average-risk;true;true;11;0.720408766;76484096;22
+adult;0.01-average-risk;false;true;12;0.588991949;109376008;21
+adult;0.01-average-risk;true;true;12;0.710799556;77330216;22
+adult;0.01-average-risk;false;true;13;0.586514923;115889832;23
+adult;0.01-average-risk;true;true;13;0.71086484;78100328;22
+adult;0.01-average-risk;false;true;14;0.594701232;121032376;22
+adult;0.01-average-risk;true;true;14;0.708964839;78520936;22
+adult;0.01-average-risk;false;true;15;0.591983701;119690664;24
+adult;0.01-average-risk;true;true;15;0.706185812;79575272;22
+adult;0.01-average-risk;false;true;16;0.585899396;130377520;23
+adult;0.01-average-risk;true;true;16;0.701627788;81094944;23
+adult;0.01-average-risk;false;true;17;0.583282517;130341144;23
+adult;0.01-average-risk;true;true;17;0.697978205;81117064;22
+adult;0.01-average-risk;false;true;18;0.577713216;135262528;22
+adult;0.01-average-risk;true;true;18;0.691035195;81759032;22
+adult;0.01-average-risk;false;true;19;0.577175929;142850256;24
+adult;0.01-average-risk;true;true;19;0.690431543;84007560;22
+adult;0.01-average-risk;false;true;20;0.574859087;147162936;23
+adult;0.01-average-risk;true;true;20;0.685088895;85022024;23
+adult;0.01-average-risk;false;true;21;0.569802562;146384312;22
+adult;0.01-average-risk;true;true;21;0.679766125;86297696;22
+adult;0.01-average-risk;false;true;22;0.56999374;154956088;24
+adult;0.01-average-risk;true;true;22;0.671774128;86576160;23
+adult;0.01-average-risk;false;true;23;0.571219164;158438536;24
+adult;0.01-average-risk;true;true;23;0.675360355;88489424;24
+adult;0.01-average-risk;false;true;24;0.570160762;159872936;23
+adult;0.01-average-risk;true;true;24;0.672643272;88072544;23
+adult;0.01-average-risk;false;true;25;0.568468592;169491440;22
+adult;0.01-average-risk;true;true;25;0.671756559;89036936;23
+adult;0.01-average-risk;false;true;26;0.562006198;173332424;23
+adult;0.01-average-risk;true;true;26;0.65831786;90643656;21
+adult;0.01-average-risk;false;true;27;0.555294558;173200456;23
+adult;0.01-average-risk;true;true;27;0.65637105;92375216;23
+adult;0.01-average-risk;false;true;28;0.550709239;177119680;22
+adult;0.01-average-risk;true;true;28;0.654636978;93847680;22
+adult;0.01-average-risk;false;true;29;0.553370576;188763584;23
+adult;0.01-average-risk;true;true;29;0.648473054;93893064;23
+adult;0.01-average-risk;false;true;30;0.55136366;187642848;23
+adult;0.01-average-risk;true;true;30;0.650053853;95075096;23
+adult;0.01-average-risk;false;true;31;0.548924538;189708416;22
+adult;0.01-average-risk;true;true;31;0.649605043;96213424;22
+adult;0.01-average-risk;false;true;32;0.539098392;201345744;24
+adult;0.01-average-risk;true;true;32;0.63944632;97958816;23
+adult;0.01-average-risk;false;true;33;0.544015039;203201432;22
+adult;0.01-average-risk;true;true;33;0.636099989;106573992;26
+adult;0.01-average-risk;false;true;34;0.536671644;197190816;24
+adult;0.01-average-risk;true;true;34;0.636040425;99175336;24
+adult;0.01-average-risk;false;true;35;0.531894175;209935560;24
+adult;0.01-average-risk;true;true;35;0.630974392;99517344;23
+adult;0.01-average-risk;false;true;36;0.527142557;211830608;23
+adult;0.01-average-risk;true;true;36;0.623474236;101323096;22
+adult;0.01-average-risk;false;true;37;0.50770427;215882912;23
+adult;0.01-average-risk;true;true;37;0.622504016;101729792;23
+adult;0.01-average-risk;false;true;38;0.525509472;222345312;23
+adult;0.01-average-risk;true;true;38;0.622630754;102902144;23
+adult;0.01-average-risk;false;true;39;0.504688826;226379304;22
+adult;0.01-average-risk;true;true;39;0.62325584;102881048;21
+adult;0.01-average-risk;false;true;40;0.490846137;228653568;21
+adult;0.01-average-risk;true;true;40;0.616629332;104729104;19
+adult;0.01-average-risk;false;true;41;0.489943038;229063056;21
+adult;0.01-average-risk;true;true;41;0.608129517;105376112;21
+adult;0.01-average-risk;false;true;42;0.485176476;229969424;23
+adult;0.01-average-risk;true;true;42;0.60200144;106027736;23
+adult;0.01-average-risk;false;true;43;0.472809527;243533288;21
+adult;0.01-average-risk;true;true;43;0.607046633;107616208;22
+adult;0.01-average-risk;false;true;44;0.483682638;234325264;21
+adult;0.01-average-risk;true;true;44;0.606827789;122166488;21
+adult;0.01-average-risk;false;true;45;0.506799444;254114360;22
+adult;0.01-average-risk;true;true;45;0.608246876;108847544;21
+adult;0.01-average-risk;false;true;46;0.473838816;261400656;23
+adult;0.01-average-risk;true;true;46;0.602863313;112475112;22
+adult;0.01-average-risk;false;true;47;0.466137382;270041960;25
+adult;0.01-average-risk;true;true;47;0.595325315;112474736;20
+adult;0.01-average-risk;false;true;48;0.508091491;292725016;22
+adult;0.01-average-risk;true;true;48;0.594397692;112550464;25
+adult;0.01-average-risk;false;true;49;0.506653884;273751088;22
+adult;0.01-average-risk;true;true;49;0.588640505;129210704;24
+adult;0.01-average-risk;false;true;50;0.504415324;267086656;27
+adult;0.01-average-risk;true;true;50;0.586918196;115781688;26
+adult;0.01-average-risk;false;true;51;0.496754931;280929096;23
+adult;0.01-average-risk;true;true;51;0.585387584;116746408;18
+adult;0.01-average-risk;false;true;52;0.496713856;273833528;23
+adult;0.01-average-risk;true;true;52;0.589628425;118077048;27
+adult;0.01-average-risk;false;true;53;0.493308925;298228632;24
+adult;0.01-average-risk;true;true;53;0.586954826;118414448;22
+adult;0.01-average-risk;false;true;54;0.495490406;297259008;22
+adult;0.01-average-risk;true;true;54;0.586985299;119329744;19
+adult;0.01-average-risk;false;true;55;0.488969825;290288320;23
+adult;0.01-average-risk;true;true;55;0.585070352;134224080;19
+adult;0.01-average-risk;false;true;56;0.426743127;318410576;24
+adult;0.01-average-risk;true;true;56;0.575301512;181111720;25
+adult;0.01-average-risk;false;true;57;0.418019559;322644744;24
+adult;0.01-average-risk;true;true;57;0.569370073;120745136;19
+adult;0.01-average-risk;false;true;58;0.426249522;329098792;25
+adult;0.01-average-risk;true;true;58;0.563665183;120169416;21
+adult;0.01-average-risk;false;true;59;0.485993413;363080432;24
+adult;0.01-average-risk;true;true;59;0.56203622;120636904;22
+adult;0.01-average-risk;false;true;60;0.426656097;323133832;23
+adult;0.01-average-risk;true;true;60;0.559615338;122632120;16
+adult;0.01-average-risk;false;true;61;0.399065641;345936776;22
+adult;0.01-average-risk;true;true;61;0.562416592;190066400;17
+adult;0.01-average-risk;false;true;62;0.423766305;345173208;24
+adult;0.01-average-risk;true;true;62;0.566057072;123173616;17
+adult;0.01-average-risk;false;true;63;0.43330614;362609784;23
+adult;0.01-average-risk;true;true;63;0.565922911;130915496;27
+adult;0.01-average-risk;false;true;64;0.47162655;355981240;24
+adult;0.01-average-risk;true;true;64;0.567702412;233182400;21
+adult;5-map-subset;false;true;1;0.7506275871232306;67735150;20
+adult;5-map-subset;true;true;1;0.22168622770373303;65249046;22
+adult;5-map-subset;false;true;2;0.7443711271150952;71113358;21
+adult;5-map-subset;true;true;2;0.22148701444836197;65607456;19
+adult;5-map-subset;false;true;3;0.7460881275013684;71692118;23
+adult;5-map-subset;true;true;3;0.2222250090243054;65699778;19
+adult;5-map-subset;false;true;4;0.734325981520026;77734932;25
+adult;5-map-subset;true;true;4;0.2217628055374619;65817480;20
+adult;5-map-subset;false;true;5;0.7284669463042571;79170010;24
+adult;5-map-subset;true;true;5;0.22179384892781512;65297046;20
+adult;5-map-subset;false;true;6;0.7274264333361068;79367458;24
+adult;5-map-subset;true;true;6;0.22208988776078697;64569190;21
+adult;5-map-subset;false;true;7;0.7197897548736417;84684806;26
+adult;5-map-subset;true;true;7;0.22145351599471663;64768350;22
+adult;5-map-subset;false;true;8;0.7127979959630599;85586630;25
+adult;5-map-subset;true;true;8;0.22138835229309395;64745278;22
+adult;5-map-subset;false;true;9;0.7061689627305877;86530598;27
+adult;5-map-subset;true;true;9;0.22243107245173044;65490472;22
+adult;5-map-subset;false;true;10;0.7115492781355901;92253242;26
+adult;5-map-subset;true;true;10;0.24016703118515634;65166662;22
+adult;5-map-subset;false;true;11;0.6977639941040593;92907266;25
+adult;5-map-subset;true;true;11;0.2214387930859668;64772264;20
+adult;5-map-subset;false;true;12;0.6914141980456971;98560912;27
+adult;5-map-subset;true;true;12;0.2260544435329678;65212084;21
+adult;5-map-subset;false;true;13;0.6889134480964403;99045422;26
+adult;5-map-subset;true;true;13;0.233645835072111;65770714;20
+adult;5-map-subset;false;true;14;0.691105471923444;105856648;28
+adult;5-map-subset;true;true;14;0.23479675073480005;65737938;20
+adult;5-map-subset;false;true;15;0.6922476455982347;109171174;25
+adult;5-map-subset;true;true;15;0.23218884727723246;65795068;20
+adult;5-map-subset;false;true;16;0.680862921842038;111649798;28
+adult;5-map-subset;true;true;16;0.23725396274266164;66180708;19
+adult;5-map-subset;false;true;17;0.6796671734261384;119059922;28
+adult;5-map-subset;true;true;17;0.23112003124050898;65416106;19
+adult;5-map-subset;false;true;18;0.6505042793213839;118317218;27
+adult;5-map-subset;true;true;18;0.22912489716134637;66956994;19
+adult;5-map-subset;false;true;19;0.6770098506932345;123231886;28
+adult;5-map-subset;true;true;19;0.23621329791559137;66077072;19
+adult;5-map-subset;false;true;20;0.6751715290116924;127758152;29
+adult;5-map-subset;true;true;20;0.23465938538779615;66581120;22
+adult;5-map-subset;false;true;21;0.6708357374243733;126918226;27
+adult;5-map-subset;true;true;21;0.2360437994152376;66488106;20
+adult;5-map-subset;false;true;22;0.6692385975087389;135611932;27
+adult;5-map-subset;true;true;22;0.23379137270434414;66729826;20
+adult;5-map-subset;false;true;23;0.6714173385423443;140607406;25
+adult;5-map-subset;true;true;23;0.23367819136998252;66556290;21
+adult;5-map-subset;false;true;24;0.6653942153274204;141457404;28
+adult;5-map-subset;true;true;24;0.23373583802600512;67516924;20
+adult;5-map-subset;false;true;25;0.6523114163384449;148596874;25
+adult;5-map-subset;true;true;25;0.24043052596382394;67724594;20
+adult;5-map-subset;false;true;26;0.6486421658135195;151413730;25
+adult;5-map-subset;true;true;26;0.23457873315495248;67688886;21
+adult;5-map-subset;false;true;27;0.6464071587288611;154264958;26
+adult;5-map-subset;true;true;27;0.23250038573497028;67308472;20
+adult;5-map-subset;false;true;28;0.6418267808228201;153545140;26
+adult;5-map-subset;true;true;28;0.23361115386731277;66897276;20
+adult;5-map-subset;false;true;29;0.6565156864908068;161208414;30
+adult;5-map-subset;true;true;29;0.22846463070709294;68810374;20
+adult;5-map-subset;false;true;30;0.6549144134268815;165509398;30
+adult;5-map-subset;true;true;30;0.23446406046196375;68970880;20
+adult;5-map-subset;false;true;31;0.655955729725923;166724764;30
+adult;5-map-subset;true;true;31;0.23357095229365185;68302890;18
+adult;5-map-subset;false;true;32;0.6377176543658851;174019996;30
+adult;5-map-subset;true;true;32;0.23120644983627858;69896934;20
+adult;5-map-subset;false;true;33;0.6575051721222352;178036650;29
+adult;5-map-subset;true;true;33;0.22730089896797906;68363358;21
+adult;5-map-subset;false;true;34;0.6511815768063869;176317706;26
+adult;5-map-subset;true;true;34;0.23059332257669196;68956270;21
+adult;5-map-subset;false;true;35;0.634812545662361;179218194;30
+adult;5-map-subset;true;true;35;0.23274210413665972;68977224;21
+adult;5-map-subset;false;true;36;0.6349777303021784;183634738;27
+adult;5-map-subset;true;true;36;0.2324107472717423;68946576;21
+adult;5-map-subset;false;true;37;0.6378940381694028;191032712;26
+adult;5-map-subset;true;true;37;0.2307007332895958;69303134;20
+adult;5-map-subset;false;true;38;0.6456080791852469;192384440;26
+adult;5-map-subset;true;true;38;0.23417612333219914;68992354;20
+adult;5-map-subset;false;true;39;0.6319111100619018;190683904;26
+adult;5-map-subset;true;true;39;0.23273018670885703;68259346;20
+adult;5-map-subset;false;true;40;0.6407177820052701;197661764;27
+adult;5-map-subset;true;true;40;0.23700616653103296;69224260;20
+adult;5-map-subset;false;true;41;0.64288604640726;201913622;26
+adult;5-map-subset;true;true;41;0.23418298368944748;68710074;23
+adult;5-map-subset;false;true;42;0.6288394409536628;201498542;27
+adult;5-map-subset;true;true;42;0.23001131335204725;68558504;24
+adult;5-map-subset;false;true;43;0.6387044327509998;206239480;28
+adult;5-map-subset;true;true;43;0.23269767155835677;69223114;22
+adult;5-map-subset;false;true;44;0.6293900966403927;211292034;27
+adult;5-map-subset;true;true;44;0.2335760602722535;69406172;22
+adult;5-map-subset;false;true;45;0.6377128659928837;217358408;31
+adult;5-map-subset;true;true;45;0.23304276606830326;73032992;20
+adult;5-map-subset;false;true;46;0.6381469935512865;210640902;30
+adult;5-map-subset;true;true;46;0.2349901778394624;73554060;20
+adult;5-map-subset;false;true;47;0.6272846396831763;219555434;27
+adult;5-map-subset;true;true;47;0.2342479937573755;69399272;22
+adult;5-map-subset;false;true;48;0.6285131989354817;221644032;29
+adult;5-map-subset;true;true;48;0.23546179558662053;72338790;19
+adult;5-map-subset;false;true;49;0.6362305882388789;226014554;26
+adult;5-map-subset;true;true;49;0.2337535630187551;69329634;21
+adult;5-map-subset;false;true;50;0.6345982293235726;236533254;31
+adult;5-map-subset;true;true;50;0.23691362383719144;68369408;21
+adult;5-map-subset;false;true;51;0.6252686713769475;241739794;23
+adult;5-map-subset;true;true;51;0.23263511637199308;69034382;24
+adult;5-map-subset;false;true;52;0.6227676495693969;243632936;32
+adult;5-map-subset;true;true;52;0.23436847406458552;73781840;21
+adult;5-map-subset;false;true;53;0.6221418495324135;247891266;31
+adult;5-map-subset;true;true;53;0.23344170659871713;73224216;20
+adult;5-map-subset;false;true;54;0.6232194476555449;259038008;31
+adult;5-map-subset;true;true;54;0.23574891894720748;76360486;22
+adult;5-map-subset;false;true;55;0.6228006905762875;272056530;31
+adult;5-map-subset;true;true;55;0.23576231872543724;72784858;22
+adult;5-map-subset;false;true;56;0.6185025348645802;264619978;27
+adult;5-map-subset;true;true;56;0.2335093875154314;68632978;21
+adult;5-map-subset;false;true;57;0.6269124382087219;265740464;32
+adult;5-map-subset;true;true;57;0.22959199748707418;72925280;20
+adult;5-map-subset;false;true;58;0.6277783876948368;269894840;27
+adult;5-map-subset;true;true;58;0.22977800547531085;68565862;23
+adult;5-map-subset;false;true;59;0.6231363035529365;288105266;29
+adult;5-map-subset;true;true;59;0.2336718135223696;74180546;19
+adult;5-map-subset;false;true;60;0.6173850673240455;322418162;32
+adult;5-map-subset;true;true;60;0.2322872787057778;69395488;22
+adult;5-map-subset;false;true;61;0.6239268467990671;291245994;32
+adult;5-map-subset;true;true;61;0.22798680312928407;73692026;19
+adult;5-map-subset;false;true;62;0.619018354173267;298105978;28
+adult;5-map-subset;true;true;62;0.23218276938539706;70065954;22
+adult;5-map-subset;false;true;63;0.6179311853031599;284605774;29
+adult;5-map-subset;true;true;63;0.23243062543283707;73671168;19
+adult;5-map-subset;false;true;64;0.6185694082996925;298912834;30
+adult;5-map-subset;true;true;64;0.23063183560190126;70093374;20
+adult;5-map-estimate;false;true;1;0.7900969097112033;47732690;20
+adult;5-map-estimate;true;true;1;0.9424769485198062;51357386;16
+adult;5-map-estimate;false;true;2;0.7724684979918655;50124506;24
+adult;5-map-estimate;true;true;2;0.9348076790993884;48858936;24
+adult;5-map-estimate;false;true;3;0.7728857722306463;51144170;24
+adult;5-map-estimate;true;true;3;0.9369903914204627;50107812;22
+adult;5-map-estimate;false;true;4;0.764674148422877;56832452;27
+adult;5-map-estimate;true;true;4;0.9349034102156263;51395770;23
+adult;5-map-estimate;false;true;5;0.7650095133780487;58298004;23
+adult;5-map-estimate;true;true;5;0.9334969853589429;52519188;24
+adult;5-map-estimate;false;true;6;0.7609543814736083;59330496;26
+adult;5-map-estimate;true;true;6;0.9303940793210017;52008614;25
+adult;5-map-estimate;false;true;7;0.7560648856030324;63574088;26
+adult;5-map-estimate;true;true;7;0.9308762001875893;53349364;24
+adult;5-map-estimate;false;true;8;0.754197458578497;63217784;28
+adult;5-map-estimate;true;true;8;0.9285165997920175;53826542;24
+adult;5-map-estimate;false;true;9;0.7468141074524841;66107522;27
+adult;5-map-estimate;true;true;9;0.9262633052647463;54449362;24
+adult;5-map-estimate;false;true;10;0.7475476813194302;70139312;26
+adult;5-map-estimate;true;true;10;0.926527294614502;55790138;23
+adult;5-map-estimate;false;true;11;0.7431809938167684;71023444;25
+adult;5-map-estimate;true;true;11;0.923238139835314;56349542;24
+adult;5-map-estimate;false;true;12;0.7405186720705483;73587960;26
+adult;5-map-estimate;true;true;12;0.9218215706997931;57351564;22
+adult;5-map-estimate;false;true;13;0.7389171677548289;75565592;34
+adult;5-map-estimate;true;true;13;0.9216326171811976;57678528;23
+adult;5-map-estimate;false;true;14;0.7376381227010997;82543328;25
+adult;5-map-estimate;true;true;14;0.9218972839286258;58541290;23
+adult;5-map-estimate;false;true;15;0.737368290595862;83360312;27
+adult;5-map-estimate;true;true;15;0.9199063820051039;59201744;23
+adult;5-map-estimate;false;true;16;0.7347398592702005;86199340;25
+adult;5-map-estimate;true;true;16;0.9180857113040094;60152980;24
+adult;5-map-estimate;false;true;17;0.731884437792534;92480600;16
+adult;5-map-estimate;true;true;17;0.9186716249930079;59949018;22
+adult;5-map-estimate;false;true;18;0.7279148407414004;89267766;26
+adult;5-map-estimate;true;true;18;0.9166074571042017;61523932;25
+adult;5-map-estimate;false;true;19;0.7256763583116518;95058850;28
+adult;5-map-estimate;true;true;19;0.9157712695232044;61807336;25
+adult;5-map-estimate;false;true;20;0.7269304142582946;97532960;29
+adult;5-map-estimate;true;true;20;0.9151207339894831;62646872;24
+adult;5-map-estimate;false;true;21;0.7233744751820614;97167698;28
+adult;5-map-estimate;true;true;21;0.9145019711662584;63004192;24
+adult;5-map-estimate;false;true;22;0.7232436748577935;103513124;27
+adult;5-map-estimate;true;true;22;0.9125885224947241;63964260;25
+adult;5-map-estimate;false;true;23;0.724235073306429;108323186;30
+adult;5-map-estimate;true;true;23;0.9138801496245992;64592968;24
+adult;5-map-estimate;false;true;24;0.7224514651787558;112072108;28
+adult;5-map-estimate;true;true;24;0.9129330385758176;64852518;26
+adult;5-map-estimate;false;true;25;0.7209755289240399;110847518;27
+adult;5-map-estimate;true;true;25;0.9122899755952005;67219898;24
+adult;5-map-estimate;false;true;26;0.7172433725927481;115944898;29
+adult;5-map-estimate;true;true;26;0.9104051663089264;66393238;24
+adult;5-map-estimate;false;true;27;0.7141019198675839;119188872;27
+adult;5-map-estimate;true;true;27;0.909036635771172;66955010;26
+adult;5-map-estimate;false;true;28;0.7112725857412174;126515640;31
+adult;5-map-estimate;true;true;28;0.908030366662685;67326408;28
+adult;5-map-estimate;false;true;29;0.7119247185022789;128028356;25
+adult;5-map-estimate;true;true;29;0.9078702511599319;68906200;26
+adult;5-map-estimate;false;true;30;0.7115068095441155;134848024;25
+adult;5-map-estimate;true;true;30;0.9074992220676559;68215826;26
+adult;5-map-estimate;false;true;31;0.7104564224654155;133122052;30
+adult;5-map-estimate;true;true;31;0.9062980618622527;71216166;27
+adult;5-map-estimate;false;true;32;0.7055919885438353;137558624;32
+adult;5-map-estimate;true;true;32;0.9041740662174163;74581054;27
+adult;5-map-estimate;false;true;33;0.6882866117622218;140622088;32
+adult;5-map-estimate;true;true;33;0.9045571901151771;74372762;27
+adult;5-map-estimate;false;true;34;0.7057108734398325;144689106;30
+adult;5-map-estimate;true;true;34;0.9045263362716797;74540492;28
+adult;5-map-estimate;false;true;35;0.7028728881333356;142557760;31
+adult;5-map-estimate;true;true;35;0.9025938516345198;73889854;23
+adult;5-map-estimate;false;true;36;0.7017240937202114;146989494;31
+adult;5-map-estimate;true;true;36;0.90323617913647;75812134;28
+adult;5-map-estimate;false;true;37;0.6955683256408424;150003476;27
+adult;5-map-estimate;true;true;37;0.9020907704281509;77788036;30
+adult;5-map-estimate;false;true;38;0.6972078678735297;158948194;27
+adult;5-map-estimate;true;true;38;0.9010495803625704;74715738;25
+adult;5-map-estimate;false;true;39;0.6900022827756056;158139648;26
+adult;5-map-estimate;true;true;39;0.9012828307472591;76142640;30
+adult;5-map-estimate;false;true;40;0.6881051399420804;159762768;31
+adult;5-map-estimate;true;true;40;0.9007641965095801;77431312;26
+adult;5-map-estimate;false;true;41;0.6828364322977257;160466002;31
+adult;5-map-estimate;true;true;41;0.8988264962954079;81353964;25
+adult;5-map-estimate;false;true;42;0.6849084948697349;167624782;27
+adult;5-map-estimate;true;true;42;0.8984359580859822;80376096;30
+adult;5-map-estimate;false;true;43;0.6850166378302557;170022758;26
+adult;5-map-estimate;true;true;43;0.8976068668151846;81779678;29
+adult;5-map-estimate;false;true;44;0.6841597703668741;172071802;27
+adult;5-map-estimate;true;true;44;0.8975409641401397;83374338;30
+adult;5-map-estimate;false;true;45;0.6858333260812314;177203034;30
+adult;5-map-estimate;true;true;45;0.8963033603571042;81123956;29
+adult;5-map-estimate;false;true;46;0.682034037426443;182705470;27
+adult;5-map-estimate;true;true;46;0.8963971715916397;83169826;32
+adult;5-map-estimate;false;true;47;0.6801446766439164;183700524;27
+adult;5-map-estimate;true;true;47;0.8950040036416592;82794994;31
+adult;5-map-estimate;false;true;48;0.6837427953575154;182147830;27
+adult;5-map-estimate;true;true;48;0.8956436087173396;80925886;31
+adult;5-map-estimate;false;true;49;0.6851953471129438;192328402;27
+adult;5-map-estimate;true;true;49;0.8952581700833824;89259196;32
+adult;5-map-estimate;false;true;50;0.6789120918930924;191323060;28
+adult;5-map-estimate;true;true;50;0.8939996212028156;89985790;31
+adult;5-map-estimate;false;true;51;0.676967014750879;203894182;31
+adult;5-map-estimate;true;true;51;0.8926024411717826;86149902;28
+adult;5-map-estimate;false;true;52;0.6762781136720405;199993484;28
+adult;5-map-estimate;true;true;52;0.8934250325054613;87402426;28
+adult;5-map-estimate;false;true;53;0.674262777138438;211590282;28
+adult;5-map-estimate;true;true;53;0.8928366064123523;88445736;28
+adult;5-map-estimate;false;true;54;0.6727035482455912;218219434;27
+adult;5-map-estimate;true;true;54;0.8923351100790793;85346550;32
+adult;5-map-estimate;false;true;55;0.6757773658134577;211890738;32
+adult;5-map-estimate;true;true;55;0.8920993671854267;86692470;30
+adult;5-map-estimate;false;true;56;0.675088390127818;219658404;27
+adult;5-map-estimate;true;true;56;0.8920099909642658;92991156;29
+adult;5-map-estimate;false;true;57;0.668619779202117;237179842;31
+adult;5-map-estimate;true;true;57;0.889691408907065;95654512;33
+adult;5-map-estimate;false;true;58;0.6694204037261894;218246290;28
+adult;5-map-estimate;true;true;58;0.8901736096751309;89198374;28
+adult;5-map-estimate;false;true;59;0.6747833222729154;231362664;27
+adult;5-map-estimate;true;true;59;0.8903805139111619;102285934;30
+adult;5-map-estimate;false;true;60;0.6718039310846995;238366248;31
+adult;5-map-estimate;true;true;60;0.889374191535023;96599950;34
+adult;5-map-estimate;false;true;61;0.6709249209642817;239353514;29
+adult;5-map-estimate;true;true;61;0.8885528860054532;97598096;31
+adult;5-map-estimate;false;true;62;0.6723237640049967;242594940;29
+adult;5-map-estimate;true;true;62;0.8891275769061033;126975294;35
+adult;5-map-estimate;false;true;63;0.6716600703985296;242097654;24
+adult;5-map-estimate;true;true;63;0.8893014681938336;88679952;27
+adult;5-map-estimate;false;true;64;0.6723695218808503;247047482;28
+adult;5-map-estimate;true;true;64;0.8889489452786673;107573848;28
+adult;profitability;false;true;1;0.7866669592216339;50900200;21
+adult;profitability;true;true;1;0.9411530217789235;48913680;21
+adult;profitability;false;true;2;0.7795997639652698;50755432;27
+adult;profitability;true;true;2;0.9359321165576836;51885032;24
+adult;profitability;false;true;3;0.7719308919664525;51665418;26
+adult;profitability;true;true;3;0.9366784727358055;54184658;24
+adult;profitability;false;true;4;0.7482692872926752;56010642;28
+adult;profitability;true;true;4;0.9323407702163637;58287776;27
+adult;profitability;false;true;5;0.760362317296125;56835772;28
+adult;profitability;true;true;5;0.9333176039732585;61069356;26
+adult;profitability;false;true;6;0.7438239775376858;58295728;30
+adult;profitability;true;true;6;0.9292504266803114;60290046;27
+adult;profitability;false;true;7;0.7368939626905162;61555738;29
+adult;profitability;true;true;7;0.9291684978224314;63301822;26
+adult;profitability;false;true;8;0.744852711315793;63118404;29
+adult;profitability;true;true;8;0.9261091228478616;67077404;24
+adult;profitability;false;true;9;0.743326598537211;64175350;27
+adult;profitability;true;true;9;0.925724279624317;65978582;27
+adult;profitability;false;true;10;0.739304926098771;69239746;29
+adult;profitability;true;true;10;0.9256493536978007;69873036;27
+adult;profitability;false;true;11;0.7392956868886845;71484268;28
+adult;profitability;true;true;11;0.9233844630272822;73776882;27
+adult;profitability;false;true;12;0.7314165815860334;74638370;28
+adult;profitability;true;true;12;0.9219135766101663;73438622;28
+adult;profitability;false;true;13;0.7297337354797204;75447844;28
+adult;profitability;true;true;13;0.9205051418622827;75922556;29
+adult;profitability;false;true;14;0.7344504885259809;81731640;30
+adult;profitability;true;true;14;0.9213521438997769;80356356;29
+adult;profitability;false;true;15;0.7332512830187888;83631808;32
+adult;profitability;true;true;15;0.9200530304185506;81397880;30
+adult;profitability;false;true;16;0.7303600899060422;85318736;32
+adult;profitability;true;true;16;0.9182176288049693;82397582;27
+adult;profitability;false;true;17;0.7287580991218849;88021386;29
+adult;profitability;true;true;17;0.9172981938312564;89951362;30
+adult;profitability;false;true;18;0.7254760865400912;89375188;29
+adult;profitability;true;true;18;0.9168945808199024;86848454;29
+adult;profitability;false;true;19;0.723499938953987;95392258;30
+adult;profitability;true;true;19;0.9147653399157774;94554712;28
+adult;profitability;false;true;20;0.7231271372682756;97405886;31
+adult;profitability;true;true;20;0.9155311798607817;97007498;30
+adult;profitability;false;true;21;0.719546380760823;98047456;31
+adult;profitability;true;true;21;0.9125889380465887;92491702;29
+adult;profitability;false;true;22;0.7198735689709435;103717482;32
+adult;profitability;true;true;22;0.912216799960302;98794290;30
+adult;profitability;false;true;23;0.7207828059168324;106577082;33
+adult;profitability;true;true;23;0.9124392390973887;105394710;30
+adult;profitability;false;true;24;0.7118050190283606;109226530;30
+adult;profitability;true;true;24;0.9119979955382501;103659534;28
+adult;profitability;false;true;25;0.7126854141077337;112719950;32
+adult;profitability;true;true;25;0.9111183085014941;109363208;31
+adult;profitability;false;true;26;0.7151349708926299;117439840;27
+adult;profitability;true;true;26;0.9090269370473644;110342870;31
+adult;profitability;false;true;27;0.7109314266453219;120405378;33
+adult;profitability;true;true;27;0.9082897504463123;112197798;31
+adult;profitability;false;true;28;0.7090243439395522;129392696;32
+adult;profitability;true;true;28;0.9070271509779567;111943916;33
+adult;profitability;false;true;29;0.7085662751827961;127359358;32
+adult;profitability;true;true;29;0.9077037339122385;120825578;33
+adult;profitability;false;true;30;0.708084360327249;131175632;28
+adult;profitability;true;true;30;0.9070286214539564;116485064;33
+adult;profitability;false;true;31;0.7080101052201712;134862380;32
+adult;profitability;true;true;31;0.9052526744019513;114127804;29
+adult;profitability;false;true;32;0.6920529471541509;140158302;34
+adult;profitability;true;true;32;0.903552382818674;123217926;34
+adult;profitability;false;true;33;0.6959657466085256;143322882;31
+adult;profitability;true;true;33;0.9039335507346659;130699256;33
+adult;profitability;false;true;34;0.7026983521786586;144658386;36
+adult;profitability;true;true;34;0.9044620633942563;123976646;31
+adult;profitability;false;true;35;0.6923068077882082;138864808;31
+adult;profitability;true;true;35;0.9015816901931274;125430404;31
+adult;profitability;false;true;36;0.700225936030094;143815666;28
+adult;profitability;true;true;36;0.9018817404598212;120690510;32
+adult;profitability;false;true;37;0.6935805381100786;145455628;32
+adult;profitability;true;true;37;0.9015999743147232;123146322;33
+adult;profitability;false;true;38;0.689875604276589;159706832;32
+adult;profitability;true;true;38;0.9008753927334142;134066476;33
+adult;profitability;false;true;39;0.687657890776053;156994786;31
+adult;profitability;true;true;39;0.899939876704767;140269270;32
+adult;profitability;false;true;40;0.6855328053905736;159687160;33
+adult;profitability;true;true;40;0.9006406733167284;130829604;33
+adult;profitability;false;true;41;0.6865900197136521;157014468;35
+adult;profitability;true;true;41;0.8990936720776075;138600306;36
+adult;profitability;false;true;42;0.6830288400310283;160794552;33
+adult;profitability;true;true;42;0.8982179979241275;140855190;36
+adult;profitability;false;true;43;0.6813911425919085;168208230;31
+adult;profitability;true;true;43;0.8965785572529582;137340682;33
+adult;profitability;false;true;44;0.6819951034256285;169861176;32
+adult;profitability;true;true;44;0.8968469174381943;149062954;36
+adult;profitability;false;true;45;0.6827197945906919;175316978;32
+adult;profitability;true;true;45;0.8963525798281231;149264046;31
+adult;profitability;false;true;46;0.6796465817390324;177220604;31
+adult;profitability;true;true;46;0.8970994125271092;154769524;30
+adult;profitability;false;true;47;0.6778279762825714;185620322;28
+adult;profitability;true;true;47;0.8947762212135513;160044236;35
+adult;profitability;false;true;48;0.6807075785467469;185243964;33
+adult;profitability;true;true;48;0.8948620508038367;160828900;31
+adult;profitability;false;true;49;0.6826895215571364;186145308;31
+adult;profitability;true;true;49;0.8960783289144287;166185356;35
+adult;profitability;false;true;50;0.6765764409227212;196430098;32
+adult;profitability;true;true;50;0.8944951894240065;167191572;33
+adult;profitability;false;true;51;0.6721889824050656;199588540;32
+adult;profitability;true;true;51;0.8934868687086889;168333420;33
+adult;profitability;false;true;52;0.6736978911760091;202009522;32
+adult;profitability;true;true;52;0.8935334650687295;162730012;31
+adult;profitability;false;true;53;0.6717967815068471;214614868;33
+adult;profitability;true;true;53;0.8923338525132437;177520206;34
+adult;profitability;false;true;54;0.6744844572114812;209636900;33
+adult;profitability;true;true;54;0.8927831937181752;178086714;34
+adult;profitability;false;true;55;0.6726052530620366;209405920;31
+adult;profitability;true;true;55;0.8925821604759002;167344406;33
+adult;profitability;false;true;56;0.6687085702813274;223234950;36
+adult;profitability;true;true;56;0.8920854017547727;169325742;36
+adult;profitability;false;true;57;0.6664172397624257;215810092;32
+adult;profitability;true;true;57;0.8917765708290476;173193580;33
+adult;profitability;false;true;58;0.666514551580197;215400098;23
+adult;profitability;true;true;58;0.8916079073121291;169995754;31
+adult;profitability;false;true;59;0.6682471926727942;237383454;29
+adult;profitability;true;true;59;0.8915334678540501;186609000;31
+adult;profitability;false;true;60;0.6633826016758181;232314928;32
+adult;profitability;true;true;60;0.8896746026419268;177307308;33
+adult;profitability;false;true;61;0.6635338023877411;236311156;33
+adult;profitability;true;true;61;0.8896240150586499;172241818;29
+adult;profitability;false;true;62;0.6661944941758946;239319680;36
+adult;profitability;true;true;62;0.8903728168958726;181507698;36
+adult;profitability;false;true;63;0.6637442335199446;241424308;33
+adult;profitability;true;true;63;0.8896717443189665;182245262;30
+adult;profitability;false;true;64;0.6626647189830996;248084128;32
+adult;profitability;true;true;64;0.8894602471919412;194451954;38
+adult;01-sample-uniqueness;false;true;1;0.8277590798692362;70016738;21
+adult;01-sample-uniqueness;true;true;1;0.4905841787679862;69729254;21
+adult;01-sample-uniqueness;false;true;2;0.8200596173167192;71624876;22
+adult;01-sample-uniqueness;true;true;2;0.49058417876798627;69509588;17
+adult;01-sample-uniqueness;false;true;3;0.8214987225197592;70531908;22
+adult;01-sample-uniqueness;true;true;3;0.4905841787679862;68433360;11
+adult;01-sample-uniqueness;false;true;4;0.8131029054282473;74142222;24
+adult;01-sample-uniqueness;true;true;4;0.4905178701677608;67966348;6
+adult;01-sample-uniqueness;false;true;5;0.8109852364402179;74507902;23
+adult;01-sample-uniqueness;true;true;5;0.490484715867648;68817994;9
+adult;01-sample-uniqueness;false;true;6;0.7948514513432859;74384044;22
+adult;01-sample-uniqueness;true;true;6;0.49051787016776077;67941634;6
+adult;01-sample-uniqueness;false;true;7;0.8043341428925438;76997214;23
+adult;01-sample-uniqueness;true;true;7;0.49045156156753533;67649408;6
+adult;01-sample-uniqueness;false;true;8;0.7910312233669773;77217462;23
+adult;01-sample-uniqueness;true;true;8;0.49045156156753533;67656162;7
+adult;01-sample-uniqueness;false;true;9;0.7957189010996325;77919164;22
+adult;01-sample-uniqueness;true;true;9;0.4902857900669717;67579328;6
+adult;01-sample-uniqueness;false;true;10;0.7988570191414168;80933908;22
+adult;01-sample-uniqueness;true;true;10;0.49025263576685896;66867082;7
+adult;01-sample-uniqueness;false;true;11;0.7924727723037889;81685886;21
+adult;01-sample-uniqueness;true;true;11;0.4903189443670844;67603152;7
+adult;01-sample-uniqueness;false;true;12;0.7880100565412386;82881880;25
+adult;01-sample-uniqueness;true;true;12;0.49025263576685896;66851520;6
+adult;01-sample-uniqueness;false;true;13;0.7866263824271378;84788664;23
+adult;01-sample-uniqueness;true;true;13;0.49025263576685896;66966206;7
+adult;01-sample-uniqueness;false;true;14;0.7798122850505842;88984920;19
+adult;01-sample-uniqueness;true;true;14;0.49025263576685896;67392656;7
+adult;01-sample-uniqueness;false;true;15;0.7810273283784922;88221272;23
+adult;01-sample-uniqueness;true;true;15;0.4902194814667462;67184454;7
+adult;01-sample-uniqueness;false;true;16;0.7791424152844739;90444894;21
+adult;01-sample-uniqueness;true;true;16;0.49025263576685896;67091474;7
+adult;01-sample-uniqueness;false;true;17;0.7820553812291416;93517684;24
+adult;01-sample-uniqueness;true;true;17;0.49005370996618264;67003486;7
+adult;01-sample-uniqueness;false;true;18;0.7738385747355299;94973914;24
+adult;01-sample-uniqueness;true;true;18;0.4902857900669717;67336420;7
+adult;01-sample-uniqueness;false;true;19;0.7733521555544826;98925136;23
+adult;01-sample-uniqueness;true;true;19;0.49015317286652077;67105380;7
+adult;01-sample-uniqueness;false;true;20;0.7727219547865192;98389158;25
+adult;01-sample-uniqueness;true;true;20;0.49005370996618264;67184172;7
+adult;01-sample-uniqueness;false;true;21;0.7704680033985016;101449216;24
+adult;01-sample-uniqueness;true;true;21;0.49005370996618264;68728306;6
+adult;01-sample-uniqueness;false;true;22;0.770101504784218;104940378;24
+adult;01-sample-uniqueness;true;true;22;0.48995424706584445;67370586;7
+adult;01-sample-uniqueness;false;true;23;0.7705814018867737;106737310;25
+adult;01-sample-uniqueness;true;true;23;0.4901863271666335;67440308;7
+adult;01-sample-uniqueness;false;true;24;0.7680841742434447;108304984;24
+adult;01-sample-uniqueness;true;true;24;0.4901200185664081;67649530;6
+adult;01-sample-uniqueness;false;true;25;0.7688049608254285;110120096;26
+adult;01-sample-uniqueness;true;true;25;0.48985478416550626;68322820;7
+adult;01-sample-uniqueness;false;true;26;0.763772468424027;112873742;25
+adult;01-sample-uniqueness;true;true;26;0.48985478416550626;69006396;7
+adult;01-sample-uniqueness;false;true;27;0.7626916924706724;114166206;26
+adult;01-sample-uniqueness;true;true;27;0.4897884755652808;68354570;7
+adult;01-sample-uniqueness;false;true;28;0.7624883180188192;115917032;27
+adult;01-sample-uniqueness;true;true;28;0.48998740136595714;68147990;7
+adult;01-sample-uniqueness;false;true;29;0.7622295245113735;124098824;26
+adult;01-sample-uniqueness;true;true;29;0.4898216298653935;68658984;7
+adult;01-sample-uniqueness;false;true;30;0.7612400732200462;120872528;25
+adult;01-sample-uniqueness;true;true;30;0.4900205556660699;69488576;7
+adult;01-sample-uniqueness;false;true;31;0.7597349706795591;122015568;25
+adult;01-sample-uniqueness;true;true;31;0.48985478416550626;69140804;7
+adult;01-sample-uniqueness;false;true;32;0.7530576012580202;124902780;27
+adult;01-sample-uniqueness;true;true;32;0.4897553212651681;70380422;7
+adult;01-sample-uniqueness;false;true;33;0.7585666621754981;128548312;27
+adult;01-sample-uniqueness;true;true;33;0.4897553212651681;69379926;7
+adult;01-sample-uniqueness;false;true;34;0.7568987608545039;128469498;27
+adult;01-sample-uniqueness;true;true;34;0.48965585836482994;70384640;6
+adult;01-sample-uniqueness;false;true;35;0.7522029246675004;130343358;24
+adult;01-sample-uniqueness;true;true;35;0.4897884755652808;74363994;7
+adult;01-sample-uniqueness;false;true;36;0.7545283126299301;132841220;27
+adult;01-sample-uniqueness;true;true;36;0.4898216298653935;76117160;6
+adult;01-sample-uniqueness;false;true;37;0.7535707473230825;133228660;26
+adult;01-sample-uniqueness;true;true;37;0.48945693256415357;70379002;7
+adult;01-sample-uniqueness;false;true;38;0.7520826459880874;136087656;26
+adult;01-sample-uniqueness;true;true;38;0.48939062396392813;71324722;6
+adult;01-sample-uniqueness;false;true;39;0.7484927699623226;136516856;27
+adult;01-sample-uniqueness;true;true;39;0.4897884755652808;71087422;7
+adult;01-sample-uniqueness;false;true;40;0.7482529960551392;141207390;25
+adult;01-sample-uniqueness;true;true;40;0.4896227040647172;70553478;6
+adult;01-sample-uniqueness;false;true;41;0.7493483386255713;139276824;26
+adult;01-sample-uniqueness;true;true;41;0.4898216298653935;75374882;7
+adult;01-sample-uniqueness;false;true;42;0.7463725771786033;146974652;28
+adult;01-sample-uniqueness;true;true;42;0.4898216298653935;69598756;7
+adult;01-sample-uniqueness;false;true;43;0.7459997884889149;151308076;27
+adult;01-sample-uniqueness;true;true;43;0.489523241164379;75606536;6
+adult;01-sample-uniqueness;false;true;44;0.7444056712092558;154573068;28
+adult;01-sample-uniqueness;true;true;44;0.489523241164379;70231808;6
+adult;01-sample-uniqueness;false;true;45;0.7446460636308935;152137588;27
+adult;01-sample-uniqueness;true;true;45;0.48919169816325175;69354258;6
+adult;01-sample-uniqueness;false;true;46;0.7438788672860968;161676848;29
+adult;01-sample-uniqueness;true;true;46;0.4894900868642663;70474172;6
+adult;01-sample-uniqueness;false;true;47;0.7419089016356459;160526522;28
+adult;01-sample-uniqueness;true;true;47;0.489523241164379;69878930;6
+adult;01-sample-uniqueness;false;true;48;0.7434507068720129;169950854;27
+adult;01-sample-uniqueness;true;true;48;0.4896227040647172;70320216;6
+adult;01-sample-uniqueness;false;true;49;0.7439727656421236;165543136;27
+adult;01-sample-uniqueness;true;true;49;0.48915854386313906;69785154;7
+adult;01-sample-uniqueness;false;true;50;0.7424150603324834;173612514;28
+adult;01-sample-uniqueness;true;true;50;0.48955639546449176;71394002;6
+adult;01-sample-uniqueness;false;true;51;0.7385544859603548;178183680;28
+adult;01-sample-uniqueness;true;true;51;0.48955639546449176;73076086;7
+adult;01-sample-uniqueness;false;true;52;0.7382911801051714;180153544;27
+adult;01-sample-uniqueness;true;true;52;0.4892248524633645;74110126;6
+adult;01-sample-uniqueness;false;true;53;0.7385444132398693;190105630;28
+adult;01-sample-uniqueness;true;true;53;0.48939062396392813;70360142;6
+adult;01-sample-uniqueness;false;true;54;0.7395569642410793;194250760;27
+adult;01-sample-uniqueness;true;true;54;0.48958954976460445;73498826;6
+adult;01-sample-uniqueness;false;true;55;0.7377175043383617;187780572;27
+adult;01-sample-uniqueness;true;true;55;0.4893574696638154;73825832;7
+adult;01-sample-uniqueness;false;true;56;0.7345544466064696;198607052;26
+adult;01-sample-uniqueness;true;true;56;0.48919169816325175;73416438;7
+adult;01-sample-uniqueness;false;true;57;0.7352207612381335;200832666;29
+adult;01-sample-uniqueness;true;true;57;0.48889330946223725;70598558;6
+adult;01-sample-uniqueness;false;true;58;0.733946666867159;202785714;26
+adult;01-sample-uniqueness;true;true;58;0.4890590809628009;70799534;7
+adult;01-sample-uniqueness;false;true;59;0.7357256192095017;203293686;28
+adult;01-sample-uniqueness;true;true;59;0.4890259266626881;70416452;7
+adult;01-sample-uniqueness;false;true;60;0.7321430811237084;208039656;26
+adult;01-sample-uniqueness;true;true;60;0.48892646376235;71433098;6
+adult;01-sample-uniqueness;false;true;61;0.7310915157388717;205746428;27
+adult;01-sample-uniqueness;true;true;61;0.4890590809628009;72522250;6
+adult;01-sample-uniqueness;false;true;62;0.7332444090849922;197010950;27
+adult;01-sample-uniqueness;true;true;62;0.48886015516212455;70853512;7
+adult;01-sample-uniqueness;false;true;63;0.7318489097125621;213582914;25
+adult;01-sample-uniqueness;true;true;63;0.48892646376235;70578102;7
+adult;01-sample-uniqueness;false;true;64;0.7321365117140193;209566856;27
+adult;01-sample-uniqueness;true;true;64;0.4889596180624627;71263848;6

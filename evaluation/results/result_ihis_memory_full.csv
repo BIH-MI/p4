@@ -1,0 +1,2177 @@
+Dataset;Config;Local;Sorted;Threads;Granularity;Memory;Measurements
+ihis;5-anonymity;false;true;1;0.862409989;350908088;194
+ihis;5-anonymity;true;true;1;0.9677871;462855696;86
+ihis;5-anonymity;false;true;2;0.793442216;422253816;199
+ihis;5-anonymity;true;true;2;0.962366541;541568672;43
+ihis;5-anonymity;false;true;3;0.825430406;345043768;92
+ihis;5-anonymity;true;true;3;0.958042897;440377584;37
+ihis;5-anonymity;false;true;4;0.822888764;424470168;61
+ihis;5-anonymity;true;true;4;0.956404426;507579760;24
+ihis;5-anonymity;false;true;5;0.819684886;507128200;58
+ihis;5-anonymity;true;true;5;0.951767018;602283720;23
+ihis;5-anonymity;false;true;6;0.816881936;326858240;54
+ihis;5-anonymity;true;true;6;0.948526369;397575088;23
+ihis;5-anonymity;false;true;7;0.814839119;346106800;47
+ihis;5-anonymity;true;true;7;0.947562868;577072504;22
+ihis;5-anonymity;false;true;8;0.813434108;343438376;40
+ihis;5-anonymity;true;true;8;0.944813371;586445424;22
+ihis;5-anonymity;false;true;9;0.810749244;338975112;40
+ihis;5-anonymity;true;true;9;0.942225294;386082664;22
+ihis;5-anonymity;false;true;10;0.808388939;338476840;73
+ihis;5-anonymity;true;true;10;0.939987247;580530568;22
+ihis;5-anonymity;false;true;11;0.806377017;351017160;48
+ihis;5-anonymity;true;true;11;0.938712608;580590672;29
+ihis;5-anonymity;false;true;12;0.806150837;341133576;54
+ihis;5-anonymity;true;true;12;0.938463973;566193088;22
+ihis;5-anonymity;false;true;13;0.806460234;361181424;72
+ihis;5-anonymity;true;true;13;0.937280563;565160672;24
+ihis;5-anonymity;false;true;14;0.806273174;362280416;36
+ihis;5-anonymity;true;true;14;0.935906749;584849880;15
+ihis;5-anonymity;false;true;15;0.806194935;363688680;37
+ihis;5-anonymity;true;true;15;0.936546855;564015344;23
+ihis;5-anonymity;false;true;16;0.806200625;362990424;48
+ihis;5-anonymity;true;true;16;0.935988187;588409216;23
+ihis;5-anonymity;false;true;17;0.806237611;359920872;40
+ihis;5-anonymity;true;true;17;0.935859491;583666208;23
+ihis;5-anonymity;false;true;18;0.805771737;366495440;40
+ihis;5-anonymity;true;true;18;0.935726568;599505336;25
+ihis;5-anonymity;false;true;19;0.806165774;374302672;50
+ihis;5-anonymity;true;true;19;0.935651858;567711864;23
+ihis;5-anonymity;false;true;20;0.805711991;384636640;40
+ihis;5-anonymity;true;true;20;0.935732735;568056024;25
+ihis;5-anonymity;false;true;21;0.805936037;384195104;29
+ihis;5-anonymity;true;true;21;0.936037133;573420896;23
+ihis;5-anonymity;false;true;22;0.805699189;384697576;34
+ihis;5-anonymity;true;true;22;0.936114982;581453528;26
+ihis;5-anonymity;false;true;23;0.805817257;379752080;36
+ihis;5-anonymity;true;true;23;0.935655042;567198048;18
+ihis;5-anonymity;false;true;24;0.805498614;394091968;31
+ihis;5-anonymity;true;true;24;0.936404384;582705520;23
+ihis;5-anonymity;false;true;25;0.805773871;388128768;37
+ihis;5-anonymity;true;true;25;0.935651263;566053120;21
+ihis;5-anonymity;false;true;26;0.805758223;398802848;29
+ihis;5-anonymity;true;true;26;0.936840133;611946944;24
+ihis;5-anonymity;false;true;27;0.805498614;414645800;31
+ihis;5-anonymity;true;true;27;0.935305732;602449912;21
+ihis;5-anonymity;false;true;28;0.805242561;436601528;23
+ihis;5-anonymity;true;true;28;0.935298072;592115096;28
+ihis;5-anonymity;false;true;29;0.805160055;401790128;36
+ihis;5-anonymity;true;true;29;0.935731681;605079112;22
+ihis;5-anonymity;false;true;30;0.805243272;437437568;24
+ihis;5-anonymity;true;true;30;0.935857879;599504408;23
+ihis;5-anonymity;false;true;31;0.805278124;407056608;29
+ihis;5-anonymity;true;true;31;0.935200508;599184072;26
+ihis;5-anonymity;false;true;32;0.805307286;441755088;24
+ihis;5-anonymity;true;true;32;0.935422824;603078616;25
+ihis;5-anonymity;false;true;33;0.804887644;409746248;31
+ihis;5-anonymity;true;true;33;0.93491373;602514752;26
+ihis;5-anonymity;false;true;34;0.805250385;418563040;25
+ihis;5-anonymity;true;true;34;0.935944281;600129656;26
+ihis;5-anonymity;false;true;35;0.804923918;446462400;24
+ihis;5-anonymity;true;true;35;0.935323241;600501376;28
+ihis;5-anonymity;false;true;36;0.804441685;433376968;26
+ihis;5-anonymity;true;true;36;0.934943767;579042368;26
+ihis;5-anonymity;false;true;37;0.805093908;441183264;32
+ihis;5-anonymity;true;true;37;0.935503369;601011960;26
+ihis;5-anonymity;false;true;38;0.804893334;437018288;40
+ihis;5-anonymity;true;true;38;0.935751792;597738864;26
+ihis;5-anonymity;false;true;39;0.804532726;461485512;23
+ihis;5-anonymity;true;true;39;0.935263727;603711256;23
+ihis;5-anonymity;false;true;40;0.804665731;472401136;23
+ihis;5-anonymity;true;true;40;0.935737315;577028088;28
+ihis;5-anonymity;false;true;41;0.804592472;469458920;32
+ihis;5-anonymity;true;true;41;0.935430377;598485216;26
+ihis;5-anonymity;false;true;42;0.804258181;439002360;26
+ihis;5-anonymity;true;true;42;0.935153544;588750496;24
+ihis;5-anonymity;false;true;43;0.804367714;466682728;22
+ihis;5-anonymity;true;true;43;0.934801291;590681368;29
+ihis;5-anonymity;false;true;44;0.804377672;457978816;32
+ihis;5-anonymity;true;true;44;0.935258591;595757504;24
+ihis;5-anonymity;false;true;45;0.804045515;476758184;23
+ihis;5-anonymity;true;true;45;0.935332506;605217592;25
+ihis;5-anonymity;false;true;46;0.804539127;464256120;26
+ihis;5-anonymity;true;true;46;0.935454072;592331840;30
+ihis;5-anonymity;false;true;47;0.80434851;460760648;29
+ihis;5-anonymity;true;true;47;0.935103357;590865184;28
+ihis;5-anonymity;false;true;48;0.803921044;462495912;27
+ihis;5-anonymity;true;true;48;0.934708221;587448024;26
+ihis;5-anonymity;false;true;49;0.803861299;469726832;30
+ihis;5-anonymity;true;true;49;0.9356349;599308968;26
+ihis;5-anonymity;false;true;50;0.804268849;640750728;34
+ihis;5-anonymity;true;true;50;0.935316457;600423968;27
+ihis;5-anonymity;false;true;51;0.804021332;493319088;40
+ihis;5-anonymity;true;true;51;0.934960209;589334128;24
+ihis;5-anonymity;false;true;52;0.803852764;503966768;23
+ihis;5-anonymity;true;true;52;0.934726915;611273792;28
+ihis;5-anonymity;false;true;53;0.803913221;509755576;21
+ihis;5-anonymity;true;true;53;0.935166897;606052120;29
+ihis;5-anonymity;false;true;54;0.803475797;531008720;21
+ihis;5-anonymity;true;true;54;0.935173412;626053056;25
+ihis;5-anonymity;false;true;55;0.803627295;497506288;22
+ihis;5-anonymity;true;true;55;0.935271525;608065608;27
+ihis;5-anonymity;false;true;56;0.803449481;527906008;26
+ihis;5-anonymity;true;true;56;0.935147361;609553968;27
+ihis;5-anonymity;false;true;57;0.803466551;490429496;22
+ihis;5-anonymity;true;true;57;0.934978511;600845776;28
+ihis;5-anonymity;false;true;58;0.803583908;723210256;24
+ihis;5-anonymity;true;true;58;0.934956219;600999856;27
+ihis;5-anonymity;false;true;59;0.80316071;503028904;24
+ihis;5-anonymity;true;true;59;0.935269551;626952184;26
+ihis;5-anonymity;false;true;60;0.80313226;490711528;22
+ihis;5-anonymity;true;true;60;0.9352236;727186768;29
+ihis;5-anonymity;false;true;61;0.803408228;552486336;21
+ihis;5-anonymity;true;true;61;0.934529656;600207168;30
+ihis;5-anonymity;false;true;62;0.803282335;519393304;23
+ihis;5-anonymity;true;true;62;0.934658664;613779448;32
+ihis;5-anonymity;false;true;63;0.803068958;516691144;21
+ihis;5-anonymity;true;true;63;0.934988402;612472336;29
+ihis;5-anonymity;false;true;64;0.803443791;534526944;21
+ihis;5-anonymity;true;true;64;0.934792249;680738448;30
+ihis;11-anonymity;false;true;1;0.862409989;416494896;176
+ihis;11-anonymity;true;true;1;0.9677871;511096936;87
+ihis;11-anonymity;false;true;2;0.793442216;459510936;123
+ihis;11-anonymity;true;true;2;0.962366541;594867672;50
+ihis;11-anonymity;false;true;3;0.825430406;405328384;96
+ihis;11-anonymity;true;true;3;0.958042897;483964144;31
+ihis;11-anonymity;false;true;4;0.822888764;469121288;147
+ihis;11-anonymity;true;true;4;0.956404426;570810376;27
+ihis;11-anonymity;false;true;5;0.819684886;550918800;56
+ihis;11-anonymity;true;true;5;0.951767018;653500472;23
+ihis;11-anonymity;false;true;6;0.816881936;385924640;55
+ihis;11-anonymity;true;true;6;0.948526369;441434448;22
+ihis;11-anonymity;false;true;7;0.814839119;388814144;47
+ihis;11-anonymity;true;true;7;0.947562868;638188176;22
+ihis;11-anonymity;false;true;8;0.813434108;382230432;72
+ihis;11-anonymity;true;true;8;0.944813371;636208264;23
+ihis;11-anonymity;false;true;9;0.810749244;388760696;56
+ihis;11-anonymity;true;true;9;0.942225294;637868120;20
+ihis;11-anonymity;false;true;10;0.808388939;403837232;66
+ihis;11-anonymity;true;true;10;0.939987247;623284800;23
+ihis;11-anonymity;false;true;11;0.806377017;401858992;38
+ihis;11-anonymity;true;true;11;0.938712608;632992712;22
+ihis;11-anonymity;false;true;12;0.806150837;394625056;65
+ihis;11-anonymity;true;true;12;0.938463973;628596208;22
+ihis;11-anonymity;false;true;13;0.806460234;398528448;45
+ihis;11-anonymity;true;true;13;0.937280563;620682552;23
+ihis;11-anonymity;false;true;14;0.806273174;414039536;36
+ihis;11-anonymity;true;true;14;0.935906749;612462480;20
+ihis;11-anonymity;false;true;15;0.806194935;408187960;53
+ihis;11-anonymity;true;true;15;0.936546855;614073592;22
+ihis;11-anonymity;false;true;16;0.806200625;411299392;52
+ihis;11-anonymity;true;true;16;0.935988187;623140600;24
+ihis;11-anonymity;false;true;17;0.806237611;425990864;42
+ihis;11-anonymity;true;true;17;0.935859491;619903280;24
+ihis;11-anonymity;false;true;18;0.805771737;416440168;54
+ihis;11-anonymity;true;true;18;0.935726568;622250472;20
+ihis;11-anonymity;false;true;19;0.806165774;434046248;48
+ihis;11-anonymity;true;true;19;0.935651858;617494896;23
+ihis;11-anonymity;false;true;20;0.805711991;431164416;44
+ihis;11-anonymity;true;true;20;0.935732735;626389080;23
+ihis;11-anonymity;false;true;21;0.805936037;446965600;41
+ihis;11-anonymity;true;true;21;0.936037133;620897208;22
+ihis;11-anonymity;false;true;22;0.805699189;434556864;48
+ihis;11-anonymity;true;true;22;0.936114982;650427968;24
+ihis;11-anonymity;false;true;23;0.805817257;437288320;26
+ihis;11-anonymity;true;true;23;0.935655042;629106336;19
+ihis;11-anonymity;false;true;24;0.805498614;445196712;36
+ihis;11-anonymity;true;true;24;0.936404384;621720776;24
+ihis;11-anonymity;false;true;25;0.805773871;444716080;34
+ihis;11-anonymity;true;true;25;0.935651263;647768056;24
+ihis;11-anonymity;false;true;26;0.805758223;469442912;29
+ihis;11-anonymity;true;true;26;0.936840133;672225632;24
+ihis;11-anonymity;false;true;27;0.805498614;462125312;24
+ihis;11-anonymity;true;true;27;0.935305732;646214736;25
+ihis;11-anonymity;false;true;28;0.805242561;473561376;31
+ihis;11-anonymity;true;true;28;0.935298072;650698008;24
+ihis;11-anonymity;false;true;29;0.805160055;457892024;31
+ihis;11-anonymity;true;true;29;0.935731681;652555888;25
+ihis;11-anonymity;false;true;30;0.805243272;473969960;23
+ihis;11-anonymity;true;true;30;0.935857879;656382552;25
+ihis;11-anonymity;false;true;31;0.805278124;487826752;25
+ihis;11-anonymity;true;true;31;0.935200508;667017672;25
+ihis;11-anonymity;false;true;32;0.805307286;494795040;36
+ihis;11-anonymity;true;true;32;0.935422824;636252928;26
+ihis;11-anonymity;false;true;33;0.804887644;481042416;28
+ihis;11-anonymity;true;true;33;0.93491373;650713176;23
+ihis;11-anonymity;false;true;34;0.805250385;494226032;29
+ihis;11-anonymity;true;true;34;0.935944281;645628256;24
+ihis;11-anonymity;false;true;35;0.804923918;504639424;30
+ihis;11-anonymity;true;true;35;0.935323241;633155792;27
+ihis;11-anonymity;false;true;36;0.804441685;503893336;24
+ihis;11-anonymity;true;true;36;0.934943767;654244704;28
+ihis;11-anonymity;false;true;37;0.805093908;485874136;26
+ihis;11-anonymity;true;true;37;0.935503369;649422592;25
+ihis;11-anonymity;false;true;38;0.804893334;512480952;28
+ihis;11-anonymity;true;true;38;0.935751792;666809840;26
+ihis;11-anonymity;false;true;39;0.804532726;516830752;23
+ihis;11-anonymity;true;true;39;0.935263727;653888072;26
+ihis;11-anonymity;false;true;40;0.804665731;505242696;33
+ihis;11-anonymity;true;true;40;0.935737315;647304504;24
+ihis;11-anonymity;false;true;41;0.804592472;514930736;23
+ihis;11-anonymity;true;true;41;0.935430377;641127496;25
+ihis;11-anonymity;false;true;42;0.804258181;513167536;28
+ihis;11-anonymity;true;true;42;0.935153544;641188184;27
+ihis;11-anonymity;false;true;43;0.804367714;538758760;31
+ihis;11-anonymity;true;true;43;0.934801291;650080096;25
+ihis;11-anonymity;false;true;44;0.804377672;489359720;31
+ihis;11-anonymity;true;true;44;0.935258591;641951624;26
+ihis;11-anonymity;false;true;45;0.804045515;501249368;29
+ihis;11-anonymity;true;true;45;0.935332506;649824016;24
+ihis;11-anonymity;false;true;46;0.804539127;533661704;21
+ihis;11-anonymity;true;true;46;0.935454072;661056256;29
+ihis;11-anonymity;false;true;47;0.80434851;551818664;28
+ihis;11-anonymity;true;true;47;0.935103357;681166376;26
+ihis;11-anonymity;false;true;48;0.803921044;560665512;22
+ihis;11-anonymity;true;true;48;0.934708221;648685032;25
+ihis;11-anonymity;false;true;49;0.803861299;699322728;21
+ihis;11-anonymity;true;true;49;0.9356349;668223200;30
+ihis;11-anonymity;false;true;50;0.804268849;550624296;32
+ihis;11-anonymity;true;true;50;0.935316457;697050552;23
+ihis;11-anonymity;false;true;51;0.804021332;551998064;26
+ihis;11-anonymity;true;true;51;0.934960209;649870848;24
+ihis;11-anonymity;false;true;52;0.803852764;567727864;26
+ihis;11-anonymity;true;true;52;0.934726915;656523048;25
+ihis;11-anonymity;false;true;53;0.803913221;567516056;27
+ihis;11-anonymity;true;true;53;0.935166897;637416800;27
+ihis;11-anonymity;false;true;54;0.803475797;564418664;27
+ihis;11-anonymity;true;true;54;0.935173412;644847992;25
+ihis;11-anonymity;false;true;55;0.803627295;579349344;27
+ihis;11-anonymity;true;true;55;0.935271525;652788200;27
+ihis;11-anonymity;false;true;56;0.803449481;539638832;28
+ihis;11-anonymity;true;true;56;0.935147361;648516528;26
+ihis;11-anonymity;false;true;57;0.803466551;765949640;24
+ihis;11-anonymity;true;true;57;0.934978511;661294224;27
+ihis;11-anonymity;false;true;58;0.803583908;575998752;20
+ihis;11-anonymity;true;true;58;0.934956219;679439952;27
+ihis;11-anonymity;false;true;59;0.80316071;582256592;29
+ihis;11-anonymity;true;true;59;0.935269551;658608432;29
+ihis;11-anonymity;false;true;60;0.80313226;574134984;20
+ihis;11-anonymity;true;true;60;0.9352236;657310848;25
+ihis;11-anonymity;false;true;61;0.803408228;549659496;24
+ihis;11-anonymity;true;true;61;0.934529656;649576456;24
+ihis;11-anonymity;false;true;62;0.803282335;558334608;23
+ihis;11-anonymity;true;true;62;0.934658664;701461840;25
+ihis;11-anonymity;false;true;63;0.803068958;578954816;26
+ihis;11-anonymity;true;true;63;0.934988402;665810824;29
+ihis;11-anonymity;false;true;64;0.803443791;580601584;23
+ihis;11-anonymity;true;true;64;0.934792249;663427008;24
+ihis;distinct-3-diversity;false;true;1;0.942331887;491986992;39
+ihis;distinct-3-diversity;true;true;1;0.976624946;534498176;28
+ihis;distinct-3-diversity;false;true;2;0.936098775;549660000;28
+ihis;distinct-3-diversity;true;true;2;0.975080851;625788384;18
+ihis;distinct-3-diversity;false;true;3;0.936869518;473411880;20
+ihis;distinct-3-diversity;true;true;3;0.977567179;533816480;22
+ihis;distinct-3-diversity;false;true;4;0.933905993;534975072;22
+ihis;distinct-3-diversity;true;true;4;0.977786913;604918160;22
+ihis;distinct-3-diversity;false;true;5;0.929802837;539340672;22
+ihis;distinct-3-diversity;true;true;5;0.975672823;591094112;26
+ihis;distinct-3-diversity;false;true;6;0.926932752;457150336;21
+ihis;distinct-3-diversity;true;true;6;0.974835399;499992736;23
+ihis;distinct-3-diversity;false;true;7;0.925352115;455144696;21
+ihis;distinct-3-diversity;true;true;7;0.97593118;494584872;22
+ihis;distinct-3-diversity;false;true;8;0.924205814;451267304;28
+ihis;distinct-3-diversity;true;true;8;0.97466482;486492592;25
+ihis;distinct-3-diversity;false;true;9;0.922072312;450239600;33
+ihis;distinct-3-diversity;true;true;9;0.974712686;503048576;23
+ihis;distinct-3-diversity;false;true;10;0.919928469;455799144;15
+ihis;distinct-3-diversity;true;true;10;0.972611273;481714152;29
+ihis;distinct-3-diversity;false;true;11;0.919631111;470722792;25
+ihis;distinct-3-diversity;true;true;11;0.971680879;481248016;26
+ihis;distinct-3-diversity;false;true;12;0.919395863;467096112;23
+ihis;distinct-3-diversity;true;true;12;0.971415616;492754600;31
+ihis;distinct-3-diversity;false;true;13;0.919662318;468488432;33
+ihis;distinct-3-diversity;true;true;13;0.971581484;497403408;22
+ihis;distinct-3-diversity;false;true;14;0.91948068;473296904;16
+ihis;distinct-3-diversity;true;true;14;0.972373551;490796224;26
+ihis;distinct-3-diversity;false;true;15;0.919500685;468132840;24
+ihis;distinct-3-diversity;true;true;15;0.971039969;502061920;28
+ihis;distinct-3-diversity;false;true;16;0.919405465;469065016;14
+ihis;distinct-3-diversity;true;true;16;0.971377589;509764152;32
+ihis;distinct-3-diversity;false;true;17;0.919470278;468284712;24
+ihis;distinct-3-diversity;true;true;17;0.971569757;501515416;28
+ihis;distinct-3-diversity;false;true;18;0.919063795;468498328;23
+ihis;distinct-3-diversity;true;true;18;0.970692629;503812408;40
+ihis;distinct-3-diversity;false;true;19;0.919359055;459473344;21
+ihis;distinct-3-diversity;true;true;19;0.971528714;498753272;42
+ihis;distinct-3-diversity;false;true;20;0.918980577;468176960;29
+ihis;distinct-3-diversity;true;true;20;0.971388863;497107584;27
+ihis;distinct-3-diversity;false;true;21;0.91923583;470904312;23
+ihis;distinct-3-diversity;true;true;21;0.971328673;500983976;25
+ihis;distinct-3-diversity;false;true;22;0.919026187;460881744;25
+ihis;distinct-3-diversity;true;true;22;0.970710795;504067056;30
+ihis;distinct-3-diversity;false;true;23;0.919050192;460742616;27
+ihis;distinct-3-diversity;true;true;23;0.97101345;516897312;29
+ihis;distinct-3-diversity;false;true;24;0.918786137;466490784;22
+ihis;distinct-3-diversity;true;true;24;0.971059379;506753480;32
+ihis;distinct-3-diversity;false;true;25;0.919100602;465108120;24
+ihis;distinct-3-diversity;true;true;25;0.970862267;514418912;23
+ihis;distinct-3-diversity;false;true;26;0.919019785;472633208;32
+ihis;distinct-3-diversity;true;true;26;0.971239954;505512496;27
+ihis;distinct-3-diversity;false;true;27;0.918883757;480073728;29
+ihis;distinct-3-diversity;true;true;27;0.971357259;505439664;25
+ihis;distinct-3-diversity;false;true;28;0.918599699;475083424;28
+ihis;distinct-3-diversity;true;true;28;0.971538743;506771816;32
+ihis;distinct-3-diversity;false;true;29;0.918562091;474911920;26
+ihis;distinct-3-diversity;true;true;29;0.971366262;507959488;33
+ihis;distinct-3-diversity;false;true;30;0.91870292;482056656;23
+ihis;distinct-3-diversity;true;true;30;0.97122146;504929344;30
+ihis;distinct-3-diversity;false;true;31;0.918668513;471543528;32
+ihis;distinct-3-diversity;true;true;31;0.971155236;507849288;31
+ihis;distinct-3-diversity;false;true;32;0.918628505;496266512;28
+ihis;distinct-3-diversity;true;true;32;0.9718693;499038656;32
+ihis;distinct-3-diversity;false;true;33;0.918404459;470734424;22
+ihis;distinct-3-diversity;true;true;33;0.971648869;517539136;33
+ihis;distinct-3-diversity;false;true;34;0.918592497;495352152;21
+ihis;distinct-3-diversity;true;true;34;0.970746809;500413648;29
+ihis;distinct-3-diversity;false;true;35;0.918446067;488292360;27
+ihis;distinct-3-diversity;true;true;35;0.970953519;504211808;30
+ihis;distinct-3-diversity;false;true;36;0.917862747;486791016;22
+ihis;distinct-3-diversity;true;true;36;0.971798262;504972560;33
+ihis;distinct-3-diversity;false;true;37;0.918398857;500225960;28
+ihis;distinct-3-diversity;true;true;37;0.971040057;520033296;33
+ihis;distinct-3-diversity;false;true;38;0.91816761;472990776;28
+ihis;distinct-3-diversity;true;true;38;0.971685363;501837160;35
+ihis;distinct-3-diversity;false;true;39;0.918047585;483395704;30
+ihis;distinct-3-diversity;true;true;39;0.971101371;505101224;33
+ihis;distinct-3-diversity;false;true;40;0.917999575;490459744;26
+ihis;distinct-3-diversity;true;true;40;0.971296502;511966904;32
+ihis;distinct-3-diversity;false;true;41;0.918047585;478763032;26
+ihis;distinct-3-diversity;true;true;41;0.971027075;506737040;34
+ihis;distinct-3-diversity;false;true;42;0.917749124;490723912;33
+ihis;distinct-3-diversity;true;true;42;0.971209044;507646776;32
+ihis;distinct-3-diversity;false;true;43;0.917821939;475227160;28
+ihis;distinct-3-diversity;true;true;43;0.971798187;529697432;29
+ihis;distinct-3-diversity;false;true;44;0.917869148;481098104;22
+ihis;distinct-3-diversity;true;true;44;0.971571001;512233432;33
+ihis;distinct-3-diversity;false;true;45;0.917669107;482522984;26
+ihis;distinct-3-diversity;true;true;45;0.970734022;513070752;34
+ihis;distinct-3-diversity;false;true;46;0.917805935;504481432;30
+ihis;distinct-3-diversity;true;true;46;0.971441211;528738848;31
+ihis;distinct-3-diversity;false;true;47;0.917689111;479981288;24
+ihis;distinct-3-diversity;true;true;47;0.971313448;504285680;34
+ihis;distinct-3-diversity;false;true;48;0.917455463;484801312;27
+ihis;distinct-3-diversity;true;true;48;0.971133342;511161880;31
+ihis;distinct-3-diversity;false;true;49;0.917549883;477954168;34
+ihis;distinct-3-diversity;true;true;49;0.97073807;513428920;35
+ihis;distinct-3-diversity;false;true;50;0.917759526;479481904;29
+ihis;distinct-3-diversity;true;true;50;0.970820645;506124248;34
+ihis;distinct-3-diversity;false;true;51;0.917560285;491790960;26
+ihis;distinct-3-diversity;true;true;51;0.971246164;503727312;31
+ihis;distinct-3-diversity;false;true;52;0.917383448;484096872;31
+ihis;distinct-3-diversity;true;true;52;0.970883108;508995464;34
+ihis;distinct-3-diversity;false;true;53;0.917473067;484472456;23
+ihis;distinct-3-diversity;true;true;53;0.971061196;511668400;34
+ihis;distinct-3-diversity;false;true;54;0.91719861;481814728;26
+ihis;distinct-3-diversity;true;true;54;0.97115274;506347056;35
+ihis;distinct-3-diversity;false;true;55;0.917211413;488386480;34
+ihis;distinct-3-diversity;true;true;55;0.97078423;519309728;29
+ihis;distinct-3-diversity;false;true;56;0.916958561;486618776;34
+ihis;distinct-3-diversity;true;true;56;0.971383134;510064088;34
+ihis;distinct-3-diversity;false;true;57;0.91695296;498526912;36
+ihis;distinct-3-diversity;true;true;57;0.970830241;511666808;30
+ihis;distinct-3-diversity;false;true;58;0.91705058;507463536;27
+ihis;distinct-3-diversity;true;true;58;0.970660076;511151904;35
+ihis;distinct-3-diversity;false;true;59;0.916888946;491162376;29
+ihis;distinct-3-diversity;true;true;59;0.970691194;516438296;36
+ihis;distinct-3-diversity;false;true;60;0.916800128;483164552;29
+ihis;distinct-3-diversity;true;true;60;0.970499227;508200704;36
+ihis;distinct-3-diversity;false;true;61;0.917048979;487763200;35
+ihis;distinct-3-diversity;true;true;61;0.97106738;515342056;32
+ihis;distinct-3-diversity;false;true;62;0.916937756;498407368;29
+ihis;distinct-3-diversity;true;true;62;0.970565396;511731536;39
+ihis;distinct-3-diversity;false;true;63;0.916755319;488717272;31
+ihis;distinct-3-diversity;true;true;63;0.970695225;525417304;37
+ihis;distinct-3-diversity;false;true;64;0.917058581;485832144;31
+ihis;distinct-3-diversity;true;true;64;0.970695505;524653720;33
+ihis;distinct-5-diversity;false;true;1;0.923070146;554708152;41
+ihis;distinct-5-diversity;true;true;1;0.97867189;620880128;51
+ihis;distinct-5-diversity;false;true;2;0.917458532;617032712;33
+ihis;distinct-5-diversity;true;true;2;0.974679344;696568600;21
+ihis;distinct-5-diversity;false;true;3;0.916647871;526116072;22
+ihis;distinct-5-diversity;true;true;3;0.971461202;633498456;22
+ihis;distinct-5-diversity;false;true;4;0.91264656;603622056;23
+ihis;distinct-5-diversity;true;true;4;0.970673108;692616016;21
+ihis;distinct-5-diversity;false;true;5;0.907098022;579937000;21
+ihis;distinct-5-diversity;true;true;5;0.969878014;619982800;14
+ihis;distinct-5-diversity;false;true;6;0.902952727;499564312;20
+ihis;distinct-5-diversity;true;true;6;0.966667852;543066992;14
+ihis;distinct-5-diversity;false;true;7;0.899612468;504734880;21
+ihis;distinct-5-diversity;true;true;7;0.964179639;563677984;23
+ihis;distinct-5-diversity;false;true;8;0.897593516;512405752;25
+ihis;distinct-5-diversity;true;true;8;0.962916382;570270136;25
+ihis;distinct-5-diversity;false;true;9;0.893524588;518321264;31
+ihis;distinct-5-diversity;true;true;9;0.960235367;556705832;23
+ihis;distinct-5-diversity;false;true;10;0.890121485;516906648;17
+ihis;distinct-5-diversity;true;true;10;0.959310167;558258128;20
+ihis;distinct-5-diversity;false;true;11;0.887321363;528841680;30
+ihis;distinct-5-diversity;true;true;11;0.959839004;558539016;17
+ihis;distinct-5-diversity;false;true;12;0.884811936;537319048;19
+ihis;distinct-5-diversity;true;true;12;0.958724975;551323976;20
+ihis;distinct-5-diversity;false;true;13;0.885091194;556241984;22
+ihis;distinct-5-diversity;true;true;13;0.958610726;585461968;24
+ihis;distinct-5-diversity;false;true;14;0.884806335;553947488;17
+ihis;distinct-5-diversity;true;true;14;0.958466391;561869352;25
+ihis;distinct-5-diversity;false;true;15;0.884839142;549722600;25
+ihis;distinct-5-diversity;true;true;15;0.95871639;549053416;21
+ihis;distinct-5-diversity;false;true;16;0.884713516;539037232;30
+ihis;distinct-5-diversity;true;true;16;0.958325458;576311512;24
+ihis;distinct-5-diversity;false;true;17;0.884867147;561411392;28
+ihis;distinct-5-diversity;true;true;17;0.958291335;579635968;26
+ihis;distinct-5-diversity;false;true;18;0.884186207;540314136;20
+ihis;distinct-5-diversity;true;true;18;0.958414965;563062280;23
+ihis;distinct-5-diversity;false;true;19;0.884744722;549018864;23
+ihis;distinct-5-diversity;true;true;19;0.957772125;583719056;24
+ihis;distinct-5-diversity;false;true;20;0.884134997;545718776;24
+ihis;distinct-5-diversity;true;true;20;0.958693002;581003544;22
+ihis;distinct-5-diversity;false;true;21;0.884479068;578966792;19
+ihis;distinct-5-diversity;true;true;21;0.958108416;568957408;26
+ihis;distinct-5-diversity;false;true;22;0.884042177;563414392;24
+ihis;distinct-5-diversity;true;true;22;0.958495747;575043344;27
+ihis;distinct-5-diversity;false;true;23;0.88410299;557449776;19
+ihis;distinct-5-diversity;true;true;23;0.95799618;563416984;33
+ihis;distinct-5-diversity;false;true;24;0.883875743;563257896;21
+ihis;distinct-5-diversity;true;true;24;0.958064263;581500048;30
+ihis;distinct-5-diversity;false;true;25;0.884124594;569937584;23
+ihis;distinct-5-diversity;true;true;25;0.957834322;584767680;28
+ihis;distinct-5-diversity;false;true;26;0.884086187;560106056;22
+ihis;distinct-5-diversity;true;true;26;0.957756172;588608072;27
+ihis;distinct-5-diversity;false;true;27;0.883777323;573103176;20
+ihis;distinct-5-diversity;true;true;27;0.957894158;596004128;33
+ihis;distinct-5-diversity;false;true;28;0.883394844;564709712;23
+ihis;distinct-5-diversity;true;true;28;0.957327486;568438392;25
+ihis;distinct-5-diversity;false;true;29;0.883298024;579731888;28
+ihis;distinct-5-diversity;true;true;29;0.958083792;591181872;29
+ihis;distinct-5-diversity;false;true;30;0.883571681;577883040;27
+ihis;distinct-5-diversity;true;true;30;0.957562549;576734448;32
+ihis;distinct-5-diversity;false;true;31;0.883395644;569855016;18
+ihis;distinct-5-diversity;true;true;31;0.957746758;593011552;27
+ihis;distinct-5-diversity;false;true;32;0.883301225;573413248;32
+ihis;distinct-5-diversity;true;true;32;0.958076583;601697064;31
+ihis;distinct-5-diversity;false;true;33;0.882941151;564340064;30
+ihis;distinct-5-diversity;true;true;33;0.957631548;605728960;28
+ihis;distinct-5-diversity;false;true;34;0.883297224;566364024;24
+ihis;distinct-5-diversity;true;true;34;0.957374627;603602848;27
+ihis;distinct-5-diversity;false;true;35;0.882929148;565117656;24
+ihis;distinct-5-diversity;true;true;35;0.958417841;588063792;27
+ihis;distinct-5-diversity;false;true;36;0.882249008;567892304;26
+ihis;distinct-5-diversity;true;true;36;0.957615033;575094272;27
+ihis;distinct-5-diversity;false;true;37;0.883003563;577778784;26
+ihis;distinct-5-diversity;true;true;37;0.957525737;589301520;28
+ihis;distinct-5-diversity;false;true;38;0.882846731;563080408;29
+ihis;distinct-5-diversity;true;true;38;0.957410993;574255784;31
+ihis;distinct-5-diversity;false;true;39;0.882266612;568423368;26
+ihis;distinct-5-diversity;true;true;39;0.958203653;604978048;28
+ihis;distinct-5-diversity;false;true;40;0.882559472;594576328;28
+ihis;distinct-5-diversity;true;true;40;0.957710246;585061888;29
+ihis;distinct-5-diversity;false;true;41;0.882217802;579832624;24
+ihis;distinct-5-diversity;true;true;41;0.958108268;586226288;31
+ihis;distinct-5-diversity;false;true;42;0.881985754;584335928;20
+ihis;distinct-5-diversity;true;true;42;0.958083497;581420304;28
+ihis;distinct-5-diversity;false;true;43;0.881953747;572126408;25
+ihis;distinct-5-diversity;true;true;43;0.957977535;583423280;26
+ihis;distinct-5-diversity;false;true;44;0.882204999;585965640;25
+ihis;distinct-5-diversity;true;true;44;0.957562563;589946632;29
+ihis;distinct-5-diversity;false;true;45;0.881704096;562848992;26
+ihis;distinct-5-diversity;true;true;45;0.957658555;573964168;33
+ihis;distinct-5-diversity;false;true;46;0.882297818;586644208;23
+ihis;distinct-5-diversity;true;true;46;0.957886455;603904192;28
+ihis;distinct-5-diversity;false;true;47;0.882215401;591859672;24
+ihis;distinct-5-diversity;true;true;47;0.958125523;590103120;32
+ihis;distinct-5-diversity;false;true;48;0.881554465;569261224;27
+ihis;distinct-5-diversity;true;true;48;0.957707616;602388280;25
+ihis;distinct-5-diversity;false;true;49;0.881612077;576983992;27
+ihis;distinct-5-diversity;true;true;49;0.957529944;575148552;28
+ihis;distinct-5-diversity;false;true;50;0.881907338;577571328;28
+ihis;distinct-5-diversity;true;true;50;0.957535417;599075960;31
+ihis;distinct-5-diversity;false;true;51;0.881648084;563957792;30
+ihis;distinct-5-diversity;true;true;51;0.957482755;600490232;32
+ihis;distinct-5-diversity;false;true;52;0.881467247;583646776;28
+ihis;distinct-5-diversity;true;true;52;0.957673523;583133384;33
+ihis;distinct-5-diversity;false;true;53;0.881508055;577630672;35
+ihis;distinct-5-diversity;true;true;53;0.957704634;590732280;33
+ihis;distinct-5-diversity;false;true;54;0.881215195;593091272;28
+ihis;distinct-5-diversity;true;true;54;0.957660592;582579248;33
+ihis;distinct-5-diversity;false;true;55;0.88114478;591573144;22
+ihis;distinct-5-diversity;true;true;55;0.957366894;581952440;33
+ihis;distinct-5-diversity;false;true;56;0.880885527;594969424;31
+ihis;distinct-5-diversity;true;true;56;0.95731781;583255080;33
+ihis;distinct-5-diversity;false;true;57;0.88070789;612545048;28
+ihis;distinct-5-diversity;true;true;57;0.957318814;595676968;33
+ihis;distinct-5-diversity;false;true;58;0.881079167;599202008;28
+ihis;distinct-5-diversity;true;true;58;0.95743636;589708944;31
+ihis;distinct-5-diversity;false;true;59;0.880395026;585213520;29
+ihis;distinct-5-diversity;true;true;59;0.957064764;613993584;37
+ihis;distinct-5-diversity;false;true;60;0.880536655;603756256;30
+ihis;distinct-5-diversity;true;true;60;0.957682623;582049272;33
+ihis;distinct-5-diversity;false;true;61;0.8807551;610394328;25
+ihis;distinct-5-diversity;true;true;61;0.957247836;586391448;38
+ihis;distinct-5-diversity;false;true;62;0.880499848;582199584;25
+ihis;distinct-5-diversity;true;true;62;0.957236545;578626384;32
+ihis;distinct-5-diversity;false;true;63;0.880297406;590000600;28
+ihis;distinct-5-diversity;true;true;63;0.957199766;579172424;32
+ihis;distinct-5-diversity;false;true;64;0.880370221;732383344;20
+ihis;distinct-5-diversity;true;true;64;0.957343937;583573712;34
+ihis;entropy-3-diversity;false;true;1;0.932408942;808238800;42
+ihis;entropy-3-diversity;true;true;1;0.924774729;709504240;76
+ihis;entropy-3-diversity;false;true;2;0.925968478;733664104;36
+ihis;entropy-3-diversity;true;true;2;0.934823484;966323880;57
+ihis;entropy-3-diversity;false;true;3;0.927460161;650019168;23
+ihis;entropy-3-diversity;true;true;3;0.933214833;650046208;43
+ihis;entropy-3-diversity;false;true;4;0.924706973;805908984;29
+ihis;entropy-3-diversity;true;true;4;0.922931101;734111328;34
+ihis;entropy-3-diversity;false;true;5;0.921297506;680968688;20
+ihis;entropy-3-diversity;true;true;5;0.935148153;754482216;27
+ihis;entropy-3-diversity;false;true;6;0.91849977;620552328;29
+ihis;entropy-3-diversity;true;true;6;0.927116221;607100928;36
+ihis;entropy-3-diversity;false;true;7;0.916258877;646014896;28
+ihis;entropy-3-diversity;true;true;7;0.931014853;627807344;27
+ihis;entropy-3-diversity;false;true;8;0.914628919;636221160;30
+ihis;entropy-3-diversity;true;true;8;0.934504041;601827920;22
+ihis;entropy-3-diversity;false;true;9;0.9120046;599328376;20
+ihis;entropy-3-diversity;true;true;9;0.927228627;631417864;27
+ihis;entropy-3-diversity;false;true;10;0.909463807;762519072;28
+ihis;entropy-3-diversity;true;true;10;0.931844951;601160280;22
+ihis;entropy-3-diversity;false;true;11;0.907608634;630546216;21
+ihis;entropy-3-diversity;true;true;11;0.927517609;742520536;24
+ihis;entropy-3-diversity;false;true;12;0.907240558;693819832;25
+ihis;entropy-3-diversity;true;true;12;0.930278145;622020528;34
+ihis;entropy-3-diversity;false;true;13;0.907621437;620126336;28
+ihis;entropy-3-diversity;true;true;13;0.932250152;612017728;20
+ihis;entropy-3-diversity;false;true;14;0.907382987;764862240;28
+ihis;entropy-3-diversity;true;true;14;0.931558775;613985064;22
+ihis;entropy-3-diversity;false;true;15;0.907408593;705037888;36
+ihis;entropy-3-diversity;true;true;15;0.935500209;610228352;22
+ihis;entropy-3-diversity;false;true;16;0.907292569;641380896;24
+ihis;entropy-3-diversity;true;true;16;0.93697446;611749208;27
+ihis;entropy-3-diversity;false;true;17;0.90739739;584680120;28
+ihis;entropy-3-diversity;true;true;17;0.933085876;587394512;33
+ihis;entropy-3-diversity;false;true;18;0.906907689;599099936;29
+ihis;entropy-3-diversity;true;true;18;0.936066725;613166960;28
+ihis;entropy-3-diversity;false;true;19;0.907316574;583328000;25
+ihis;entropy-3-diversity;true;true;19;0.936100597;591919600;30
+ihis;entropy-3-diversity;false;true;20;0.906869282;579135792;31
+ihis;entropy-3-diversity;true;true;20;0.934770549;601369680;28
+ihis;entropy-3-diversity;false;true;21;0.907136537;587703496;22
+ihis;entropy-3-diversity;true;true;21;0.934895645;619256568;22
+ihis;entropy-3-diversity;false;true;22;0.906851678;576343864;33
+ihis;entropy-3-diversity;true;true;22;0.934759898;587642592;28
+ihis;entropy-3-diversity;false;true;23;0.906868481;580543344;33
+ihis;entropy-3-diversity;true;true;23;0.935950522;590377608;31
+ihis;entropy-3-diversity;false;true;24;0.906533212;591858952;33
+ihis;entropy-3-diversity;true;true;24;0.936807946;607432728;35
+ihis;entropy-3-diversity;false;true;25;0.906854879;567554608;36
+ihis;entropy-3-diversity;true;true;25;0.934903687;607345472;29
+ihis;entropy-3-diversity;false;true;26;0.906936495;596687240;29
+ihis;entropy-3-diversity;true;true;26;0.93517561;608806984;25
+ihis;entropy-3-diversity;false;true;27;0.906659638;586747832;31
+ihis;entropy-3-diversity;true;true;27;0.931524552;605949360;29
+ihis;entropy-3-diversity;false;true;28;0.906310766;585892976;33
+ihis;entropy-3-diversity;true;true;28;0.932651238;618669408;28
+ihis;entropy-3-diversity;false;true;29;0.906197143;588410176;39
+ihis;entropy-3-diversity;true;true;29;0.933664885;636504760;28
+ihis;entropy-3-diversity;false;true;30;0.906411587;605138248;33
+ihis;entropy-3-diversity;true;true;30;0.932487639;623892608;27
+ihis;entropy-3-diversity;false;true;31;0.906421989;584560752;36
+ihis;entropy-3-diversity;true;true;31;0.935296812;605435712;32
+ihis;entropy-3-diversity;false;true;32;0.906289162;590904232;36
+ihis;entropy-3-diversity;true;true;32;0.934102042;634114176;34
+ihis;entropy-3-diversity;false;true;33;0.906021907;590467096;34
+ihis;entropy-3-diversity;true;true;33;0.934707141;611119712;32
+ihis;entropy-3-diversity;false;true;34;0.906271558;603259032;34
+ihis;entropy-3-diversity;true;true;34;0.935400602;612542536;35
+ihis;entropy-3-diversity;false;true;35;0.906111525;589248360;38
+ihis;entropy-3-diversity;true;true;35;0.933826154;619385248;26
+ihis;entropy-3-diversity;false;true;36;0.905427384;611694096;30
+ihis;entropy-3-diversity;true;true;36;0.935031841;625601008;34
+ihis;entropy-3-diversity;false;true;37;0.905950692;601578256;39
+ihis;entropy-3-diversity;true;true;37;0.935579922;615836184;30
+ihis;entropy-3-diversity;false;true;38;0.905948292;584959184;41
+ihis;entropy-3-diversity;true;true;38;0.936096689;640947976;37
+ihis;entropy-3-diversity;false;true;39;0.905585017;593825352;35
+ihis;entropy-3-diversity;true;true;39;0.932441225;623429224;35
+ihis;entropy-3-diversity;false;true;40;0.905619424;601732320;38
+ihis;entropy-3-diversity;true;true;40;0.933192036;625057600;34
+ihis;entropy-3-diversity;false;true;41;0.905542608;621279192;39
+ihis;entropy-3-diversity;true;true;41;0.932035189;641678184;35
+ihis;entropy-3-diversity;false;true;42;0.905297758;601362328;36
+ihis;entropy-3-diversity;true;true;42;0.934611373;612746144;26
+ihis;entropy-3-diversity;false;true;43;0.905444988;609913072;36
+ihis;entropy-3-diversity;true;true;43;0.934341997;607178840;31
+ihis;entropy-3-diversity;false;true;44;0.905420983;615725272;36
+ihis;entropy-3-diversity;true;true;44;0.934915517;630813192;34
+ihis;entropy-3-diversity;false;true;45;0.905125722;606438640;35
+ihis;entropy-3-diversity;true;true;45;0.933237151;626721376;31
+ihis;entropy-3-diversity;false;true;46;0.905333765;607167712;34
+ihis;entropy-3-diversity;true;true;46;0.93371693;614119568;31
+ihis;entropy-3-diversity;false;true;47;0.905379375;597709080;39
+ihis;entropy-3-diversity;true;true;47;0.936558141;628125696;32
+ihis;entropy-3-diversity;false;true;48;0.904808857;604842488;39
+ihis;entropy-3-diversity;true;true;48;0.932476197;615869040;35
+ihis;entropy-3-diversity;false;true;49;0.905032103;606930632;40
+ihis;entropy-3-diversity;true;true;49;0.933859406;625654704;32
+ihis;entropy-3-diversity;false;true;50;0.905295357;606895224;37
+ihis;entropy-3-diversity;true;true;50;0.931650699;665289304;33
+ihis;entropy-3-diversity;false;true;51;0.90511292;614455080;41
+ihis;entropy-3-diversity;true;true;51;0.93496293;627030040;35
+ihis;entropy-3-diversity;false;true;52;0.904879271;622223032;36
+ihis;entropy-3-diversity;true;true;52;0.932195654;631035656;31
+ihis;entropy-3-diversity;false;true;53;0.904988894;616939000;36
+ihis;entropy-3-diversity;true;true;53;0.934100594;656757736;34
+ihis;entropy-3-diversity;false;true;54;0.904668828;603466176;40
+ihis;entropy-3-diversity;true;true;54;0.935132066;615654752;34
+ihis;entropy-3-diversity;false;true;55;0.904731241;615537136;37
+ihis;entropy-3-diversity;true;true;55;0.934022835;622329400;34
+ihis;entropy-3-diversity;false;true;56;0.904379168;613478336;39
+ihis;entropy-3-diversity;true;true;56;0.933790841;627068992;33
+ihis;entropy-3-diversity;false;true;57;0.904600814;616183992;37
+ihis;entropy-3-diversity;true;true;57;0.931088486;639521872;38
+ihis;entropy-3-diversity;false;true;58;0.904408774;617454088;40
+ihis;entropy-3-diversity;true;true;58;0.932904121;654244248;36
+ihis;entropy-3-diversity;false;true;59;0.904057502;620816632;38
+ihis;entropy-3-diversity;true;true;59;0.933390969;647282144;33
+ihis;entropy-3-diversity;false;true;60;0.904156723;619148840;40
+ihis;entropy-3-diversity;true;true;60;0.932718676;633328616;31
+ihis;entropy-3-diversity;false;true;61;0.904367966;635900032;35
+ihis;entropy-3-diversity;true;true;61;0.933929331;651890056;35
+ihis;entropy-3-diversity;false;true;62;0.904280748;619679592;42
+ihis;entropy-3-diversity;true;true;62;0.93413439;731840264;40
+ihis;entropy-3-diversity;false;true;63;0.903978286;725448800;41
+ihis;entropy-3-diversity;true;true;63;0.936435891;648017384;42
+ihis;entropy-3-diversity;false;true;64;0.904295951;625888272;40
+ihis;entropy-3-diversity;true;true;64;0.933372414;667573376;33
+ihis;0.2-equal-closeness (global distribution);false;true;1;0.633390717;944419952;184
+ihis;0.2-equal-closeness (global distribution);true;true;1;0.654064344;1010772864;553
+ihis;0.2-equal-closeness (global distribution);false;true;2;0.629666171;1079539312;104
+ihis;0.2-equal-closeness (global distribution);true;true;2;0.65381693;1096845864;303
+ihis;0.2-equal-closeness (global distribution);false;true;3;0.630267256;1038687912;75
+ihis;0.2-equal-closeness (global distribution);true;true;3;0.652263601;1007133592;200
+ihis;0.2-equal-closeness (global distribution);false;true;4;0.629490336;1198271408;48
+ihis;0.2-equal-closeness (global distribution);true;true;4;0.655683055;1118840680;141
+ihis;0.2-equal-closeness (global distribution);false;true;5;0.624879801;1182393688;45
+ihis;0.2-equal-closeness (global distribution);true;true;5;0.654793855;1097905216;121
+ihis;0.2-equal-closeness (global distribution);false;true;6;0.6260555;1122042856;40
+ihis;0.2-equal-closeness (global distribution);true;true;6;0.65229857;1027018160;111
+ihis;0.2-equal-closeness (global distribution);false;true;7;0.62410106;1169346888;35
+ihis;0.2-equal-closeness (global distribution);true;true;7;0.653673218;1043830248;98
+ihis;0.2-equal-closeness (global distribution);false;true;8;0.622416115;1113854640;37
+ihis;0.2-equal-closeness (global distribution);true;true;8;0.654263011;1053709704;82
+ihis;0.2-equal-closeness (global distribution);false;true;9;0.620798543;1082965904;35
+ihis;0.2-equal-closeness (global distribution);true;true;9;0.647711672;1021181024;87
+ihis;0.2-equal-closeness (global distribution);false;true;10;0.616130953;1124020336;35
+ihis;0.2-equal-closeness (global distribution);true;true;10;0.649842123;1063736592;81
+ihis;0.2-equal-closeness (global distribution);false;true;11;0.616354318;1162305584;29
+ihis;0.2-equal-closeness (global distribution);true;true;11;0.651630538;1061966288;84
+ihis;0.2-equal-closeness (global distribution);false;true;12;0.618229244;1226612208;27
+ihis;0.2-equal-closeness (global distribution);true;true;12;0.650539207;1043882016;67
+ihis;0.2-equal-closeness (global distribution);false;true;13;0.614436525;1258054000;29
+ihis;0.2-equal-closeness (global distribution);true;true;13;0.652317212;1032346544;80
+ihis;0.2-equal-closeness (global distribution);false;true;14;0.612380176;1312127968;27
+ihis;0.2-equal-closeness (global distribution);true;true;14;0.651398857;1038822368;76
+ihis;0.2-equal-closeness (global distribution);false;true;15;0.612038267;1318569008;29
+ihis;0.2-equal-closeness (global distribution);true;true;15;0.650087788;1066666040;65
+ihis;0.2-equal-closeness (global distribution);false;true;16;0.614143547;1381079640;23
+ihis;0.2-equal-closeness (global distribution);true;true;16;0.650409106;1048042064;54
+ihis;0.2-equal-closeness (global distribution);false;true;17;0.606957337;1290449760;27
+ihis;0.2-equal-closeness (global distribution);true;true;17;0.648785565;1063595208;61
+ihis;0.2-equal-closeness (global distribution);false;true;18;0.602175502;1325839208;26
+ihis;0.2-equal-closeness (global distribution);true;true;18;0.645515412;1059545232;69
+ihis;0.2-equal-closeness (global distribution);false;true;19;0.611028442;1439484776;26
+ihis;0.2-equal-closeness (global distribution);true;true;19;0.651534716;1059643376;63
+ihis;0.2-equal-closeness (global distribution);false;true;20;0.602455635;1491807864;22
+ihis;0.2-equal-closeness (global distribution);true;true;20;0.648428649;1078063120;57
+ihis;0.2-equal-closeness (global distribution);false;true;21;0.607361023;1469956856;24
+ihis;0.2-equal-closeness (global distribution);true;true;21;0.645966475;1075352208;52
+ihis;0.2-equal-closeness (global distribution);false;true;22;0.596955117;1397094272;26
+ihis;0.2-equal-closeness (global distribution);true;true;22;0.643777141;1089196424;52
+ihis;0.2-equal-closeness (global distribution);false;true;23;0.603557206;1414011624;25
+ihis;0.2-equal-closeness (global distribution);true;true;23;0.646923182;1115676816;47
+ihis;0.2-equal-closeness (global distribution);false;true;24;0.607357353;1391098800;22
+ihis;0.2-equal-closeness (global distribution);true;true;24;0.645487406;1101677288;50
+ihis;0.2-equal-closeness (global distribution);false;true;25;0.60811518;1407149664;24
+ihis;0.2-equal-closeness (global distribution);true;true;25;0.650014948;1099594272;62
+ihis;0.2-equal-closeness (global distribution);false;true;26;0.602692953;1274332160;23
+ihis;0.2-equal-closeness (global distribution);true;true;26;0.648155531;1112964072;47
+ihis;0.2-equal-closeness (global distribution);false;true;27;0.603644671;1326832720;21
+ihis;0.2-equal-closeness (global distribution);true;true;27;0.645100671;1094565168;54
+ihis;0.2-equal-closeness (global distribution);false;true;28;0.59285343;1373487256;24
+ihis;0.2-equal-closeness (global distribution);true;true;28;0.643717557;1143457568;44
+ihis;0.2-equal-closeness (global distribution);false;true;29;0.583977858;1336118976;20
+ihis;0.2-equal-closeness (global distribution);true;true;29;0.637313278;1136524232;55
+ihis;0.2-equal-closeness (global distribution);false;true;30;0.592173281;1341797352;20
+ihis;0.2-equal-closeness (global distribution);true;true;30;0.642674414;1133934800;46
+ihis;0.2-equal-closeness (global distribution);false;true;31;0.589586637;1338172520;21
+ihis;0.2-equal-closeness (global distribution);true;true;31;0.644415995;1127072376;44
+ihis;0.2-equal-closeness (global distribution);false;true;32;0.596460908;1336628112;20
+ihis;0.2-equal-closeness (global distribution);true;true;32;0.640582128;1138354120;41
+ihis;0.2-equal-closeness (global distribution);false;true;33;0.582960694;1292181432;24
+ihis;0.2-equal-closeness (global distribution);true;true;33;0.635149823;1139983512;50
+ihis;0.2-equal-closeness (global distribution);false;true;34;0.590931032;1328669944;21
+ihis;0.2-equal-closeness (global distribution);true;true;34;0.635531212;1143472792;43
+ihis;0.2-equal-closeness (global distribution);false;true;35;0.592758013;1320605232;24
+ihis;0.2-equal-closeness (global distribution);true;true;35;0.635594198;1156443160;41
+ihis;0.2-equal-closeness (global distribution);false;true;36;0.577361701;1379242072;20
+ihis;0.2-equal-closeness (global distribution);true;true;36;0.63404146;1162153024;41
+ihis;0.2-equal-closeness (global distribution);false;true;37;0.582023655;1385663272;25
+ihis;0.2-equal-closeness (global distribution);true;true;37;0.634608662;1165801056;40
+ihis;0.2-equal-closeness (global distribution);false;true;38;0.591238077;1324130072;28
+ihis;0.2-equal-closeness (global distribution);true;true;38;0.638810875;1189543528;40
+ihis;0.2-equal-closeness (global distribution);false;true;39;0.589605598;1398635376;21
+ihis;0.2-equal-closeness (global distribution);true;true;39;0.644076875;1187005944;40
+ihis;0.2-equal-closeness (global distribution);false;true;40;0.584453106;1370852096;21
+ihis;0.2-equal-closeness (global distribution);true;true;40;0.640488282;1175793800;40
+ihis;0.2-equal-closeness (global distribution);false;true;41;0.580425428;1369601512;20
+ihis;0.2-equal-closeness (global distribution);true;true;41;0.634706871;1197266048;37
+ihis;0.2-equal-closeness (global distribution);false;true;42;0.576609379;1332268120;20
+ihis;0.2-equal-closeness (global distribution);true;true;42;0.632522499;1190230608;37
+ihis;0.2-equal-closeness (global distribution);false;true;43;0.580186887;1357896208;20
+ihis;0.2-equal-closeness (global distribution);true;true;43;0.637265684;1218710256;41
+ihis;0.2-equal-closeness (global distribution);false;true;44;0.546462829;1365492408;28
+ihis;0.2-equal-closeness (global distribution);true;true;44;0.634658645;1187316480;40
+ihis;0.2-equal-closeness (global distribution);false;true;45;0.569997503;1447465608;26
+ihis;0.2-equal-closeness (global distribution);true;true;45;0.634567697;1205494256;41
+ihis;0.2-equal-closeness (global distribution);false;true;46;0.578734843;1370316080;21
+ihis;0.2-equal-closeness (global distribution);true;true;46;0.64034188;1198551192;38
+ihis;0.2-equal-closeness (global distribution);false;true;47;0.57798252;1346323144;20
+ihis;0.2-equal-closeness (global distribution);true;true;47;0.642753766;1205954344;43
+ihis;0.2-equal-closeness (global distribution);false;true;48;0.58220042;1314376032;20
+ihis;0.2-equal-closeness (global distribution);true;true;48;0.639116065;1227466248;35
+ihis;0.2-equal-closeness (global distribution);false;true;49;0.576113335;1376334608;22
+ihis;0.2-equal-closeness (global distribution);true;true;49;0.638999786;1213880936;37
+ihis;0.2-equal-closeness (global distribution);false;true;50;0.581115974;1395890088;24
+ihis;0.2-equal-closeness (global distribution);true;true;50;0.638572163;1244500136;43
+ihis;0.2-equal-closeness (global distribution);false;true;51;0.571291743;1415506528;28
+ihis;0.2-equal-closeness (global distribution);true;true;51;0.63151069;1265338720;37
+ihis;0.2-equal-closeness (global distribution);false;true;52;0.568788282;1423768944;29
+ihis;0.2-equal-closeness (global distribution);true;true;52;0.634188391;1231505528;38
+ihis;0.2-equal-closeness (global distribution);false;true;53;0.563545267;1431435600;22
+ihis;0.2-equal-closeness (global distribution);true;true;53;0.630946678;1241897904;39
+ihis;0.2-equal-closeness (global distribution);false;true;54;0.569604827;1415520600;20
+ihis;0.2-equal-closeness (global distribution);true;true;54;0.631334029;1229395472;32
+ihis;0.2-equal-closeness (global distribution);false;true;55;0.548085344;1439476568;22
+ihis;0.2-equal-closeness (global distribution);true;true;55;0.624734733;1257774984;36
+ihis;0.2-equal-closeness (global distribution);false;true;56;0.563641295;1369432840;26
+ihis;0.2-equal-closeness (global distribution);true;true;56;0.63162547;1259497896;31
+ihis;0.2-equal-closeness (global distribution);false;true;57;0.566542936;1427807384;25
+ihis;0.2-equal-closeness (global distribution);true;true;57;0.632716274;1269308704;37
+ihis;0.2-equal-closeness (global distribution);false;true;58;0.55691076;1450295720;26
+ihis;0.2-equal-closeness (global distribution);true;true;58;0.625566852;1277091720;34
+ihis;0.2-equal-closeness (global distribution);false;true;59;0.557451454;1544422104;21
+ihis;0.2-equal-closeness (global distribution);true;true;59;0.629161756;1259097760;35
+ihis;0.2-equal-closeness (global distribution);false;true;60;0.558738354;1496871816;26
+ihis;0.2-equal-closeness (global distribution);true;true;60;0.627877474;1280009928;35
+ihis;0.2-equal-closeness (global distribution);false;true;61;0.565079882;1435274352;22
+ihis;0.2-equal-closeness (global distribution);true;true;61;0.629376841;1313499856;33
+ihis;0.2-equal-closeness (global distribution);false;true;62;0.565960039;1527358304;22
+ihis;0.2-equal-closeness (global distribution);true;true;62;0.630067173;1298901776;33
+ihis;0.2-equal-closeness (global distribution);false;true;63;0.556636132;1506238688;24
+ihis;0.2-equal-closeness (global distribution);true;true;63;0.621462339;1290975728;35
+ihis;0.2-equal-closeness (global distribution);false;true;64;0.56728486;1530978616;22
+ihis;0.2-equal-closeness (global distribution);true;true;64;0.62393069;1311422888;32
+ihis;0.5-equal-closeness (global distribution);false;true;1;0.68079642;637343232;164
+ihis;0.5-equal-closeness (global distribution);true;true;1;0.772060059;517848880;226
+ihis;0.5-equal-closeness (global distribution);false;true;2;0.678987299;654019840;108
+ihis;0.5-equal-closeness (global distribution);true;true;2;0.78980032;737936256;163
+ihis;0.5-equal-closeness (global distribution);false;true;3;0.677840291;625289128;65
+ihis;0.5-equal-closeness (global distribution);true;true;3;0.752612478;504026528;124
+ihis;0.5-equal-closeness (global distribution);false;true;4;0.677195045;743665040;47
+ihis;0.5-equal-closeness (global distribution);true;true;4;0.781185116;549431216;91
+ihis;0.5-equal-closeness (global distribution);false;true;5;0.676187477;738659856;39
+ihis;0.5-equal-closeness (global distribution);true;true;5;0.768301436;479304800;83
+ihis;0.5-equal-closeness (global distribution);false;true;6;0.674955938;589435720;55
+ihis;0.5-equal-closeness (global distribution);true;true;6;0.778913234;433592560;75
+ihis;0.5-equal-closeness (global distribution);false;true;7;0.674223538;646517104;34
+ihis;0.5-equal-closeness (global distribution);true;true;7;0.768312358;529672376;80
+ihis;0.5-equal-closeness (global distribution);false;true;8;0.673735324;616728984;34
+ihis;0.5-equal-closeness (global distribution);true;true;8;0.783677076;405533712;56
+ihis;0.5-equal-closeness (global distribution);false;true;9;0.673668165;672222280;31
+ihis;0.5-equal-closeness (global distribution);true;true;9;0.770058155;406315912;57
+ihis;0.5-equal-closeness (global distribution);false;true;10;0.674159316;700627544;37
+ihis;0.5-equal-closeness (global distribution);true;true;10;0.762970725;447645968;53
+ihis;0.5-equal-closeness (global distribution);false;true;11;0.673994783;734569584;28
+ihis;0.5-equal-closeness (global distribution);true;true;11;0.769554719;409573336;50
+ihis;0.5-equal-closeness (global distribution);false;true;12;0.673616787;791192504;29
+ihis;0.5-equal-closeness (global distribution);true;true;12;0.757319336;419153392;46
+ihis;0.5-equal-closeness (global distribution);false;true;13;0.673925056;820354080;25
+ihis;0.5-equal-closeness (global distribution);true;true;13;0.751629627;559366528;55
+ihis;0.5-equal-closeness (global distribution);false;true;14;0.673887134;860409632;25
+ihis;0.5-equal-closeness (global distribution);true;true;14;0.75255222;421006248;45
+ihis;0.5-equal-closeness (global distribution);false;true;15;0.673589263;805905768;30
+ihis;0.5-equal-closeness (global distribution);true;true;15;0.750956846;429205624;44
+ihis;0.5-equal-closeness (global distribution);false;true;16;0.673198422;836524696;30
+ihis;0.5-equal-closeness (global distribution);true;true;16;0.753801939;429827536;42
+ihis;0.5-equal-closeness (global distribution);false;true;17;0.673606389;939693216;25
+ihis;0.5-equal-closeness (global distribution);true;true;17;0.748202228;421192136;55
+ihis;0.5-equal-closeness (global distribution);false;true;18;0.673257752;880773992;24
+ihis;0.5-equal-closeness (global distribution);true;true;18;0.752728048;424956848;42
+ihis;0.5-equal-closeness (global distribution);false;true;19;0.673583147;827612992;26
+ihis;0.5-equal-closeness (global distribution);true;true;19;0.760233364;434643712;34
+ihis;0.5-equal-closeness (global distribution);false;true;20;0.673304849;837809288;23
+ihis;0.5-equal-closeness (global distribution);true;true;20;0.7606684;435884736;45
+ihis;0.5-equal-closeness (global distribution);false;true;21;0.673287723;827613176;21
+ihis;0.5-equal-closeness (global distribution);true;true;21;0.758883066;437944368;35
+ihis;0.5-equal-closeness (global distribution);false;true;22;0.673443692;888290896;20
+ihis;0.5-equal-closeness (global distribution);true;true;22;0.753259608;436807208;35
+ihis;0.5-equal-closeness (global distribution);false;true;23;0.672867523;769488896;20
+ihis;0.5-equal-closeness (global distribution);true;true;23;0.763928214;471340096;34
+ihis;0.5-equal-closeness (global distribution);false;true;24;0.672670573;776450352;23
+ihis;0.5-equal-closeness (global distribution);true;true;24;0.756613284;445199096;34
+ihis;0.5-equal-closeness (global distribution);false;true;25;0.673099336;749100192;23
+ihis;0.5-equal-closeness (global distribution);true;true;25;0.758671175;560928696;30
+ihis;0.5-equal-closeness (global distribution);false;true;26;0.673298732;940472888;31
+ihis;0.5-equal-closeness (global distribution);true;true;26;0.761435223;444928824;31
+ihis;0.5-equal-closeness (global distribution);false;true;27;0.672839387;795978128;22
+ihis;0.5-equal-closeness (global distribution);true;true;27;0.757642093;470914792;30
+ihis;0.5-equal-closeness (global distribution);false;true;28;0.67212988;809335936;20
+ihis;0.5-equal-closeness (global distribution);true;true;28;0.766311405;558563584;31
+ihis;0.5-equal-closeness (global distribution);false;true;29;0.67199226;812457872;20
+ihis;0.5-equal-closeness (global distribution);true;true;29;0.757698622;459202584;32
+ihis;0.5-equal-closeness (global distribution);false;true;30;0.672995968;1000912904;27
+ihis;0.5-equal-closeness (global distribution);true;true;30;0.766765935;553133064;30
+ihis;0.5-equal-closeness (global distribution);false;true;31;0.672914008;1040133656;24
+ihis;0.5-equal-closeness (global distribution);true;true;31;0.759633179;452859664;28
+ihis;0.5-equal-closeness (global distribution);false;true;32;0.67263571;1050221720;23
+ihis;0.5-equal-closeness (global distribution);true;true;32;0.762596375;452564248;32
+ihis;0.5-equal-closeness (global distribution);false;true;33;0.672754369;825753128;20
+ihis;0.5-equal-closeness (global distribution);true;true;33;0.753684748;477665320;27
+ihis;0.5-equal-closeness (global distribution);false;true;34;0.67258005;1020674760;26
+ihis;0.5-equal-closeness (global distribution);true;true;34;0.762107338;476752808;27
+ihis;0.5-equal-closeness (global distribution);false;true;35;0.672687699;1008413192;27
+ihis;0.5-equal-closeness (global distribution);true;true;35;0.767052581;489721320;27
+ihis;0.5-equal-closeness (global distribution);false;true;36;0.672298082;768222888;23
+ihis;0.5-equal-closeness (global distribution);true;true;36;0.763978757;523387400;25
+ihis;0.5-equal-closeness (global distribution);false;true;37;0.673040618;970664952;24
+ihis;0.5-equal-closeness (global distribution);true;true;37;0.765599771;497228584;26
+ihis;0.5-equal-closeness (global distribution);false;true;38;0.672404508;996859960;26
+ihis;0.5-equal-closeness (global distribution);true;true;38;0.763799701;488138408;29
+ihis;0.5-equal-closeness (global distribution);false;true;39;0.672490138;1024516728;27
+ihis;0.5-equal-closeness (global distribution);true;true;39;0.765830116;525789672;25
+ihis;0.5-equal-closeness (global distribution);false;true;40;0.672365974;1011960424;24
+ihis;0.5-equal-closeness (global distribution);true;true;40;0.753975449;498964296;25
+ihis;0.5-equal-closeness (global distribution);false;true;41;0.671928649;989351944;29
+ihis;0.5-equal-closeness (global distribution);true;true;41;0.762538588;481434944;24
+ihis;0.5-equal-closeness (global distribution);false;true;42;0.672274228;998758288;32
+ihis;0.5-equal-closeness (global distribution);true;true;42;0.757549591;544580584;25
+ihis;0.5-equal-closeness (global distribution);false;true;43;0.672353742;1008530584;26
+ihis;0.5-equal-closeness (global distribution);true;true;43;0.759845959;504761368;23
+ihis;0.5-equal-closeness (global distribution);false;true;44;0.672361081;1011134848;28
+ihis;0.5-equal-closeness (global distribution);true;true;44;0.764821334;532688608;24
+ihis;0.5-equal-closeness (global distribution);false;true;45;0.671998376;1004607872;24
+ihis;0.5-equal-closeness (global distribution);true;true;45;0.763083774;485604696;24
+ihis;0.5-equal-closeness (global distribution);false;true;46;0.671411809;1019589128;25
+ihis;0.5-equal-closeness (global distribution);true;true;46;0.762311929;479523760;25
+ihis;0.5-equal-closeness (global distribution);false;true;47;0.671731699;1040246032;30
+ihis;0.5-equal-closeness (global distribution);true;true;47;0.761120288;480200272;26
+ihis;0.5-equal-closeness (global distribution);false;true;48;0.67115186;1019836104;23
+ihis;0.5-equal-closeness (global distribution);true;true;48;0.757542709;560804936;26
+ihis;0.5-equal-closeness (global distribution);false;true;49;0.671782466;988421480;26
+ihis;0.5-equal-closeness (global distribution);true;true;49;0.761031962;536151736;22
+ihis;0.5-equal-closeness (global distribution);false;true;50;0.671939047;1079424336;25
+ihis;0.5-equal-closeness (global distribution);true;true;50;0.76450224;519369312;25
+ihis;0.5-equal-closeness (global distribution);false;true;51;0.671752495;1058774472;25
+ihis;0.5-equal-closeness (global distribution);true;true;51;0.765513388;494352184;23
+ihis;0.5-equal-closeness (global distribution);false;true;52;0.671490711;1060980600;25
+ihis;0.5-equal-closeness (global distribution);true;true;52;0.765365141;501236680;25
+ihis;0.5-equal-closeness (global distribution);false;true;53;0.671930484;1051137096;28
+ihis;0.5-equal-closeness (global distribution);true;true;53;0.766954504;499120816;23
+ihis;0.5-equal-closeness (global distribution);false;true;54;0.671433217;1029897288;21
+ihis;0.5-equal-closeness (global distribution);true;true;54;0.762556412;499799616;24
+ihis;0.5-equal-closeness (global distribution);false;true;55;0.671589186;1057816784;29
+ihis;0.5-equal-closeness (global distribution);true;true;55;0.76217873;523543656;21
+ihis;0.5-equal-closeness (global distribution);false;true;56;0.670607497;1044948168;26
+ihis;0.5-equal-closeness (global distribution);true;true;56;0.760108272;493385496;21
+ihis;0.5-equal-closeness (global distribution);false;true;57;0.671677875;1097060072;24
+ihis;0.5-equal-closeness (global distribution);true;true;57;0.765822504;528916232;23
+ihis;0.5-equal-closeness (global distribution);false;true;58;0.670471712;1059238808;29
+ihis;0.5-equal-closeness (global distribution);true;true;58;0.759386745;523495304;21
+ihis;0.5-equal-closeness (global distribution);false;true;59;0.671780019;1057390936;22
+ihis;0.5-equal-closeness (global distribution);true;true;59;0.765043155;510910488;22
+ihis;0.5-equal-closeness (global distribution);false;true;60;0.671456459;1051572072;26
+ihis;0.5-equal-closeness (global distribution);true;true;60;0.768004347;523650776;24
+ihis;0.5-equal-closeness (global distribution);false;true;61;0.671463799;1083407960;22
+ihis;0.5-equal-closeness (global distribution);true;true;61;0.763004913;492772128;21
+ihis;0.5-equal-closeness (global distribution);false;true;62;0.671478478;1114106568;26
+ihis;0.5-equal-closeness (global distribution);true;true;62;0.765251623;520650856;21
+ihis;0.5-equal-closeness (global distribution);false;true;63;0.669990959;1050859528;27
+ihis;0.5-equal-closeness (global distribution);true;true;63;0.766921021;507851560;23
+ihis;0.5-equal-closeness (global distribution);false;true;64;0.670194025;1058742968;29
+ihis;0.5-equal-closeness (global distribution);true;true;64;0.761531434;498966936;22
+ihis;1-disclosure-privacy;false;true;1;0.470899376;636815256;158
+ihis;1-disclosure-privacy;true;true;1;0.591388844;654418504;756
+ihis;1-disclosure-privacy;false;true;2;0.382024183;736709752;96
+ihis;1-disclosure-privacy;true;true;2;0.471673014;788959184;642
+ihis;1-disclosure-privacy;false;true;3;0.372030189;742148968;72
+ihis;1-disclosure-privacy;true;true;3;0.416373791;708981024;513
+ihis;1-disclosure-privacy;false;true;4;0.346195196;821631784;57
+ihis;1-disclosure-privacy;true;true;4;0.407208864;787151408;270
+ihis;1-disclosure-privacy;false;true;5;0.346613078;810999832;57
+ihis;1-disclosure-privacy;true;true;5;0.399527486;749347424;258
+ihis;1-disclosure-privacy;false;true;6;0.374407081;813350200;42
+ihis;1-disclosure-privacy;true;true;6;0.402791755;670135840;269
+ihis;1-disclosure-privacy;false;true;7;0.385299804;857226544;42
+ihis;1-disclosure-privacy;true;true;7;0.373312363;721411752;249
+ihis;1-disclosure-privacy;false;true;8;0.390309913;781059904;43
+ihis;1-disclosure-privacy;true;true;8;0.394302482;723658664;234
+ihis;1-disclosure-privacy;false;true;9;0.367656236;849625280;32
+ihis;1-disclosure-privacy;true;true;9;0.395937825;747938040;199
+ihis;1-disclosure-privacy;false;true;10;0.374435293;834361184;38
+ihis;1-disclosure-privacy;true;true;10;0.397817271;825205816;180
+ihis;1-disclosure-privacy;false;true;11;0.381221836;817193952;37
+ihis;1-disclosure-privacy;true;true;11;0.420227265;783908992;158
+ihis;1-disclosure-privacy;false;true;12;0.386697817;848292248;29
+ihis;1-disclosure-privacy;true;true;12;0.408326535;847017336;157
+ihis;1-disclosure-privacy;false;true;13;0.358774528;899917680;27
+ihis;1-disclosure-privacy;true;true;13;0.433703735;839145920;156
+ihis;1-disclosure-privacy;false;true;14;0.377882824;925089680;32
+ihis;1-disclosure-privacy;true;true;14;0.402111688;907556528;149
+ihis;1-disclosure-privacy;false;true;15;0.336472639;974758384;30
+ihis;1-disclosure-privacy;true;true;15;0.392508293;927907064;142
+ihis;1-disclosure-privacy;false;true;16;0.319484275;1006304792;30
+ihis;1-disclosure-privacy;true;true;16;0.440615856;840542832;126
+ihis;1-disclosure-privacy;false;true;17;0.322023219;1026319880;29
+ihis;1-disclosure-privacy;true;true;17;0.405945361;857758912;135
+ihis;1-disclosure-privacy;false;true;18;0.298873502;1104495568;27
+ihis;1-disclosure-privacy;true;true;18;0.383115104;854327112;123
+ihis;1-disclosure-privacy;false;true;19;0.329185591;1110796952;29
+ihis;1-disclosure-privacy;true;true;19;0.389760182;885546904;107
+ihis;1-disclosure-privacy;false;true;20;0.312714427;1139191032;25
+ihis;1-disclosure-privacy;true;true;20;0.405897884;873432688;115
+ihis;1-disclosure-privacy;false;true;21;0.290439446;1117605472;26
+ihis;1-disclosure-privacy;true;true;21;0.401044311;842891008;107
+ihis;1-disclosure-privacy;false;true;22;0.29278816;1222357288;23
+ihis;1-disclosure-privacy;true;true;22;0.414471454;915572656;111
+ihis;1-disclosure-privacy;false;true;23;0.296569027;1174811448;23
+ihis;1-disclosure-privacy;true;true;23;0.4142629;875972680;106
+ihis;1-disclosure-privacy;false;true;24;0.330459286;1263926160;22
+ihis;1-disclosure-privacy;true;true;24;0.396068374;910950344;106
+ihis;1-disclosure-privacy;false;true;25;0.303722551;1214253096;23
+ihis;1-disclosure-privacy;true;true;25;0.426641729;907759368;83
+ihis;1-disclosure-privacy;false;true;26;0.294776524;1165330120;24
+ihis;1-disclosure-privacy;true;true;26;0.407982114;880887976;88
+ihis;1-disclosure-privacy;false;true;27;0.290486098;1291506360;23
+ihis;1-disclosure-privacy;true;true;27;0.403079023;894024168;88
+ihis;1-disclosure-privacy;false;true;28;0.301555219;1176638776;21
+ihis;1-disclosure-privacy;true;true;28;0.4047898;925480000;89
+ihis;1-disclosure-privacy;false;true;29;0.286697187;1411669936;28
+ihis;1-disclosure-privacy;true;true;29;0.386918052;906365968;88
+ihis;1-disclosure-privacy;false;true;30;0.29249819;1326638016;26
+ihis;1-disclosure-privacy;true;true;30;0.397140242;927504064;80
+ihis;1-disclosure-privacy;false;true;31;0.297263989;1119097760;21
+ihis;1-disclosure-privacy;true;true;31;0.393721379;969082352;77
+ihis;1-disclosure-privacy;false;true;32;0.277792986;1124955504;20
+ihis;1-disclosure-privacy;true;true;32;0.400064981;968394248;71
+ihis;1-disclosure-privacy;false;true;33;0.29018527;1110533144;21
+ihis;1-disclosure-privacy;true;true;33;0.422701361;944244800;96
+ihis;1-disclosure-privacy;false;true;34;0.294529989;1069082488;20
+ihis;1-disclosure-privacy;true;true;34;0.399138408;959934224;73
+ihis;1-disclosure-privacy;false;true;35;0.27071306;1339577400;25
+ihis;1-disclosure-privacy;true;true;35;0.39488428;986116736;92
+ihis;1-disclosure-privacy;false;true;36;0.293800038;1035318752;20
+ihis;1-disclosure-privacy;true;true;36;0.388474596;1006664688;81
+ihis;1-disclosure-privacy;false;true;37;0.280971392;1250929336;26
+ihis;1-disclosure-privacy;true;true;37;0.368101915;952371368;71
+ihis;1-disclosure-privacy;false;true;38;0.310244658;1290072552;28
+ihis;1-disclosure-privacy;true;true;38;0.393278994;1034407776;65
+ihis;1-disclosure-privacy;false;true;39;0.291920262;1283769744;26
+ihis;1-disclosure-privacy;true;true;39;0.388375571;1011860416;61
+ihis;1-disclosure-privacy;false;true;40;0.286917178;1275701040;32
+ihis;1-disclosure-privacy;true;true;40;0.400303658;1058939560;65
+ihis;1-disclosure-privacy;false;true;41;0.273215406;1281575096;26
+ihis;1-disclosure-privacy;true;true;41;0.387790029;1008958464;61
+ihis;1-disclosure-privacy;false;true;42;0.265231386;1335966712;26
+ihis;1-disclosure-privacy;true;true;42;0.38211337;1053435912;59
+ihis;1-disclosure-privacy;false;true;43;0.280865217;1275213392;26
+ihis;1-disclosure-privacy;true;true;43;0.41805689;1013949328;63
+ihis;1-disclosure-privacy;false;true;44;0.262683192;1286004440;23
+ihis;1-disclosure-privacy;true;true;44;0.40517419;996476712;68
+ihis;1-disclosure-privacy;false;true;45;0.271374641;1112388240;20
+ihis;1-disclosure-privacy;true;true;45;0.402944399;1057865016;70
+ihis;1-disclosure-privacy;false;true;46;0.266096835;1339261304;24
+ihis;1-disclosure-privacy;true;true;46;0.387875618;1026884936;76
+ihis;1-disclosure-privacy;false;true;47;0.263438882;1281245304;23
+ihis;1-disclosure-privacy;true;true;47;0.388361432;1053729136;61
+ihis;1-disclosure-privacy;false;true;48;0.26149276;1383593752;22
+ihis;1-disclosure-privacy;true;true;48;0.399688088;1105739592;63
+ihis;1-disclosure-privacy;false;true;49;0.26673547;1286884448;26
+ihis;1-disclosure-privacy;true;true;49;0.381394628;1031937616;61
+ihis;1-disclosure-privacy;false;true;50;0.277596724;1301270528;23
+ihis;1-disclosure-privacy;true;true;50;0.40116323;1097457656;53
+ihis;1-disclosure-privacy;false;true;51;0.256874145;1287508824;25
+ihis;1-disclosure-privacy;true;true;51;0.373056774;1098070976;51
+ihis;1-disclosure-privacy;false;true;52;0.26621229;1324216968;26
+ihis;1-disclosure-privacy;true;true;52;0.388060528;1111064648;56
+ihis;1-disclosure-privacy;false;true;53;0.281512722;1344313424;25
+ihis;1-disclosure-privacy;true;true;53;0.394308074;1074508520;54
+ihis;1-disclosure-privacy;false;true;54;0.283822231;1301590912;24
+ihis;1-disclosure-privacy;true;true;54;0.385010034;1136093680;48
+ihis;1-disclosure-privacy;false;true;55;0.26332949;1341513024;28
+ihis;1-disclosure-privacy;true;true;55;0.38633677;1100229288;54
+ihis;1-disclosure-privacy;false;true;56;0.262611604;1322602920;24
+ihis;1-disclosure-privacy;true;true;56;0.385009971;1112760832;54
+ihis;1-disclosure-privacy;false;true;57;0.263888517;1416926680;25
+ihis;1-disclosure-privacy;true;true;57;0.369009931;1145021848;48
+ihis;1-disclosure-privacy;false;true;58;0.25943159;1290406856;25
+ihis;1-disclosure-privacy;true;true;58;0.371188173;1170555352;61
+ihis;1-disclosure-privacy;false;true;59;0.259286404;1461460104;30
+ihis;1-disclosure-privacy;true;true;59;0.384309875;1168583128;64
+ihis;1-disclosure-privacy;false;true;60;0.271368636;1352857760;27
+ihis;1-disclosure-privacy;true;true;60;0.387447833;1194602352;51
+ihis;1-disclosure-privacy;false;true;61;0.27639904;1453999784;26
+ihis;1-disclosure-privacy;true;true;61;0.389638929;1166240176;53
+ihis;1-disclosure-privacy;false;true;62;0.26351139;1402953792;26
+ihis;1-disclosure-privacy;true;true;62;0.392921983;1198801944;42
+ihis;1-disclosure-privacy;false;true;63;0.236704561;1372475656;26
+ihis;1-disclosure-privacy;true;true;63;0.373492939;1226370680;41
+ihis;1-disclosure-privacy;false;true;64;0.252567335;1342127056;30
+ihis;1-disclosure-privacy;true;true;64;0.36108416;1204518600;48
+ihis;2-disclosure-privacy;false;true;1;0.597272191;989680704;201
+ihis;2-disclosure-privacy;true;true;1;0.753898806;998957184;677
+ihis;2-disclosure-privacy;false;true;2;0.539373181;1167719200;94
+ihis;2-disclosure-privacy;true;true;2;0.642220621;1077165000;388
+ihis;2-disclosure-privacy;false;true;3;0.557644658;1127198152;65
+ihis;2-disclosure-privacy;true;true;3;0.707656651;982981392;231
+ihis;2-disclosure-privacy;false;true;4;0.547437264;1252310976;57
+ihis;2-disclosure-privacy;true;true;4;0.64260392;1109796320;184
+ihis;2-disclosure-privacy;false;true;5;0.533568028;1259162320;46
+ihis;2-disclosure-privacy;true;true;5;0.617770291;1043556608;163
+ihis;2-disclosure-privacy;false;true;6;0.521136094;1184775800;51
+ihis;2-disclosure-privacy;true;true;6;0.629944398;989459824;185
+ihis;2-disclosure-privacy;false;true;7;0.520926319;1216175360;45
+ihis;2-disclosure-privacy;true;true;7;0.618872269;948086688;137
+ihis;2-disclosure-privacy;false;true;8;0.52938055;1217361496;41
+ihis;2-disclosure-privacy;true;true;8;0.630185528;954664824;111
+ihis;2-disclosure-privacy;false;true;9;0.523418799;1206876720;38
+ihis;2-disclosure-privacy;true;true;9;0.620155492;940884696;106
+ihis;2-disclosure-privacy;false;true;10;0.538433489;1189508032;36
+ihis;2-disclosure-privacy;true;true;10;0.617056116;950656664;126
+ihis;2-disclosure-privacy;false;true;11;0.530253371;1226833680;42
+ihis;2-disclosure-privacy;true;true;11;0.632234003;947148168;104
+ihis;2-disclosure-privacy;false;true;12;0.538202234;1274247408;32
+ihis;2-disclosure-privacy;true;true;12;0.652130757;944892080;87
+ihis;2-disclosure-privacy;false;true;13;0.551963169;1314349368;31
+ihis;2-disclosure-privacy;true;true;13;0.658523922;962338216;79
+ihis;2-disclosure-privacy;false;true;14;0.546874899;1329778568;34
+ihis;2-disclosure-privacy;true;true;14;0.661260694;945232816;88
+ihis;2-disclosure-privacy;false;true;15;0.520407242;1372073904;30
+ihis;2-disclosure-privacy;true;true;15;0.658531802;955048496;76
+ihis;2-disclosure-privacy;false;true;16;0.524614601;1441254464;30
+ihis;2-disclosure-privacy;true;true;16;0.642328856;959813592;69
+ihis;2-disclosure-privacy;false;true;17;0.540478934;1470600728;26
+ihis;2-disclosure-privacy;true;true;17;0.627333577;973956392;76
+ihis;2-disclosure-privacy;false;true;18;0.529469947;1429748832;30
+ihis;2-disclosure-privacy;true;true;18;0.637328804;956332352;79
+ihis;2-disclosure-privacy;false;true;19;0.544515787;1420456696;28
+ihis;2-disclosure-privacy;true;true;19;0.653274422;957321224;80
+ihis;2-disclosure-privacy;false;true;20;0.545828988;1418722032;30
+ihis;2-disclosure-privacy;true;true;20;0.6476842;959624424;60
+ihis;2-disclosure-privacy;false;true;21;0.537879446;1459216688;24
+ihis;2-disclosure-privacy;true;true;21;0.636184133;965591408;56
+ihis;2-disclosure-privacy;false;true;22;0.536033503;1514247336;26
+ihis;2-disclosure-privacy;true;true;22;0.648587109;993000384;55
+ihis;2-disclosure-privacy;false;true;23;0.540050783;1474294608;24
+ihis;2-disclosure-privacy;true;true;23;0.654847635;967512016;54
+ihis;2-disclosure-privacy;false;true;24;0.528458288;1539027408;24
+ihis;2-disclosure-privacy;true;true;24;0.642725056;959778104;56
+ihis;2-disclosure-privacy;false;true;25;0.540488721;1536650816;22
+ihis;2-disclosure-privacy;true;true;25;0.642560827;979174456;55
+ihis;2-disclosure-privacy;false;true;26;0.534202851;1407463120;24
+ihis;2-disclosure-privacy;true;true;26;0.640889916;988406096;55
+ihis;2-disclosure-privacy;false;true;27;0.511245337;1510759800;24
+ihis;2-disclosure-privacy;true;true;27;0.641700424;986752688;51
+ihis;2-disclosure-privacy;false;true;28;0.523676452;1499018176;23
+ihis;2-disclosure-privacy;true;true;28;0.61488457;994065504;51
+ihis;2-disclosure-privacy;false;true;29;0.485855598;1572829680;25
+ihis;2-disclosure-privacy;true;true;29;0.630632348;1008644608;48
+ihis;2-disclosure-privacy;false;true;30;0.528593461;1473030032;28
+ihis;2-disclosure-privacy;true;true;30;0.63377834;1010746944;54
+ihis;2-disclosure-privacy;false;true;31;0.526301629;1362074416;23
+ihis;2-disclosure-privacy;true;true;31;0.634229846;1006162536;49
+ihis;2-disclosure-privacy;false;true;32;0.531890836;1381460424;21
+ihis;2-disclosure-privacy;true;true;32;0.625518129;1000536984;45
+ihis;2-disclosure-privacy;false;true;33;0.481021203;1390443768;23
+ihis;2-disclosure-privacy;true;true;33;0.633277697;1018076640;45
+ihis;2-disclosure-privacy;false;true;34;0.523150438;1338127616;25
+ihis;2-disclosure-privacy;true;true;34;0.619629538;1011229392;48
+ihis;2-disclosure-privacy;false;true;35;0.515591125;1423945960;20
+ihis;2-disclosure-privacy;true;true;35;0.611447007;1002160416;45
+ihis;2-disclosure-privacy;false;true;36;0.488073134;1438537144;22
+ihis;2-disclosure-privacy;true;true;36;0.619141755;1029523576;46
+ihis;2-disclosure-privacy;false;true;37;0.511180557;1467332800;20
+ihis;2-disclosure-privacy;true;true;37;0.624710086;1015351568;39
+ihis;2-disclosure-privacy;false;true;38;0.522763878;1468725360;22
+ihis;2-disclosure-privacy;true;true;38;0.620031586;1021857608;46
+ihis;2-disclosure-privacy;false;true;39;0.523793276;1477481456;29
+ihis;2-disclosure-privacy;true;true;39;0.617134752;1003295744;41
+ihis;2-disclosure-privacy;false;true;40;0.52449789;1474136488;23
+ihis;2-disclosure-privacy;true;true;40;0.618751783;1030534048;42
+ihis;2-disclosure-privacy;false;true;41;0.510513865;1405265280;21
+ihis;2-disclosure-privacy;true;true;41;0.596754125;1024174512;47
+ihis;2-disclosure-privacy;false;true;42;0.467452011;1521128416;30
+ihis;2-disclosure-privacy;true;true;42;0.609288817;1021899448;39
+ihis;2-disclosure-privacy;false;true;43;0.507379188;1475007680;29
+ihis;2-disclosure-privacy;true;true;43;0.613371719;1018135080;39
+ihis;2-disclosure-privacy;false;true;44;0.472897697;1449608944;20
+ihis;2-disclosure-privacy;true;true;44;0.611788525;1005132824;38
+ihis;2-disclosure-privacy;false;true;45;0.48824651;1482329584;20
+ihis;2-disclosure-privacy;true;true;45;0.612422426;1028835720;37
+ihis;2-disclosure-privacy;false;true;46;0.484583242;1458621088;20
+ihis;2-disclosure-privacy;true;true;46;0.620184124;1024727264;40
+ihis;2-disclosure-privacy;false;true;47;0.489536763;1460052960;21
+ihis;2-disclosure-privacy;true;true;47;0.60626706;1025575616;41
+ihis;2-disclosure-privacy;false;true;48;0.504338704;1449888312;21
+ihis;2-disclosure-privacy;true;true;48;0.619355688;1026834040;37
+ihis;2-disclosure-privacy;false;true;49;0.505262287;1465088856;25
+ihis;2-disclosure-privacy;true;true;49;0.608086357;1028934928;34
+ihis;2-disclosure-privacy;false;true;50;0.513891977;1488278704;31
+ihis;2-disclosure-privacy;true;true;50;0.62213284;1035804912;36
+ihis;2-disclosure-privacy;false;true;51;0.46520036;1527597536;27
+ihis;2-disclosure-privacy;true;true;51;0.598651636;1032361080;35
+ihis;2-disclosure-privacy;false;true;52;0.505413363;1496472040;24
+ihis;2-disclosure-privacy;true;true;52;0.626095745;1030937224;41
+ihis;2-disclosure-privacy;false;true;53;0.498879778;1418404568;32
+ihis;2-disclosure-privacy;true;true;53;0.598354964;1032168464;41
+ihis;2-disclosure-privacy;false;true;54;0.481497708;1489371840;26
+ihis;2-disclosure-privacy;true;true;54;0.588219028;1024092704;42
+ihis;2-disclosure-privacy;false;true;55;0.454777104;1486885688;29
+ihis;2-disclosure-privacy;true;true;55;0.603483124;1066018296;37
+ihis;2-disclosure-privacy;false;true;56;0.471085078;1562371472;27
+ihis;2-disclosure-privacy;true;true;56;0.613218275;1048452112;37
+ihis;2-disclosure-privacy;false;true;57;0.469553217;1539106040;20
+ihis;2-disclosure-privacy;true;true;57;0.599522325;1033931920;38
+ihis;2-disclosure-privacy;false;true;58;0.453915257;1532588416;25
+ihis;2-disclosure-privacy;true;true;58;0.593702651;1057540256;37
+ihis;2-disclosure-privacy;false;true;59;0.466305492;1567030736;24
+ihis;2-disclosure-privacy;true;true;59;0.596771392;1042441384;37
+ihis;2-disclosure-privacy;false;true;60;0.470983849;1584383608;26
+ihis;2-disclosure-privacy;true;true;60;0.595091603;1046320904;36
+ihis;2-disclosure-privacy;false;true;61;0.468627053;1501661336;31
+ihis;2-disclosure-privacy;true;true;61;0.599298483;1066289552;33
+ihis;2-disclosure-privacy;false;true;62;0.474626983;1557611976;20
+ihis;2-disclosure-privacy;true;true;62;0.585582219;1080865872;39
+ihis;2-disclosure-privacy;false;true;63;0.456222836;1578183488;24
+ihis;2-disclosure-privacy;true;true;63;0.597394398;1053004768;35
+ihis;2-disclosure-privacy;false;true;64;0.476929529;1567285600;20
+ihis;2-disclosure-privacy;true;true;64;0.597550053;1059752920;37
+ihis;1-enhanced-likeness (global distribution);false;true;1;0.548897977;1208738544;163
+ihis;1-enhanced-likeness (global distribution);true;true;1;0.61863687;1184117160;928
+ihis;1-enhanced-likeness (global distribution);false;true;2;0.435639605;1303875128;89
+ihis;1-enhanced-likeness (global distribution);true;true;2;0.614651335;1270686392;639
+ihis;1-enhanced-likeness (global distribution);false;true;3;0.536930666;1275208496;64
+ihis;1-enhanced-likeness (global distribution);true;true;3;0.613541339;1224057824;360
+ihis;1-enhanced-likeness (global distribution);false;true;4;0.507528191;1420686816;47
+ihis;1-enhanced-likeness (global distribution);true;true;4;0.606881746;1278621504;263
+ihis;1-enhanced-likeness (global distribution);false;true;5;0.519309853;1486090312;43
+ihis;1-enhanced-likeness (global distribution);true;true;5;0.613322541;1256201096;258
+ihis;1-enhanced-likeness (global distribution);false;true;6;0.504567865;1392475720;40
+ihis;1-enhanced-likeness (global distribution);true;true;6;0.607826501;1202777176;199
+ihis;1-enhanced-likeness (global distribution);false;true;7;0.494854125;1470900992;36
+ihis;1-enhanced-likeness (global distribution);true;true;7;0.599073332;1196832640;220
+ihis;1-enhanced-likeness (global distribution);false;true;8;0.481393936;1482355664;30
+ihis;1-enhanced-likeness (global distribution);true;true;8;0.587216258;1243114664;169
+ihis;1-enhanced-likeness (global distribution);false;true;9;0.479987465;1533491760;30
+ihis;1-enhanced-likeness (global distribution);true;true;9;0.5919824;1223049248;169
+ihis;1-enhanced-likeness (global distribution);false;true;10;0.453964312;1441017616;29
+ihis;1-enhanced-likeness (global distribution);true;true;10;0.59481573;1194757344;165
+ihis;1-enhanced-likeness (global distribution);false;true;11;0.462659482;1385349104;28
+ihis;1-enhanced-likeness (global distribution);true;true;11;0.587247139;1228538384;161
+ihis;1-enhanced-likeness (global distribution);false;true;12;0.469324688;1428761392;24
+ihis;1-enhanced-likeness (global distribution);true;true;12;0.587973911;1217496576;154
+ihis;1-enhanced-likeness (global distribution);false;true;13;0.443303514;1485539472;26
+ihis;1-enhanced-likeness (global distribution);true;true;13;0.587775094;1215694984;136
+ihis;1-enhanced-likeness (global distribution);false;true;14;0.417625025;1495586768;31
+ihis;1-enhanced-likeness (global distribution);true;true;14;0.59435126;1192615904;126
+ihis;1-enhanced-likeness (global distribution);false;true;15;0.440919886;1523778840;27
+ihis;1-enhanced-likeness (global distribution);true;true;15;0.588516377;1258475032;131
+ihis;1-enhanced-likeness (global distribution);false;true;16;0.452121095;1557078368;30
+ihis;1-enhanced-likeness (global distribution);true;true;16;0.584163517;1206151784;118
+ihis;1-enhanced-likeness (global distribution);false;true;17;0.43196399;1614362376;25
+ihis;1-enhanced-likeness (global distribution);true;true;17;0.584091329;1217528416;128
+ihis;1-enhanced-likeness (global distribution);false;true;18;0.44461192;1649186256;25
+ihis;1-enhanced-likeness (global distribution);true;true;18;0.59058387;1220208896;109
+ihis;1-enhanced-likeness (global distribution);false;true;19;0.455297791;1672701072;25
+ihis;1-enhanced-likeness (global distribution);true;true;19;0.588988682;1242105256;99
+ihis;1-enhanced-likeness (global distribution);false;true;20;0.444540087;1668789480;24
+ihis;1-enhanced-likeness (global distribution);true;true;20;0.583022045;1221872272;94
+ihis;1-enhanced-likeness (global distribution);false;true;21;0.440452615;1775530856;20
+ihis;1-enhanced-likeness (global distribution);true;true;21;0.590195383;1195321336;96
+ihis;1-enhanced-likeness (global distribution);false;true;22;0.435999902;1656533560;26
+ihis;1-enhanced-likeness (global distribution);true;true;22;0.583118056;1204631360;103
+ihis;1-enhanced-likeness (global distribution);false;true;23;0.438847166;1705548056;21
+ihis;1-enhanced-likeness (global distribution);true;true;23;0.581786777;1234443328;96
+ihis;1-enhanced-likeness (global distribution);false;true;24;0.452043355;1633550160;22
+ihis;1-enhanced-likeness (global distribution);true;true;24;0.581753804;1242015880;86
+ihis;1-enhanced-likeness (global distribution);false;true;25;0.440568523;1759516848;22
+ihis;1-enhanced-likeness (global distribution);true;true;25;0.585227344;1220939600;89
+ihis;1-enhanced-likeness (global distribution);false;true;26;0.43834444;1676252792;20
+ihis;1-enhanced-likeness (global distribution);true;true;26;0.582257547;1217000280;79
+ihis;1-enhanced-likeness (global distribution);false;true;27;0.456318473;1827041400;20
+ihis;1-enhanced-likeness (global distribution);true;true;27;0.580989561;1222366304;88
+ihis;1-enhanced-likeness (global distribution);false;true;28;0.444691092;1746544376;20
+ihis;1-enhanced-likeness (global distribution);true;true;28;0.580098082;1249869792;111
+ihis;1-enhanced-likeness (global distribution);false;true;29;0.43032174;1719912272;20
+ihis;1-enhanced-likeness (global distribution);true;true;29;0.579037348;1247464784;82
+ihis;1-enhanced-likeness (global distribution);false;true;30;0.431835371;1616694520;31
+ihis;1-enhanced-likeness (global distribution);true;true;30;0.580741573;1235190464;71
+ihis;1-enhanced-likeness (global distribution);false;true;31;0.430384921;1721455304;28
+ihis;1-enhanced-likeness (global distribution);true;true;31;0.577823169;1250000832;75
+ihis;1-enhanced-likeness (global distribution);false;true;32;0.437166262;1639911936;22
+ihis;1-enhanced-likeness (global distribution);true;true;32;0.57537648;1245925776;74
+ihis;1-enhanced-likeness (global distribution);false;true;33;0.433628092;1537953064;28
+ihis;1-enhanced-likeness (global distribution);true;true;33;0.572033387;1251238224;66
+ihis;1-enhanced-likeness (global distribution);false;true;34;0.437859517;1691786600;27
+ihis;1-enhanced-likeness (global distribution);true;true;34;0.57634355;1261040368;66
+ihis;1-enhanced-likeness (global distribution);false;true;35;0.434663543;1613934528;23
+ihis;1-enhanced-likeness (global distribution);true;true;35;0.574660823;1278857496;76
+ihis;1-enhanced-likeness (global distribution);false;true;36;0.427258114;1652383352;22
+ihis;1-enhanced-likeness (global distribution);true;true;36;0.569317413;1291430696;71
+ihis;1-enhanced-likeness (global distribution);false;true;37;0.441748733;1640995472;24
+ihis;1-enhanced-likeness (global distribution);true;true;37;0.572262631;1264561640;72
+ihis;1-enhanced-likeness (global distribution);false;true;38;0.43753961;1606424664;26
+ihis;1-enhanced-likeness (global distribution);true;true;38;0.5730835;1293897936;65
+ihis;1-enhanced-likeness (global distribution);false;true;39;0.431586281;1629146072;24
+ihis;1-enhanced-likeness (global distribution);true;true;39;0.572628152;1274362552;69
+ihis;1-enhanced-likeness (global distribution);false;true;40;0.424102215;1625512064;29
+ihis;1-enhanced-likeness (global distribution);true;true;40;0.572417141;1285285248;56
+ihis;1-enhanced-likeness (global distribution);false;true;41;0.415115881;1676764008;28
+ihis;1-enhanced-likeness (global distribution);true;true;41;0.570733762;1292596552;63
+ihis;1-enhanced-likeness (global distribution);false;true;42;0.428051293;1638442856;22
+ihis;1-enhanced-likeness (global distribution);true;true;42;0.566095332;1323188400;55
+ihis;1-enhanced-likeness (global distribution);false;true;43;0.422800401;1593908976;23
+ihis;1-enhanced-likeness (global distribution);true;true;43;0.573937139;1301680136;60
+ihis;1-enhanced-likeness (global distribution);false;true;44;0.421921768;1708654640;24
+ihis;1-enhanced-likeness (global distribution);true;true;44;0.567556737;1299634896;63
+ihis;1-enhanced-likeness (global distribution);false;true;45;0.426746672;1637616344;23
+ihis;1-enhanced-likeness (global distribution);true;true;45;0.567935252;1294720872;55
+ihis;1-enhanced-likeness (global distribution);false;true;46;0.425927209;1675717248;22
+ihis;1-enhanced-likeness (global distribution);true;true;46;0.571276036;1297165872;57
+ihis;1-enhanced-likeness (global distribution);false;true;47;0.419500867;1655078224;28
+ihis;1-enhanced-likeness (global distribution);true;true;47;0.567396263;1311799200;61
+ihis;1-enhanced-likeness (global distribution);false;true;48;0.427108114;1654670952;28
+ihis;1-enhanced-likeness (global distribution);true;true;48;0.56836598;1300946896;57
+ihis;1-enhanced-likeness (global distribution);false;true;49;0.422005404;1710676896;26
+ihis;1-enhanced-likeness (global distribution);true;true;49;0.56584637;1290455120;55
+ihis;1-enhanced-likeness (global distribution);false;true;50;0.4257813;1742937768;25
+ihis;1-enhanced-likeness (global distribution);true;true;50;0.573798786;1302173272;56
+ihis;1-enhanced-likeness (global distribution);false;true;51;0.418031326;1686725008;29
+ihis;1-enhanced-likeness (global distribution);true;true;51;0.56383211;1323843424;55
+ihis;1-enhanced-likeness (global distribution);false;true;52;0.431694601;1646553312;24
+ihis;1-enhanced-likeness (global distribution);true;true;52;0.567344779;1359139016;60
+ihis;1-enhanced-likeness (global distribution);false;true;53;0.418320416;1686286088;23
+ihis;1-enhanced-likeness (global distribution);true;true;53;0.567385527;1330137224;54
+ihis;1-enhanced-likeness (global distribution);false;true;54;0.443734168;1717300488;29
+ihis;1-enhanced-likeness (global distribution);true;true;54;0.560940876;1334110184;51
+ihis;1-enhanced-likeness (global distribution);false;true;55;0.419350867;1735458024;25
+ihis;1-enhanced-likeness (global distribution);true;true;55;0.55918909;1332586288;56
+ihis;1-enhanced-likeness (global distribution);false;true;56;0.421999949;1700222680;24
+ihis;1-enhanced-likeness (global distribution);true;true;56;0.562823536;1328914064;52
+ihis;1-enhanced-likeness (global distribution);false;true;57;0.425334484;1691554336;27
+ihis;1-enhanced-likeness (global distribution);true;true;57;0.560583356;1340444496;55
+ihis;1-enhanced-likeness (global distribution);false;true;58;0.416777694;1689702568;24
+ihis;1-enhanced-likeness (global distribution);true;true;58;0.55454085;1375845760;56
+ihis;1-enhanced-likeness (global distribution);false;true;59;0.42388267;1737187456;25
+ihis;1-enhanced-likeness (global distribution);true;true;59;0.560739361;1337179344;59
+ihis;1-enhanced-likeness (global distribution);false;true;60;0.417387692;1720962384;26
+ihis;1-enhanced-likeness (global distribution);true;true;60;0.563181554;1343316600;52
+ihis;1-enhanced-likeness (global distribution);false;true;61;0.421334497;1730846568;26
+ihis;1-enhanced-likeness (global distribution);true;true;61;0.56304719;1336474448;53
+ihis;1-enhanced-likeness (global distribution);false;true;62;0.415480426;1755291072;23
+ihis;1-enhanced-likeness (global distribution);true;true;62;0.561732821;1358793632;56
+ihis;1-enhanced-likeness (global distribution);false;true;63;0.418228144;1752301872;24
+ihis;1-enhanced-likeness (global distribution);true;true;63;0.564935873;1328859376;54
+ihis;1-enhanced-likeness (global distribution);false;true;64;0.42537312;1762203616;23
+ihis;1-enhanced-likeness (global distribution);true;true;64;0.551650975;1338867112;48
+ihis;2-enhanced-likeness (global distribution);false;true;1;0.633118188;1191005360;159
+ihis;2-enhanced-likeness (global distribution);true;true;1;0.734200738;1164851824;600
+ihis;2-enhanced-likeness (global distribution);false;true;2;0.627658728;1315343288;92
+ihis;2-enhanced-likeness (global distribution);true;true;2;0.742381342;1258487792;416
+ihis;2-enhanced-likeness (global distribution);false;true;3;0.629193528;1290405248;66
+ihis;2-enhanced-likeness (global distribution);true;true;3;0.732923198;1154803288;258
+ihis;2-enhanced-likeness (global distribution);false;true;4;0.62651801;1464912392;46
+ihis;2-enhanced-likeness (global distribution);true;true;4;0.731469254;1283045656;212
+ihis;2-enhanced-likeness (global distribution);false;true;5;0.623262229;1439851560;43
+ihis;2-enhanced-likeness (global distribution);true;true;5;0.726208059;1221626928;177
+ihis;2-enhanced-likeness (global distribution);false;true;6;0.617096034;1405754128;40
+ihis;2-enhanced-likeness (global distribution);true;true;6;0.718614832;1151408160;165
+ihis;2-enhanced-likeness (global distribution);false;true;7;0.607247359;1500379344;35
+ihis;2-enhanced-likeness (global distribution);true;true;7;0.723157054;1135582200;135
+ihis;2-enhanced-likeness (global distribution);false;true;8;0.607213368;1494546928;30
+ihis;2-enhanced-likeness (global distribution);true;true;8;0.715251446;1142047296;133
+ihis;2-enhanced-likeness (global distribution);false;true;9;0.606931735;1372578552;35
+ihis;2-enhanced-likeness (global distribution);true;true;9;0.709293068;1155282272;118
+ihis;2-enhanced-likeness (global distribution);false;true;10;0.602203448;1397197176;31
+ihis;2-enhanced-likeness (global distribution);true;true;10;0.710792633;1161785536;116
+ihis;2-enhanced-likeness (global distribution);false;true;11;0.595997894;1434162432;27
+ihis;2-enhanced-likeness (global distribution);true;true;11;0.712832562;1174346608;159
+ihis;2-enhanced-likeness (global distribution);false;true;12;0.597671212;1476507352;25
+ihis;2-enhanced-likeness (global distribution);true;true;12;0.712129815;1161603016;101
+ihis;2-enhanced-likeness (global distribution);false;true;13;0.597389996;1522098368;28
+ihis;2-enhanced-likeness (global distribution);true;true;13;0.70745872;1160311744;93
+ihis;2-enhanced-likeness (global distribution);false;true;14;0.595424171;1533705048;30
+ihis;2-enhanced-likeness (global distribution);true;true;14;0.703550479;1163305304;88
+ihis;2-enhanced-likeness (global distribution);false;true;15;0.595068194;1591144768;25
+ihis;2-enhanced-likeness (global distribution);true;true;15;0.706268004;1182638224;90
+ihis;2-enhanced-likeness (global distribution);false;true;16;0.595689013;1644305456;27
+ihis;2-enhanced-likeness (global distribution);true;true;16;0.701953959;1160819056;120
+ihis;2-enhanced-likeness (global distribution);false;true;17;0.592629568;1702407072;23
+ihis;2-enhanced-likeness (global distribution);true;true;17;0.708740359;1168483752;95
+ihis;2-enhanced-likeness (global distribution);false;true;18;0.591816081;1662609648;26
+ihis;2-enhanced-likeness (global distribution);true;true;18;0.707638466;1178572880;82
+ihis;2-enhanced-likeness (global distribution);false;true;19;0.595290833;1747135400;23
+ihis;2-enhanced-likeness (global distribution);true;true;19;0.703942009;1178056016;74
+ihis;2-enhanced-likeness (global distribution);false;true;20;0.59307668;1675142512;25
+ihis;2-enhanced-likeness (global distribution);true;true;20;0.70447795;1179112232;93
+ihis;2-enhanced-likeness (global distribution);false;true;21;0.59353786;1791638336;22
+ihis;2-enhanced-likeness (global distribution);true;true;21;0.702522237;1197494720;76
+ihis;2-enhanced-likeness (global distribution);false;true;22;0.594366638;1640462616;22
+ihis;2-enhanced-likeness (global distribution);true;true;22;0.705066698;1180606184;77
+ihis;2-enhanced-likeness (global distribution);false;true;23;0.593577617;1649775632;24
+ihis;2-enhanced-likeness (global distribution);true;true;23;0.711269424;1190571680;64
+ihis;2-enhanced-likeness (global distribution);false;true;24;0.591324931;1646170400;37
+ihis;2-enhanced-likeness (global distribution);true;true;24;0.705657424;1186529160;91
+ihis;2-enhanced-likeness (global distribution);false;true;25;0.595622956;1635460784;21
+ihis;2-enhanced-likeness (global distribution);true;true;25;0.707120515;1202211496;68
+ihis;2-enhanced-likeness (global distribution);false;true;26;0.592999613;1529919600;22
+ihis;2-enhanced-likeness (global distribution);true;true;26;0.709256995;1193039768;57
+ihis;2-enhanced-likeness (global distribution);false;true;27;0.595210096;1642241816;20
+ihis;2-enhanced-likeness (global distribution);true;true;27;0.707598782;1198704992;59
+ihis;2-enhanced-likeness (global distribution);false;true;28;0.590375659;1655740872;21
+ihis;2-enhanced-likeness (global distribution);true;true;28;0.70781598;1224226776;59
+ihis;2-enhanced-likeness (global distribution);false;true;29;0.590830722;1710719320;22
+ihis;2-enhanced-likeness (global distribution);true;true;29;0.703760621;1228940032;59
+ihis;2-enhanced-likeness (global distribution);false;true;30;0.590195223;1610941424;27
+ihis;2-enhanced-likeness (global distribution);true;true;30;0.705788295;1206229688;54
+ihis;2-enhanced-likeness (global distribution);false;true;31;0.585866616;1574796192;20
+ihis;2-enhanced-likeness (global distribution);true;true;31;0.702680509;1199175760;57
+ihis;2-enhanced-likeness (global distribution);false;true;32;0.591746354;1616442744;26
+ihis;2-enhanced-likeness (global distribution);true;true;32;0.704642372;1216763256;67
+ihis;2-enhanced-likeness (global distribution);false;true;33;0.588563356;1548931864;22
+ihis;2-enhanced-likeness (global distribution);true;true;33;0.710616504;1223327456;64
+ihis;2-enhanced-likeness (global distribution);false;true;34;0.588432464;1614818720;23
+ihis;2-enhanced-likeness (global distribution);true;true;34;0.706155582;1228409224;49
+ihis;2-enhanced-likeness (global distribution);false;true;35;0.58700611;1627163656;27
+ihis;2-enhanced-likeness (global distribution);true;true;35;0.706216458;1211059400;55
+ihis;2-enhanced-likeness (global distribution);false;true;36;0.584812141;1619922400;26
+ihis;2-enhanced-likeness (global distribution);true;true;36;0.703985449;1230187792;48
+ihis;2-enhanced-likeness (global distribution);false;true;37;0.585388922;1643737496;24
+ihis;2-enhanced-likeness (global distribution);true;true;37;0.703282449;1226641584;50
+ihis;2-enhanced-likeness (global distribution);false;true;38;0.593406356;1664978040;23
+ihis;2-enhanced-likeness (global distribution);true;true;38;0.704643166;1217237808;45
+ihis;2-enhanced-likeness (global distribution);false;true;39;0.593066282;1664541112;29
+ihis;2-enhanced-likeness (global distribution);true;true;39;0.705638986;1224294256;44
+ihis;2-enhanced-likeness (global distribution);false;true;40;0.586567561;1631404624;24
+ihis;2-enhanced-likeness (global distribution);true;true;40;0.702231584;1233738768;44
+ihis;2-enhanced-likeness (global distribution);false;true;41;0.589172554;1681056328;25
+ihis;2-enhanced-likeness (global distribution);true;true;41;0.703489895;1226285416;55
+ihis;2-enhanced-likeness (global distribution);false;true;42;0.585080042;1715554520;25
+ihis;2-enhanced-likeness (global distribution);true;true;42;0.700375957;1250554560;47
+ihis;2-enhanced-likeness (global distribution);false;true;43;0.584653726;1682697816;32
+ihis;2-enhanced-likeness (global distribution);true;true;43;0.702311588;1221029096;47
+ihis;2-enhanced-likeness (global distribution);false;true;44;0.585873344;1695563544;22
+ihis;2-enhanced-likeness (global distribution);true;true;44;0.703458453;1275210912;55
+ihis;2-enhanced-likeness (global distribution);false;true;45;0.58385186;1664729872;24
+ihis;2-enhanced-likeness (global distribution);true;true;45;0.703263032;1262204792;46
+ihis;2-enhanced-likeness (global distribution);false;true;46;0.586406087;1621209056;22
+ihis;2-enhanced-likeness (global distribution);true;true;46;0.70838733;1262853056;56
+ihis;2-enhanced-likeness (global distribution);false;true;47;0.58731132;1621959288;28
+ihis;2-enhanced-likeness (global distribution);true;true;47;0.707170947;1220471272;44
+ihis;2-enhanced-likeness (global distribution);false;true;48;0.584798685;1678098832;24
+ihis;2-enhanced-likeness (global distribution);true;true;48;0.700470526;1252960400;43
+ihis;2-enhanced-likeness (global distribution);false;true;49;0.586491105;1674396264;30
+ihis;2-enhanced-likeness (global distribution);true;true;49;0.705423977;1255899848;40
+ihis;2-enhanced-likeness (global distribution);false;true;50;0.588039177;1659646944;28
+ihis;2-enhanced-likeness (global distribution);true;true;50;0.708096502;1260160048;39
+ihis;2-enhanced-likeness (global distribution);false;true;51;0.581173469;1640863776;24
+ihis;2-enhanced-likeness (global distribution);true;true;51;0.699960716;1257453376;47
+ihis;2-enhanced-likeness (global distribution);false;true;52;0.583357651;1645550960;25
+ihis;2-enhanced-likeness (global distribution);true;true;52;0.703541541;1258341024;45
+ihis;2-enhanced-likeness (global distribution);false;true;53;0.579966083;1695970376;25
+ihis;2-enhanced-likeness (global distribution);true;true;53;0.704152887;1250357832;43
+ihis;2-enhanced-likeness (global distribution);false;true;54;0.584900218;1714328056;32
+ihis;2-enhanced-likeness (global distribution);true;true;54;0.703431363;1236793328;37
+ihis;2-enhanced-likeness (global distribution);false;true;55;0.583906908;1649832856;22
+ihis;2-enhanced-likeness (global distribution);true;true;55;0.700064978;1239913376;41
+ihis;2-enhanced-likeness (global distribution);false;true;56;0.57936239;1683673888;29
+ihis;2-enhanced-likeness (global distribution);true;true;56;0.701122301;1278807016;44
+ihis;2-enhanced-likeness (global distribution);false;true;57;0.582179624;1712200096;29
+ihis;2-enhanced-likeness (global distribution);true;true;57;0.703006343;1268898496;39
+ihis;2-enhanced-likeness (global distribution);false;true;58;0.578755027;1681615336;29
+ihis;2-enhanced-likeness (global distribution);true;true;58;0.701680588;1272525208;42
+ihis;2-enhanced-likeness (global distribution);false;true;59;0.581230352;1811241848;25
+ihis;2-enhanced-likeness (global distribution);true;true;59;0.701307905;1258922568;46
+ihis;2-enhanced-likeness (global distribution);false;true;60;0.58150498;1721268296;26
+ihis;2-enhanced-likeness (global distribution);true;true;60;0.698940054;1277566608;44
+ihis;2-enhanced-likeness (global distribution);false;true;61;0.583780909;1669664248;22
+ihis;2-enhanced-likeness (global distribution);true;true;61;0.703299147;1257384032;42
+ihis;2-enhanced-likeness (global distribution);false;true;62;0.581056033;1747024320;35
+ihis;2-enhanced-likeness (global distribution);true;true;62;0.699256812;1246222992;37
+ihis;2-enhanced-likeness (global distribution);false;true;63;0.578583767;1755902024;27
+ihis;2-enhanced-likeness (global distribution);true;true;63;0.697318746;1241319152;39
+ihis;2-enhanced-likeness (global distribution);false;true;64;0.584336282;1789670552;23
+ihis;2-enhanced-likeness (global distribution);true;true;64;0.697977743;1302359896;43
+ihis;0.05-average-risk;false;true;1;0.91904885;1202048064;269
+ihis;0.05-average-risk;true;true;1;0.949544593;1220310920;399
+ihis;0.05-average-risk;false;true;2;0.891623445;1206981152;206
+ihis;0.05-average-risk;true;true;2;0.94149496;1314858752;227
+ihis;0.05-average-risk;false;true;3;0.876312989;1097952816;178
+ihis;0.05-average-risk;true;true;3;0.935435314;1212885392;192
+ihis;0.05-average-risk;false;true;4;0.843928583;1166940672;127
+ihis;0.05-average-risk;true;true;4;0.931412869;1328110504;158
+ihis;0.05-average-risk;false;true;5;0.858531479;1245359568;122
+ihis;0.05-average-risk;true;true;5;0.925087226;1370476088;147
+ihis;0.05-average-risk;false;true;6;0.854693579;1097917696;127
+ihis;0.05-average-risk;true;true;6;0.919016964;1185131928;133
+ihis;0.05-average-risk;false;true;7;0.853043772;1127489608;110
+ihis;0.05-average-risk;true;true;7;0.914814782;1186251096;116
+ihis;0.05-average-risk;false;true;8;0.854009483;1114485144;87
+ihis;0.05-average-risk;true;true;8;0.912431613;1193984928;110
+ihis;0.05-average-risk;false;true;9;0.843928583;1113270544;98
+ihis;0.05-average-risk;true;true;9;0.910106996;1178417088;94
+ihis;0.05-average-risk;false;true;10;0.849722033;1152410776;88
+ihis;0.05-average-risk;true;true;10;0.907511402;1197428832;92
+ihis;0.05-average-risk;false;true;11;0.847708715;1114404016;104
+ihis;0.05-average-risk;true;true;11;0.904341817;1177473840;94
+ihis;0.05-average-risk;false;true;12;0.848888189;1191053944;77
+ihis;0.05-average-risk;true;true;12;0.902191216;1177109320;85
+ihis;0.05-average-risk;false;true;13;0.848649206;1128187240;90
+ihis;0.05-average-risk;true;true;13;0.90094472;1174764280;82
+ihis;0.05-average-risk;false;true;14;0.848711086;1133875304;77
+ihis;0.05-average-risk;true;true;14;0.900375666;1179854976;77
+ihis;0.05-average-risk;false;true;15;0.848659875;1110710456;90
+ihis;0.05-average-risk;true;true;15;0.899618538;1170093080;77
+ihis;0.05-average-risk;false;true;16;0.848576658;1114680600;76
+ihis;0.05-average-risk;true;true;16;0.899960447;1199500992;75
+ihis;0.05-average-risk;false;true;17;0.848455033;1129767656;73
+ihis;0.05-average-risk;true;true;17;0.899398427;1216750136;72
+ihis;0.05-average-risk;false;true;18;0.848412357;1115077616;77
+ihis;0.05-average-risk;true;true;18;0.900227364;1181719120;66
+ihis;0.05-average-risk;false;true;19;0.84857808;1139493224;62
+ihis;0.05-average-risk;true;true;19;0.900081525;1201128080;61
+ihis;0.05-average-risk;false;true;20;0.84842516;1127853896;62
+ihis;0.05-average-risk;true;true;20;0.898736243;1185941968;60
+ihis;0.05-average-risk;false;true;21;0.848537539;1127879216;66
+ihis;0.05-average-risk;true;true;21;0.900248059;1177525952;47
+ihis;0.05-average-risk;false;true;22;0.848343365;1131372096;64
+ihis;0.05-average-risk;true;true;22;0.900189077;1203524408;51
+ihis;0.05-average-risk;false;true;23;0.848324873;1124129192;71
+ihis;0.05-average-risk;true;true;23;0.89967242;1202082152;47
+ihis;0.05-average-risk;false;true;24;0.848275085;1148048112;54
+ihis;0.05-average-risk;true;true;24;0.899387748;1203356656;45
+ihis;0.05-average-risk;false;true;25;0.848546785;1142070792;60
+ihis;0.05-average-risk;true;true;25;0.899934764;1240105688;44
+ihis;0.05-average-risk;false;true;26;0.84830069;1145725600;51
+ihis;0.05-average-risk;true;true;26;0.899481269;1188260248;47
+ihis;0.05-average-risk;false;true;27;0.84839671;1146558240;72
+ihis;0.05-average-risk;true;true;27;0.899121288;1183874448;41
+ihis;0.05-average-risk;false;true;28;0.848393153;1149559696;59
+ihis;0.05-average-risk;true;true;28;0.898635902;1190468144;39
+ihis;0.05-average-risk;false;true;29;0.848235243;1153838864;73
+ihis;0.05-average-risk;true;true;29;0.89882294;1268923832;43
+ihis;0.05-average-risk;false;true;30;0.848129277;1149356056;60
+ihis;0.05-average-risk;true;true;30;0.898839642;1198757344;42
+ihis;0.05-average-risk;false;true;31;0.848088024;1145720184;61
+ihis;0.05-average-risk;true;true;31;0.899371822;1209999016;44
+ihis;0.05-average-risk;false;true;32;0.848194713;1141095096;55
+ihis;0.05-average-risk;true;true;32;0.89913712;1190019776;36
+ihis;0.05-average-risk;false;true;33;0.848081623;1152708592;56
+ihis;0.05-average-risk;true;true;33;0.899282763;1211469600;41
+ihis;0.05-average-risk;false;true;34;0.84796781;1157626920;67
+ihis;0.05-average-risk;true;true;34;0.899439764;1224395256;39
+ihis;0.05-average-risk;false;true;35;0.84783126;1173175256;48
+ihis;0.05-average-risk;true;true;35;0.899178537;1221143272;37
+ihis;0.05-average-risk;false;true;36;0.847703222;1153170080;51
+ihis;0.05-average-risk;true;true;36;0.898732995;1180351560;37
+ihis;0.05-average-risk;false;true;37;0.848110784;1162839616;54
+ihis;0.05-average-risk;true;true;37;0.898961124;1239233176;34
+ihis;0.05-average-risk;false;true;38;0.847999117;1178771760;54
+ihis;0.05-average-risk;true;true;38;0.89859719;1207743472;35
+ihis;0.05-average-risk;false;true;39;0.847976345;1172939240;55
+ihis;0.05-average-risk;true;true;39;0.898911472;1208294632;32
+ihis;0.05-average-risk;false;true;40;0.848117897;1169157480;47
+ihis;0.05-average-risk;true;true;40;0.898698087;1198690824;34
+ihis;0.05-average-risk;false;true;41;0.847965676;1182742208;52
+ihis;0.05-average-risk;true;true;41;0.898590458;1210895808;35
+ihis;0.05-average-risk;false;true;42;0.847895262;1193088768;40
+ihis;0.05-average-risk;true;true;42;0.898576003;1202103344;35
+ihis;0.05-average-risk;false;true;43;0.847891006;1175807968;48
+ihis;0.05-average-risk;true;true;43;0.898134907;1229371728;33
+ihis;0.05-average-risk;false;true;44;0.848006941;1194049488;50
+ihis;0.05-average-risk;true;true;44;0.898527283;1217770184;33
+ihis;0.05-average-risk;false;true;45;0.847883893;1198034104;45
+ihis;0.05-average-risk;true;true;45;0.898047766;1227858872;35
+ihis;0.05-average-risk;false;true;46;0.847848319;1201728008;54
+ihis;0.05-average-risk;true;true;46;0.898573801;1240779592;34
+ihis;0.05-average-risk;false;true;47;0.847657002;1205101608;44
+ihis;0.05-average-risk;true;true;47;0.898279299;1221390880;34
+ihis;0.05-average-risk;false;true;48;0.847519718;1197638208;43
+ihis;0.05-average-risk;true;true;48;0.89836097;1270103360;31
+ihis;0.05-average-risk;false;true;49;0.84775301;1212730352;40
+ihis;0.05-average-risk;true;true;49;0.898201987;1232551936;35
+ihis;0.05-average-risk;false;true;50;0.847738796;1197654256;42
+ihis;0.05-average-risk;true;true;50;0.897994595;1322695568;35
+ihis;0.05-average-risk;false;true;51;0.847740208;1205809640;43
+ihis;0.05-average-risk;true;true;51;0.898019536;1174995488;30
+ihis;0.05-average-risk;false;true;52;0.847462117;1216334008;44
+ihis;0.05-average-risk;true;true;52;0.897465797;1277877848;31
+ihis;0.05-average-risk;false;true;53;0.847671216;1203188552;38
+ihis;0.05-average-risk;true;true;53;0.897876777;1196076032;29
+ihis;0.05-average-risk;false;true;54;0.847557426;1226312216;33
+ihis;0.05-average-risk;true;true;54;0.897992747;1240614936;27
+ihis;0.05-average-risk;false;true;55;0.847447181;1199093416;38
+ihis;0.05-average-risk;true;true;55;0.897852586;1363898360;32
+ihis;0.05-average-risk;false;true;56;0.847573062;1208636872;46
+ihis;0.05-average-risk;true;true;56;0.897584518;1219477296;34
+ihis;0.05-average-risk;false;true;57;0.847516173;1231656600;41
+ihis;0.05-average-risk;true;true;57;0.897558129;1240372304;30
+ihis;0.05-average-risk;false;true;58;0.847363241;1216479224;41
+ihis;0.05-average-risk;true;true;58;0.89771634;1302488624;33
+ihis;0.05-average-risk;false;true;59;0.847289282;1222708104;46
+ihis;0.05-average-risk;true;true;59;0.897016496;1287907344;28
+ihis;0.05-average-risk;false;true;60;0.847364664;1214733624;45
+ihis;0.05-average-risk;true;true;60;0.897235491;1205300008;34
+ihis;0.05-average-risk;false;true;61;0.847183293;1209119984;40
+ihis;0.05-average-risk;true;true;61;0.89727317;1216685096;30
+ihis;0.05-average-risk;false;true;62;0.847207487;1218738968;36
+ihis;0.05-average-risk;true;true;62;0.897461923;1338959816;32
+ihis;0.05-average-risk;false;true;63;0.847198229;1243947528;34
+ihis;0.05-average-risk;true;true;63;0.897258033;1212801048;26
+ihis;0.05-average-risk;false;true;64;0.847058834;1248728000;35
+ihis;0.05-average-risk;true;true;64;0.897308903;1231001320;26
+ihis;0.01-average-risk;false;true;1;0.833998429;1244926880;587
+ihis;0.01-average-risk;true;true;1;0.900144953;1279869136;755
+ihis;0.01-average-risk;false;true;2;0.826230882;1267123288;371
+ihis;0.01-average-risk;true;true;2;0.888225745;1356096488;397
+ihis;0.01-average-risk;false;true;3;0.818913922;1158184384;303
+ihis;0.01-average-risk;true;true;3;0.876504107;1277703568;293
+ihis;0.01-average-risk;false;true;4;0.816875572;1253832448;192
+ihis;0.01-average-risk;true;true;4;0.871791046;1358498800;212
+ihis;0.01-average-risk;false;true;5;0.806740312;1311963016;209
+ihis;0.01-average-risk;true;true;5;0.860350623;1418420880;247
+ihis;0.01-average-risk;false;true;6;0.793240947;1150597600;207
+ihis;0.01-average-risk;true;true;6;0.851291431;1198324208;221
+ihis;0.01-average-risk;false;true;7;0.79015491;1159340168;175
+ihis;0.01-average-risk;true;true;7;0.844200546;1221368592;185
+ihis;0.01-average-risk;false;true;8;0.770970078;1186968976;143
+ihis;0.01-average-risk;true;true;8;0.84039675;1231371200;145
+ihis;0.01-average-risk;false;true;9;0.765295265;1183525840;156
+ihis;0.01-average-risk;true;true;9;0.834226323;1248177512;146
+ihis;0.01-average-risk;false;true;10;0.761440276;1215114472;146
+ihis;0.01-average-risk;true;true;10;0.828974076;1229380024;135
+ihis;0.01-average-risk;false;true;11;0.75693266;1248705264;138
+ihis;0.01-average-risk;true;true;11;0.824636543;1231813672;126
+ihis;0.01-average-risk;false;true;12;0.755143221;1192157496;148
+ihis;0.01-average-risk;true;true;12;0.819611992;1240068856;120
+ihis;0.01-average-risk;false;true;13;0.744918559;1207791712;127
+ihis;0.01-average-risk;true;true;13;0.816205321;1228772088;115
+ihis;0.01-average-risk;false;true;14;0.757498075;1194808728;128
+ihis;0.01-average-risk;true;true;14;0.81544861;1233615568;107
+ihis;0.01-average-risk;false;true;15;0.750054769;1205670352;147
+ihis;0.01-average-risk;true;true;15;0.814292068;1245149384;100
+ihis;0.01-average-risk;false;true;16;0.749196629;1213886984;112
+ihis;0.01-average-risk;true;true;16;0.81385407;1239925824;94
+ihis;0.01-average-risk;false;true;17;0.73665216;1217651936;107
+ihis;0.01-average-risk;true;true;17;0.814023869;1257392232;86
+ihis;0.01-average-risk;false;true;18;0.748126447;1222982336;118
+ihis;0.01-average-risk;true;true;18;0.813449555;1244756832;90
+ihis;0.01-average-risk;false;true;19;0.748024081;1209828880;116
+ihis;0.01-average-risk;true;true;19;0.814046574;1246844192;82
+ihis;0.01-average-risk;false;true;20;0.74745642;1231348872;117
+ihis;0.01-average-risk;true;true;20;0.812248715;1251795336;76
+ihis;0.01-average-risk;false;true;21;0.735940089;1241428376;123
+ihis;0.01-average-risk;true;true;21;0.813632318;1249020624;72
+ihis;0.01-average-risk;false;true;22;0.735847821;1253241224;100
+ihis;0.01-average-risk;true;true;22;0.812632817;1236883784;67
+ihis;0.01-average-risk;false;true;23;0.735603901;1251041016;98
+ihis;0.01-average-risk;true;true;23;0.812550034;1243840696;69
+ihis;0.01-average-risk;false;true;24;0.7421284;1256981456;106
+ihis;0.01-average-risk;true;true;24;0.812503195;1239710928;63
+ihis;0.01-average-risk;false;true;25;0.736327309;1240140608;113
+ihis;0.01-average-risk;true;true;25;0.813431547;1244695648;62
+ihis;0.01-average-risk;false;true;26;0.755556753;1281452904;87
+ihis;0.01-average-risk;true;true;26;0.812720936;1244148320;60
+ihis;0.01-average-risk;false;true;27;0.735276441;1263135848;104
+ihis;0.01-average-risk;true;true;27;0.81303237;1291931736;58
+ihis;0.01-average-risk;false;true;28;0.754803263;1262463592;105
+ihis;0.01-average-risk;true;true;28;0.812619701;1262729584;56
+ihis;0.01-average-risk;false;true;29;0.754132241;1284200032;107
+ihis;0.01-average-risk;true;true;29;0.812897721;1256421664;56
+ihis;0.01-average-risk;false;true;30;0.754669431;1276873056;119
+ihis;0.01-average-risk;true;true;30;0.812150678;1242000768;53
+ihis;0.01-average-risk;false;true;31;0.744882;1291830920;77
+ihis;0.01-average-risk;true;true;31;0.812344474;1250593104;50
+ihis;0.01-average-risk;false;true;32;0.745276838;1289327352;105
+ihis;0.01-average-risk;true;true;32;0.812363305;1265414984;52
+ihis;0.01-average-risk;false;true;33;0.753534254;1310236480;75
+ihis;0.01-average-risk;true;true;33;0.812569897;1246466064;49
+ihis;0.01-average-risk;false;true;34;0.753542246;1283479272;99
+ihis;0.01-average-risk;true;true;34;0.811434276;1259316144;47
+ihis;0.01-average-risk;false;true;35;0.733399838;1310216952;77
+ihis;0.01-average-risk;true;true;35;0.811977657;1262115576;47
+ihis;0.01-average-risk;false;true;36;0.732737437;1305538688;110
+ihis;0.01-average-risk;true;true;36;0.811511626;1253163944;45
+ihis;0.01-average-risk;false;true;37;0.753590775;1301178080;90
+ihis;0.01-average-risk;true;true;37;0.81209461;1260267240;47
+ihis;0.01-average-risk;false;true;38;0.753275087;1345488264;72
+ihis;0.01-average-risk;true;true;38;0.811852475;1254256912;44
+ihis;0.01-average-risk;false;true;39;0.752994387;1314696896;98
+ihis;0.01-average-risk;true;true;39;0.811349492;1275015600;41
+ihis;0.01-average-risk;false;true;40;0.753112093;1338897944;76
+ihis;0.01-average-risk;true;true;40;0.811704159;1265617384;44
+ihis;0.01-average-risk;false;true;41;0.752665191;1331022736;78
+ihis;0.01-average-risk;true;true;41;0.811939818;1305583424;39
+ihis;0.01-average-risk;false;true;42;0.752378518;1376349896;72
+ihis;0.01-average-risk;true;true;42;0.810554671;1267985064;41
+ihis;0.01-average-risk;false;true;43;0.751997059;1344730408;89
+ihis;0.01-average-risk;true;true;43;0.810675442;1254553024;39
+ihis;0.01-average-risk;false;true;44;0.751976628;1355156848;67
+ihis;0.01-average-risk;true;true;44;0.810496967;1277583992;45
+ihis;0.01-average-risk;false;true;45;0.751226895;1347840848;93
+ihis;0.01-average-risk;true;true;45;0.810120727;1385905600;39
+ihis;0.01-average-risk;false;true;46;0.75153012;1375355088;84
+ihis;0.01-average-risk;true;true;46;0.810880734;1263886400;40
+ihis;0.01-average-risk;false;true;47;0.751146637;1384035968;65
+ihis;0.01-average-risk;true;true;47;0.810913617;1269420896;43
+ihis;0.01-average-risk;false;true;48;0.751406006;1379645696;64
+ihis;0.01-average-risk;true;true;48;0.810575401;1273097648;37
+ihis;0.01-average-risk;false;true;49;0.750871265;1388512976;79
+ihis;0.01-average-risk;true;true;49;0.810687395;1289506656;38
+ihis;0.01-average-risk;false;true;50;0.731284248;1387765712;71
+ihis;0.01-average-risk;true;true;50;0.810858459;1306598008;41
+ihis;0.01-average-risk;false;true;51;0.750594639;1399796856;71
+ihis;0.01-average-risk;true;true;51;0.809836479;1299452936;36
+ihis;0.01-average-risk;false;true;52;0.750068791;1382324136;98
+ihis;0.01-average-risk;true;true;52;0.810134613;1277542056;38
+ihis;0.01-average-risk;false;true;53;0.750423971;1432135704;64
+ihis;0.01-average-risk;true;true;53;0.809496737;1522089840;38
+ihis;0.01-average-risk;false;true;54;0.750024974;1408612440;74
+ihis;0.01-average-risk;true;true;54;0.810060597;1278502608;40
+ihis;0.01-average-risk;false;true;55;0.748860906;1412538352;64
+ihis;0.01-average-risk;true;true;55;0.809581084;1273098872;37
+ihis;0.01-average-risk;false;true;56;0.749852799;1422833128;69
+ihis;0.01-average-risk;true;true;56;0.809341143;1538994096;33
+ihis;0.01-average-risk;false;true;57;0.749599891;1415393192;65
+ihis;0.01-average-risk;true;true;57;0.80975658;1381645304;38
+ihis;0.01-average-risk;false;true;58;0.74893564;1438346864;68
+ihis;0.01-average-risk;true;true;58;0.810100649;1290264928;33
+ihis;0.01-average-risk;false;true;59;0.748599316;1417674952;61
+ihis;0.01-average-risk;true;true;59;0.809479996;1305984176;36
+ihis;0.01-average-risk;false;true;60;0.748399935;1436642584;68
+ihis;0.01-average-risk;true;true;60;0.80956815;1284271928;35
+ihis;0.01-average-risk;false;true;61;0.748879147;1459104488;63
+ihis;0.01-average-risk;true;true;61;0.809050999;1326535448;36
+ihis;0.01-average-risk;false;true;62;0.748659851;1441563176;62
+ihis;0.01-average-risk;true;true;62;0.808589528;1292852936;30
+ihis;0.01-average-risk;false;true;63;0.747866123;1476311016;62
+ihis;0.01-average-risk;true;true;63;0.808527459;1315741768;29
+ihis;0.01-average-risk;false;true;64;0.748784327;1437035136;58
+ihis;0.01-average-risk;true;true;64;0.808691669;1293094536;35
+ihis;5-map-subset;false;true;1;0.8624652095512886;1090448004;270
+ihis;5-map-subset;true;true;1;0.19753850845912538;1080479510;111
+ihis;5-map-subset;false;true;2;0.7933348194016303;1142681554;165
+ihis;5-map-subset;true;true;2;0.1975385745934894;1153232700;183
+ihis;5-map-subset;false;true;3;0.8253628806873958;1062870480;117
+ihis;5-map-subset;true;true;3;0.19753511430830661;1063043576;264
+ihis;5-map-subset;false;true;4;0.8227277392907957;1119805644;77
+ihis;5-map-subset;true;true;4;0.19753295607174312;1129810194;302
+ihis;5-map-subset;false;true;5;0.8196024267097145;1202836016;72
+ihis;5-map-subset;true;true;5;0.1975387649268182;1205711876;395
+ihis;5-map-subset;false;true;6;0.8167587415326857;1037836854;69
+ihis;5-map-subset;true;true;6;0.19754065563611922;1059857118;396
+ihis;5-map-subset;false;true;7;0.8148286881555653;1037287564;57
+ihis;5-map-subset;true;true;7;0.1975427909654748;1045238770;374
+ihis;5-map-subset;false;true;8;0.8132619964556759;1043588708;47
+ihis;5-map-subset;true;true;8;0.19752560570957725;1060424988;349
+ihis;5-map-subset;false;true;9;0.8105771811724537;1049099772;48
+ihis;5-map-subset;true;true;9;0.19752639688558116;1067464046;399
+ihis;5-map-subset;false;true;10;0.8081669414325104;1057724420;48
+ihis;5-map-subset;true;true;10;0.1975363738076262;1069827742;525
+ihis;5-map-subset;false;true;11;0.8063331611779593;1062585200;53
+ihis;5-map-subset;true;true;11;0.19752673500397283;1084632646;520
+ihis;5-map-subset;false;true;12;0.8061062532477837;1074551168;42
+ihis;5-map-subset;true;true;12;0.1975249195202608;1084453058;564
+ihis;5-map-subset;false;true;13;0.8063823093734978;1072705162;42
+ihis;5-map-subset;true;true;13;0.19751919190705008;1086266260;520
+ihis;5-map-subset;false;true;14;0.8062000774062928;1086069054;37
+ihis;5-map-subset;true;true;14;0.19752212213706158;1086077664;522
+ihis;5-map-subset;false;true;15;0.8061385768936326;1088724300;40
+ihis;5-map-subset;true;true;15;0.1975204391511954;1109837520;509
+ihis;5-map-subset;false;true;16;0.8060941734398983;1091555956;43
+ihis;5-map-subset;true;true;16;0.19750505682029248;1089033362;551
+ihis;5-map-subset;false;true;17;0.8061198400565424;1093276444;38
+ihis;5-map-subset;true;true;17;0.19752058816416757;1086433424;517
+ihis;5-map-subset;false;true;18;0.8057241013134253;1098315940;36
+ihis;5-map-subset;true;true;18;0.19753649120544162;1099007972;516
+ihis;5-map-subset;false;true;19;0.8060635189671063;1103475294;37
+ihis;5-map-subset;true;true;19;0.19753664119425002;1111953824;563
+ihis;5-map-subset;false;true;20;0.8056387270532143;1110695716;38
+ihis;5-map-subset;true;true;20;0.1975269094058166;1107813760;527
+ihis;5-map-subset;false;true;21;0.8058295772522472;1114672884;39
+ihis;5-map-subset;true;true;21;0.1975292031753274;1111895068;570
+ihis;5-map-subset;false;true;22;0.8056338307077276;1128428184;35
+ihis;5-map-subset;true;true;22;0.1975101877062378;1114210484;570
+ihis;5-map-subset;false;true;23;0.8057159068560957;1124599154;33
+ihis;5-map-subset;true;true;23;0.1975379847784772;1110118002;520
+ihis;5-map-subset;false;true;24;0.8054498126598872;1148172856;33
+ihis;5-map-subset;true;true;24;0.19752735190653783;1117480744;521
+ihis;5-map-subset;false;true;25;0.8057015119400227;1130446274;38
+ihis;5-map-subset;true;true;25;0.19753061568294544;1086072114;517
+ihis;5-map-subset;false;true;26;0.8057186543646219;1129515590;32
+ihis;5-map-subset;true;true;26;0.1975128871482919;1083906064;517
+ihis;5-map-subset;false;true;27;0.8054195847707089;1147831774;32
+ihis;5-map-subset;true;true;27;0.1975340312518567;1101670722;513
+ihis;5-map-subset;false;true;28;0.8052133951591576;1145560162;29
+ihis;5-map-subset;true;true;28;0.19751577277358454;1072096058;520
+ihis;5-map-subset;false;true;29;0.8051178866741666;1166246706;31
+ihis;5-map-subset;true;true;29;0.1975143118213363;1082236174;515
+ihis;5-map-subset;false;true;30;0.8052181470150649;1169124808;34
+ihis;5-map-subset;true;true;30;0.1975029121425021;1063280332;512
+ihis;5-map-subset;false;true;31;0.8051951790583596;1159334164;31
+ihis;5-map-subset;true;true;31;0.19752506250081223;1078719752;510
+ihis;5-map-subset;false;true;32;0.8052320107878926;1173272652;31
+ihis;5-map-subset;true;true;32;0.197498393838131;1104886828;520
+ihis;5-map-subset;false;true;33;0.8047876726658526;1179958004;28
+ihis;5-map-subset;true;true;33;0.19751264600416188;1087582586;520
+ihis;5-map-subset;false;true;34;0.80517067317075;1161335764;28
+ihis;5-map-subset;true;true;34;0.1975258807759437;1091933306;517
+ihis;5-map-subset;false;true;35;0.8048790190675261;1178428098;30
+ihis;5-map-subset;true;true;35;0.19751669170801986;1093751500;516
+ihis;5-map-subset;false;true;36;0.804373744864631;1167898718;27
+ihis;5-map-subset;true;true;36;0.19754033314225766;1095085922;508
+ihis;5-map-subset;false;true;37;0.8049722250289676;1158600326;30
+ihis;5-map-subset;true;true;37;0.1975118673253844;1106594414;557
+ihis;5-map-subset;false;true;38;0.8047873090969935;1193426252;28
+ihis;5-map-subset;true;true;38;0.1975307595333257;1106527440;519
+ihis;5-map-subset;false;true;39;0.8044683760963526;1208824448;27
+ihis;5-map-subset;true;true;39;0.1975339969440095;1132645162;525
+ihis;5-map-subset;false;true;40;0.8045977394557153;1188648740;29
+ihis;5-map-subset;true;true;40;0.19750928288685024;1076683234;521
+ihis;5-map-subset;false;true;41;0.8045245905800109;1191398392;27
+ihis;5-map-subset;true;true;41;0.19749223023419663;1114694118;568
+ihis;5-map-subset;false;true;42;0.8042242929601447;1221014708;26
+ihis;5-map-subset;true;true;42;0.1975083056128638;1069364674;563
+ihis;5-map-subset;false;true;43;0.804144924535843;1202985344;27
+ihis;5-map-subset;true;true;43;0.19751378545040416;1111932224;519
+ihis;5-map-subset;false;true;44;0.8043449299747771;1197132138;27
+ihis;5-map-subset;true;true;44;0.1974819876141628;1083104618;521
+ihis;5-map-subset;false;true;45;0.8040423699952464;1230976950;28
+ihis;5-map-subset;true;true;45;0.19751004613959813;1068073566;516
+ihis;5-map-subset;false;true;46;0.8044469045639177;1202489056;27
+ihis;5-map-subset;true;true;46;0.1975216422405558;1091068708;517
+ihis;5-map-subset;false;true;47;0.8042325280479575;1241841684;26
+ihis;5-map-subset;true;true;47;0.19754289741808992;1093001702;515
+ihis;5-map-subset;false;true;48;0.8038730746974511;1206938074;28
+ihis;5-map-subset;true;true;48;0.197502301582957;1081786436;520
+ihis;5-map-subset;false;true;49;0.8038122376030704;1220723938;23
+ihis;5-map-subset;true;true;49;0.19753572553456045;1040564694;502
+ihis;5-map-subset;false;true;50;0.8041580236312615;1216689484;24
+ihis;5-map-subset;true;true;50;0.197519339522541;1034003690;514
+ihis;5-map-subset;false;true;51;0.8039552540955802;1236068406;25
+ihis;5-map-subset;true;true;51;0.19751312658622572;1020396032;548
+ihis;5-map-subset;false;true;52;0.8038197351353112;1207785942;24
+ihis;5-map-subset;true;true;52;0.19749366885835826;1027284832;517
+ihis;5-map-subset;false;true;53;0.8038172477551204;1236725886;25
+ihis;5-map-subset;true;true;53;0.19750504091631077;1038908294;519
+ihis;5-map-subset;false;true;54;0.8034410133711186;1302017904;22
+ihis;5-map-subset;true;true;54;0.19752457611691382;1024847490;532
+ihis;5-map-subset;false;true;55;0.8035764628268357;1216095616;23
+ihis;5-map-subset;true;true;55;0.19753287296310174;1025931852;510
+ihis;5-map-subset;false;true;56;0.8033594837347174;1248010142;23
+ihis;5-map-subset;true;true;56;0.1974925656424496;1019796856;463
+ihis;5-map-subset;false;true;57;0.803341395350056;1228071894;24
+ihis;5-map-subset;true;true;57;0.19750236227981993;1041193852;505
+ihis;5-map-subset;false;true;58;0.8035158920311555;1248486056;37
+ihis;5-map-subset;true;true;58;0.19751448154643528;1022981422;511
+ihis;5-map-subset;false;true;59;0.8031475323449634;1254181940;26
+ihis;5-map-subset;true;true;59;0.19748160311526233;1041943814;506
+ihis;5-map-subset;false;true;60;0.8030592784864744;1274516806;23
+ihis;5-map-subset;true;true;60;0.19748773753756863;1018564660;505
+ihis;5-map-subset;false;true;61;0.8033522497451576;1263062848;26
+ihis;5-map-subset;true;true;61;0.19752383024052272;1030604202;506
+ihis;5-map-subset;false;true;62;0.8032510844461448;1295733360;24
+ihis;5-map-subset;true;true;62;0.1975078219899868;1027617892;512
+ihis;5-map-subset;false;true;63;0.802925398170668;1245164204;22
+ihis;5-map-subset;true;true;63;0.19748141276699036;1042301674;512
+ihis;5-map-subset;false;true;64;0.8034117694591245;1248148850;20
+ihis;5-map-subset;true;true;64;0.19749027579958947;1041358862;512
+ihis;5-map-estimate;false;true;1;0.8931583786382348;382341412;106
+ihis;5-map-estimate;true;true;1;0.976762137283773;445714478;42
+ihis;5-map-estimate;false;true;2;0.8767468059100252;473957208;99
+ihis;5-map-estimate;true;true;2;0.9669492952404607;531055376;27
+ihis;5-map-estimate;false;true;3;0.8720391303241172;383019714;107
+ihis;5-map-estimate;true;true;3;0.9687440168838841;405839466;20
+ihis;5-map-estimate;false;true;4;0.8561722000400476;465040784;48
+ihis;5-map-estimate;true;true;4;0.9672203185639165;593945584;27
+ihis;5-map-estimate;false;true;5;0.8521414033404272;555866542;47
+ihis;5-map-estimate;true;true;5;0.9638768584200412;704658980;28
+ihis;5-map-estimate;false;true;6;0.8309553694182981;356549996;49
+ihis;5-map-estimate;true;true;6;0.9621730805405485;447177610;28
+ihis;5-map-estimate;false;true;7;0.8292782507016446;349139196;44
+ihis;5-map-estimate;true;true;7;0.9600716887364091;466929262;30
+ihis;5-map-estimate;false;true;8;0.8280316951411799;350192546;45
+ihis;5-map-estimate;true;true;8;0.9592485155953789;461557042;29
+ihis;5-map-estimate;false;true;9;0.8250920922761393;357172426;34
+ihis;5-map-estimate;true;true;9;0.9583104108002551;450809454;32
+ihis;5-map-estimate;false;true;10;0.8246983038552039;351097126;44
+ihis;5-map-estimate;true;true;10;0.9572992366135671;464804372;32
+ihis;5-map-estimate;false;true;11;0.8246257555716088;357345222;33
+ihis;5-map-estimate;true;true;11;0.9554061444617544;457766688;35
+ihis;5-map-estimate;false;true;12;0.8244763914583227;357620340;31
+ihis;5-map-estimate;true;true;12;0.9550695414643546;435474320;24
+ihis;5-map-estimate;false;true;13;0.8246236217985673;356112918;39
+ihis;5-map-estimate;true;true;13;0.9546263274837303;455179096;28
+ihis;5-map-estimate;false;true;14;0.8245162218885386;356688128;34
+ihis;5-map-estimate;true;true;14;0.9538484482107572;485327116;37
+ihis;5-map-estimate;false;true;15;0.8244820815197899;359233740;36
+ihis;5-map-estimate;true;true;15;0.9540862219997466;473402160;38
+ihis;5-map-estimate;false;true;16;0.8244870603235684;362294276;31
+ihis;5-map-estimate;true;true;16;0.9541765469708289;459793328;38
+ihis;5-map-estimate;false;true;17;0.8244344272550789;354390928;41
+ihis;5-map-estimate;true;true;17;0.9534381503791838;466707384;38
+ihis;5-map-estimate;false;true;18;0.8241847758085845;376806620;32
+ihis;5-map-estimate;true;true;18;0.9534995968653159;459925248;37
+ihis;5-map-estimate;false;true;19;0.824425180905214;375532140;29
+ihis;5-map-estimate;true;true;19;0.9534148784680326;459842384;41
+ihis;5-map-estimate;false;true;20;0.824150635439838;369515846;37
+ihis;5-map-estimate;true;true;20;0.9533053633710168;480236678;41
+ihis;5-map-estimate;false;true;21;0.8243320061488343;387416414;22
+ihis;5-map-estimate;true;true;21;0.95330676916225;471682724;44
+ihis;5-map-estimate;false;true;22;0.824193310900783;373379518;28
+ihis;5-map-estimate;true;true;22;0.9532064798341159;465109766;42
+ihis;5-map-estimate;false;true;23;0.8241122275250006;371958372;30
+ihis;5-map-estimate;true;true;23;0.9532418575225853;476345530;42
+ihis;5-map-estimate;false;true;24;0.8240354116953116;394409686;27
+ihis;5-map-estimate;true;true;24;0.9537346521018966;460799872;37
+ihis;5-map-estimate;false;true;25;0.8241556142436278;442491616;30
+ihis;5-map-estimate;true;true;25;0.9528286799818156;479649542;46
+ihis;5-map-estimate;false;true;26;0.8241620155627717;383047324;33
+ihis;5-map-estimate;true;true;26;0.9533901343346056;468261068;45
+ihis;5-map-estimate;false;true;27;0.8240460805605547;390827358;28
+ihis;5-map-estimate;true;true;27;0.9525935229375023;476387826;49
+ihis;5-map-estimate;false;true;28;0.823861153563152;462489120;35
+ihis;5-map-estimate;true;true;28;0.953057377455143;462250268;42
+ihis;5-map-estimate;false;true;29;0.8238455058941436;401713422;28
+ihis;5-map-estimate;true;true;29;0.9527447536367242;468157382;46
+ihis;5-map-estimate;false;true;30;0.8238760899744861;461356112;32
+ihis;5-map-estimate;true;true;30;0.9529534258415191;471408514;47
+ihis;5-map-estimate;false;true;31;0.8238568860170662;415966874;32
+ihis;5-map-estimate;true;true;31;0.9527904901124019;464219410;41
+ihis;5-map-estimate;false;true;32;0.8239223217238428;464550752;30
+ihis;5-map-estimate;true;true;32;0.9532019443029383;475278500;53
+ihis;5-map-estimate;false;true;33;0.823733838438027;407574778;27
+ihis;5-map-estimate;true;true;33;0.9529022171503228;462861542;46
+ihis;5-map-estimate;false;true;34;0.8237750913836017;406763206;25
+ihis;5-map-estimate;true;true;34;0.9524626701432647;474456048;50
+ihis;5-map-estimate;false;true;35;0.8237345496957089;483972578;28
+ihis;5-map-estimate;true;true;35;0.9525445249570061;482247354;53
+ihis;5-map-estimate;false;true;36;0.8233248652706879;480957178;32
+ihis;5-map-estimate;true;true;36;0.9527675278470426;460562980;54
+ihis;5-map-estimate;false;true;37;0.8237068106460973;423016222;25
+ihis;5-map-estimate;true;true;37;0.9527958831958492;469619302;46
+ihis;5-map-estimate;false;true;38;0.8235908756438777;480903428;24
+ihis;5-map-estimate;true;true;38;0.9530531452857401;471450402;50
+ihis;5-map-estimate;false;true;39;0.8234116387079305;487992182;29
+ihis;5-map-estimate;true;true;39;0.9525197709154452;480948662;57
+ihis;5-map-estimate;false;true;40;0.8234422227882703;486735080;31
+ihis;5-map-estimate;true;true;40;0.9524315768247676;461407166;50
+ihis;5-map-estimate;false;true;41;0.823377498339178;494566920;26
+ihis;5-map-estimate;true;true;41;0.952598923468674;462053614;51
+ihis;5-map-estimate;false;true;42;0.8232587183062289;439653850;22
+ihis;5-map-estimate;true;true;42;0.9525155676059746;476301144;48
+ihis;5-map-estimate;false;true;43;0.823344069228108;497642592;33
+ihis;5-map-estimate;true;true;43;0.9524740893667358;478943170;51
+ihis;5-map-estimate;false;true;44;0.823359716897119;492419078;30
+ihis;5-map-estimate;true;true;44;0.9526342256824358;474609678;50
+ihis;5-map-estimate;false;true;45;0.8231221568312213;503031910;28
+ihis;5-map-estimate;true;true;45;0.95220422200326;474556214;55
+ihis;5-map-estimate;false;true;46;0.8232238666797934;510293540;33
+ihis;5-map-estimate;true;true;46;0.9526678018860626;488870410;56
+ihis;5-map-estimate;false;true;47;0.823154163426925;507962550;32
+ihis;5-map-estimate;true;true;47;0.952577176113361;479240346;51
+ihis;5-map-estimate;false;true;48;0.8230730800511397;453999676;23
+ihis;5-map-estimate;true;true;48;0.9529543093278287;476805508;53
+ihis;5-map-estimate;false;true;49;0.8230296933325172;516123800;33
+ihis;5-map-estimate;true;true;49;0.9524304047391368;481397318;59
+ihis;5-map-estimate;false;true;50;0.8231655435498411;511887716;25
+ihis;5-map-estimate;true;true;50;0.9525018246924843;480392726;54
+ihis;5-map-estimate;false;true;51;0.8230538760937155;531878690;26
+ihis;5-map-estimate;true;true;51;0.9524318253925704;478029278;54
+ihis;5-map-estimate;false;true;52;0.8229927079330349;511011460;27
+ihis;5-map-estimate;true;true;52;0.9525848854391039;486159630;54
+ihis;5-map-estimate;false;true;53;0.8229585675642828;513597276;42
+ihis;5-map-estimate;true;true;53;0.9522562322557975;478330186;47
+ihis;5-map-estimate;false;true;54;0.8228917093421435;533960354;30
+ihis;5-map-estimate;true;true;54;0.9524162307885957;485292860;55
+ihis;5-map-estimate;false;true;55;0.8228390762736512;515502396;26
+ihis;5-map-estimate;true;true;55;0.9524715510226585;481197694;56
+ihis;5-map-estimate;false;true;56;0.8226946909641383;540103702;35
+ihis;5-map-estimate;true;true;56;0.9520866829473933;502462006;60
+ihis;5-map-estimate;false;true;57;0.8227053598293725;523488756;35
+ihis;5-map-estimate;true;true;57;0.9526043845126065;477779884;55
+ihis;5-map-estimate;false;true;58;0.8228070696779454;529151406;29
+ihis;5-map-estimate;true;true;58;0.9524050750283763;486103544;58
+ihis;5-map-estimate;false;true;59;0.8226456141840567;529620644;41
+ihis;5-map-estimate;true;true;59;0.9523168976950789;484888116;50
+ihis;5-map-estimate;false;true;60;0.8225424818201184;536684046;28
+ihis;5-map-estimate;true;true;60;0.9521423537564837;518359334;53
+ihis;5-map-estimate;false;true;61;0.82274163397117;553771694;35
+ihis;5-map-estimate;true;true;61;0.9527925288604647;488949978;51
+ihis;5-map-estimate;false;true;62;0.8226598393377018;568421538;25
+ihis;5-map-estimate;true;true;62;0.9521914137791845;534796214;56
+ihis;5-map-estimate;false;true;63;0.8225118977397774;540023410;41
+ihis;5-map-estimate;true;true;63;0.9522965858886482;518107742;56
+ihis;5-map-estimate;false;true;64;0.8227779081129676;551727508;28
+ihis;5-map-estimate;true;true;64;0.952218218172629;576185504;57
+ihis;profitability;false;true;1;0.8931583786378252;624971360;137
+ihis;profitability;true;true;1;0.9741983389459806;547895408;148
+ihis;profitability;false;true;2;0.8767460115307023;724943176;133
+ihis;profitability;true;true;2;0.97231447505671;602875034;96
+ihis;profitability;false;true;3;0.8720375299275842;513410828;87
+ihis;profitability;true;true;3;0.9714067049429268;528270920;74
+ihis;profitability;false;true;4;0.8561698646130952;525425388;76
+ihis;profitability;true;true;4;0.9687355429029383;525846564;55
+ihis;profitability;false;true;5;0.8521382025477535;610086202;68
+ihis;profitability;true;true;5;0.9657370762165075;611597682;52
+ihis;profitability;false;true;6;0.8309517873620387;448816470;113
+ihis;profitability;true;true;6;0.9659998587991278;486569340;52
+ihis;profitability;false;true;7;0.829273952234115;464788900;62
+ihis;profitability;true;true;7;0.9653042188619221;406465754;47
+ihis;profitability;false;true;8;0.8265579138641695;412966166;79
+ihis;profitability;true;true;8;0.9639663019662349;416241488;51
+ihis;profitability;false;true;9;0.8250864354634767;406793844;80
+ihis;profitability;true;true;9;0.9620781355864092;468855428;42
+ihis;profitability;false;true;10;0.8246919025360637;416299342;56
+ihis;profitability;true;true;10;0.9611966259826735;437933930;39
+ihis;profitability;false;true;11;0.8246186429947869;467192612;86
+ihis;profitability;true;true;11;0.9604337843967827;452111878;41
+ihis;profitability;false;true;12;0.8244685676238189;407066464;58
+ihis;profitability;true;true;12;0.960794645796333;424838442;39
+ihis;profitability;false;true;13;0.8246150867063815;499194756;57
+ihis;profitability;true;true;13;0.9601477057976485;392168592;35
+ihis;profitability;false;true;14;0.8245069755386707;356485028;55
+ihis;profitability;true;true;14;0.9594826963560608;384831742;39
+ihis;profitability;false;true;15;0.8244721239122398;365718888;36
+ihis;profitability;true;true;15;0.9598262830248043;381834396;34
+ihis;profitability;false;true;16;0.8244763914583366;362307146;42
+ihis;profitability;true;true;16;0.9595877740722675;374957898;35
+ihis;profitability;false;true;17;0.8244230471321652;358842272;57
+ihis;profitability;true;true;17;0.9598363050019759;392819682;32
+ihis;profitability;false;true;18;0.8241726844279887;362379540;40
+ihis;profitability;true;true;18;0.9596141501218113;379238164;31
+ihis;profitability;false;true;19;0.8244123782669364;374561618;32
+ihis;profitability;true;true;19;0.9594442191507788;380983926;29
+ihis;profitability;false;true;20;0.8241371215438786;367551632;44
+ihis;profitability;true;true;20;0.9597291178840702;387757122;28
+ihis;profitability;false;true;21;0.8243177809951927;370296572;39
+ihis;profitability;true;true;21;0.9589681596747414;394784118;27
+ihis;profitability;false;true;22;0.8241783744894596;380018366;42
+ihis;profitability;true;true;22;0.9594235954708887;383764538;27
+ihis;profitability;false;true;23;0.824096579855995;381167864;35
+ihis;profitability;true;true;23;0.9591842932692036;390705718;26
+ihis;profitability;false;true;24;0.8240190527686244;381275548;44
+ihis;profitability;true;true;24;0.9588935800243087;400427070;26
+ihis;profitability;false;true;25;0.8241385440592586;384361402;37
+ihis;profitability;true;true;25;0.9590508247610025;408951484;25
+ihis;profitability;false;true;26;0.82414423412072;385514238;37
+ihis;profitability;true;true;26;0.9595676158419051;404886916;24
+ihis;profitability;false;true;27;0.8240275878608216;398068106;33
+ihis;profitability;true;true;27;0.9593996376708666;405428380;23
+ihis;profitability;false;true;28;0.823841949605737;394597216;32
+ihis;profitability;true;true;28;0.9590884581125082;409152088;23
+ihis;profitability;false;true;29;0.8238255906790463;404386868;33
+ihis;profitability;true;true;29;0.9590313052062575;425348888;23
+ihis;profitability;false;true;30;0.8238554635017041;418879170;27
+ihis;profitability;true;true;30;0.9585828637543087;420334146;23
+ihis;profitability;false;true;31;0.8238355482865989;407392582;34
+ihis;profitability;true;true;31;0.9592715148001181;421417758;22
+ihis;profitability;false;true;32;0.8239002727356907;415143078;30
+ihis;profitability;true;true;32;0.9590801110753624;433990342;22
+ihis;profitability;false;true;33;0.8237110781921908;412243274;33
+ihis;profitability;true;true;33;0.9582273168381137;442588132;23
+ihis;profitability;false;true;34;0.8237523311377657;412548688;31
+ihis;profitability;true;true;34;0.9586664616680522;432494668;22
+ihis;profitability;false;true;35;0.8237110781921901;423332550;29
+ihis;profitability;true;true;35;0.959031995051732;444214176;22
+ihis;profitability;false;true;36;0.8233006825094866;418639446;40
+ihis;profitability;true;true;36;0.9588685147077665;444177122;21
+ihis;profitability;false;true;37;0.8236819166272137;425502962;27
+ihis;profitability;true;true;37;0.9583480779657586;443714004;21
+ihis;profitability;false;true;38;0.8235652703673118;432213390;34
+ihis;profitability;true;true;38;0.9586088730699227;505303056;35
+ihis;profitability;false;true;39;0.8233853221736823;432358344;32
+ihis;profitability;true;true;39;0.9586094074441499;468640722;21
+ihis;profitability;false;true;40;0.8234151949963399;434751340;27
+ihis;profitability;true;true;40;0.9585317926797706;508465802;34
+ihis;profitability;false;true;41;0.8233497592895652;440184292;25
+ihis;profitability;true;true;41;0.9583584507839482;442950530;20
+ihis;profitability;false;true;42;0.8232302679989336;452223542;28
+ihis;profitability;true;true;42;0.9586247795473577;455518624;20
+ihis;profitability;false;true;43;0.8233149076631302;455031842;27
+ihis;profitability;true;true;43;0.9579645303986322;443860714;20
+ihis;profitability;false;true;44;0.8233298440744589;450490502;25
+ihis;profitability;true;true;44;0.9582091713885245;509716230;34
+ihis;profitability;false;true;45;0.8230915727508787;458820746;25
+ihis;profitability;true;true;45;0.9583273891182796;448869524;21
+ihis;profitability;false;true;46;0.8231925713417688;458111106;27
+ihis;profitability;true;true;46;0.9579894067291684;458517042;20
+ihis;profitability;false;true;47;0.8231221568312177;452786512;26
+ihis;profitability;true;true;47;0.9582402833263332;448664828;21
+ihis;profitability;false;true;48;0.82304036219775;455353532;27
+ihis;profitability;true;true;48;0.9585893172075208;523501956;34
+ihis;profitability;false;true;49;0.8229962642214453;473305538;23
+ihis;profitability;true;true;49;0.9577922580159863;524598144;29
+ihis;profitability;false;true;50;0.823131403181087;466103006;24
+ihis;profitability;true;true;50;0.9574787367467746;528745174;25
+ihis;profitability;false;true;51;0.8230190244672787;462801972;25
+ihis;profitability;true;true;51;0.9579825613394589;477927602;20
+ihis;profitability;false;true;52;0.822957145048916;457034654;25
+ihis;profitability;true;true;52;0.9576054635016823;544225150;35
+ihis;profitability;false;true;53;0.8229222934224816;482267342;25
+ihis;profitability;true;true;53;0.9578072549400762;518845162;29
+ihis;profitability;false;true;54;0.8228547239426598;481633678;25
+ihis;profitability;true;true;54;0.957868428620052;522560810;37
+ihis;profitability;false;true;55;0.8228013796164849;465892006;25
+ihis;profitability;true;true;55;0.9574590998903703;533319608;29
+ihis;profitability;false;true;56;0.8226569943069719;477408528;26
+ihis;profitability;true;true;56;0.9576615960696875;490292118;20
+ihis;profitability;false;true;57;0.8226669519145242;471938310;27
+ihis;profitability;true;true;57;0.9573967056480572;552057174;36
+ihis;profitability;false;true;58;0.8227679505054146;488882352;23
+ihis;profitability;true;true;58;0.9571297652402792;551961806;34
+ihis;profitability;false;true;59;0.822605783753843;495272414;23
+ihis;profitability;true;true;59;0.9576410431431784;539843304;35
+ihis;profitability;false;true;60;0.8225019401322229;489121440;24
+ihis;profitability;true;true;60;0.9572641622203758;551710540;36
+ihis;profitability;false;true;61;0.8227003810255918;506493440;23
+ihis;profitability;true;true;61;0.9573327287643043;542942690;34
+ihis;profitability;false;true;62;0.8226178751344413;483759754;24
+ihis;profitability;true;true;62;0.9571867971210078;547734916;35
+ihis;profitability;false;true;63;0.8224692222788348;507383080;26
+ihis;profitability;true;true;63;0.9574088724368659;564158858;30
+ihis;profitability;false;true;64;0.8227345213943424;489292746;24
+ihis;profitability;true;true;64;0.9576666921751231;550495684;36
+ihis;01-sample-uniqueness;false;true;1;0.925076480481478;1296099878;303
+ihis;01-sample-uniqueness;true;true;1;0.5200175282194279;1293663918;50
+ihis;01-sample-uniqueness;false;true;2;0.9172219336228792;1307452100;199
+ihis;01-sample-uniqueness;true;true;2;0.5200166903504303;1351630946;68
+ihis;01-sample-uniqueness;false;true;3;0.9138742893541193;1221965070;175
+ihis;01-sample-uniqueness;true;true;3;0.5200150146124353;1285485718;85
+ihis;01-sample-uniqueness;false;true;4;0.9084865552681685;1287179736;108
+ihis;01-sample-uniqueness;true;true;4;0.5200158524814328;1358564192;127
+ihis;01-sample-uniqueness;false;true;5;0.900983097296363;1373054206;123
+ihis;01-sample-uniqueness;true;true;5;0.5200166903504303;1427973022;134
+ihis;01-sample-uniqueness;false;true;6;0.8917645090183083;1249045656;127
+ihis;01-sample-uniqueness;true;true;6;0.5200141767434379;1282325268;144
+ihis;01-sample-uniqueness;false;true;7;0.890986221915979;1198719376;111
+ihis;01-sample-uniqueness;true;true;7;0.5200133388744403;1291046974;147
+ihis;01-sample-uniqueness;false;true;8;0.8888544940673163;1231137582;85
+ihis;01-sample-uniqueness;true;true;8;0.5200133388744403;1282383168;168
+ihis;01-sample-uniqueness;false;true;9;0.8837108204144275;1232847972;98
+ihis;01-sample-uniqueness;true;true;9;0.5200133388744403;1284566594;188
+ihis;01-sample-uniqueness;false;true;10;0.8793105308349082;1237458412;98
+ihis;01-sample-uniqueness;true;true;10;0.5200116631364453;1295320854;180
+ihis;01-sample-uniqueness;false;true;11;0.8707729844223022;1240647218;91
+ihis;01-sample-uniqueness;true;true;11;0.5200116631364453;1310019080;234
+ihis;01-sample-uniqueness;false;true;12;0.8706410703273365;1245944860;85
+ihis;01-sample-uniqueness;true;true;12;0.5200116631364453;1316265650;234
+ihis;01-sample-uniqueness;false;true;13;0.8475140091696288;1253158462;81
+ihis;01-sample-uniqueness;true;true;13;0.5200099873984503;1336954678;225
+ihis;01-sample-uniqueness;false;true;14;0.847454202080588;1255692300;82
+ihis;01-sample-uniqueness;true;true;14;0.5200116631364453;1338031282;222
+ihis;01-sample-uniqueness;false;true;15;0.8474001595302499;1246843516;77
+ihis;01-sample-uniqueness;true;true;15;0.5200091495294528;1353811498;229
+ihis;01-sample-uniqueness;false;true;16;0.8473951155588862;1260963536;75
+ihis;01-sample-uniqueness;true;true;16;0.5200099873984503;1346058318;322
+ihis;01-sample-uniqueness;false;true;17;0.8473807042121301;1218144248;76
+ihis;01-sample-uniqueness;true;true;17;0.5200049601844653;1352750738;278
+ihis;01-sample-uniqueness;false;true;18;0.8436867502003318;1229752926;72
+ihis;01-sample-uniqueness;true;true;18;0.5200083116604552;1363187888;316
+ihis;01-sample-uniqueness;false;true;19;0.8473936744242139;1219860366;66
+ihis;01-sample-uniqueness;true;true;19;0.5200066359224602;1361634086;311
+ihis;01-sample-uniqueness;false;true;20;0.843693151519479;1228959534;66
+ihis;01-sample-uniqueness;true;true;20;0.5200007708394777;1374365098;316
+ihis;01-sample-uniqueness;false;true;21;0.8473021623723086;1233214904;64
+ihis;01-sample-uniqueness;true;true;21;0.5200016087084752;1382502030;274
+ihis;01-sample-uniqueness;false;true;22;0.8436611449237804;1255977602;68
+ihis;01-sample-uniqueness;true;true;22;0.5200066359224602;1378846214;310
+ihis;01-sample-uniqueness;false;true;23;0.847059331179454;1249191216;61
+ihis;01-sample-uniqueness;true;true;23;0.5200041223154678;1380458110;286
+ihis;01-sample-uniqueness;false;true;24;0.8435893078978716;1239970046;58
+ihis;01-sample-uniqueness;true;true;24;0.5200024465774727;1381593526;307
+ihis;01-sample-uniqueness;false;true;25;0.8436711025313423;1247656286;58
+ihis;01-sample-uniqueness;true;true;25;0.5200016087084752;1399640310;289
+ihis;01-sample-uniqueness;false;true;26;0.8436341171318643;1236126228;61
+ihis;01-sample-uniqueness;true;true;26;0.5199999329704802;1391844544;272
+ihis;01-sample-uniqueness;false;true;27;0.8470463609673782;1254439368;62
+ihis;01-sample-uniqueness;true;true;27;0.5200057980534627;1308244762;293
+ihis;01-sample-uniqueness;false;true;28;0.8468907184224027;1253264874;58
+ihis;01-sample-uniqueness;true;true;28;0.5200049601844653;1388061544;273
+ihis;01-sample-uniqueness;false;true;29;0.8468092943132266;1252375388;56
+ihis;01-sample-uniqueness;true;true;29;0.5199990951014827;1415635544;267
+ihis;01-sample-uniqueness;false;true;30;0.8434698166072585;1258302560;49
+ihis;01-sample-uniqueness;true;true;30;0.5199974193634876;1416434746;274
+ihis;01-sample-uniqueness;false;true;31;0.8469944801190588;1251022194;57
+ihis;01-sample-uniqueness;true;true;31;0.5199990951014827;1421077044;292
+ihis;01-sample-uniqueness;false;true;32;0.8434534576805641;1246848062;49
+ihis;01-sample-uniqueness;true;true;32;0.5199965814944901;1425375438;282
+ihis;01-sample-uniqueness;false;true;33;0.8433979795813422;1256066622;51
+ihis;01-sample-uniqueness;true;true;33;0.5199965814944901;1447580356;286
+ihis;01-sample-uniqueness;false;true;34;0.8433666842433195;1253256208;48
+ihis;01-sample-uniqueness;true;true;34;0.5199965814944901;1479595906;286
+ihis;01-sample-uniqueness;false;true;35;0.843362416697225;1256845130;50
+ihis;01-sample-uniqueness;true;true;35;0.5199974193634876;1453100996;290
+ihis;01-sample-uniqueness;false;true;36;0.8431625532884907;1255735682;48
+ihis;01-sample-uniqueness;true;true;36;0.5199957436254926;1435639414;271
+ihis;01-sample-uniqueness;false;true;37;0.8433503253166247;1266875490;46
+ihis;01-sample-uniqueness;true;true;37;0.5199949057564952;1468733254;291
+ihis;01-sample-uniqueness;false;true;38;0.8433766418508705;1275128346;46
+ihis;01-sample-uniqueness;true;true;38;0.5199949057564952;1459170140;279
+ihis;01-sample-uniqueness;false;true;39;0.8465037737619802;1260570716;61
+ihis;01-sample-uniqueness;true;true;39;0.5199890406735126;1464763964;283
+ihis;01-sample-uniqueness;false;true;40;0.8432585730756029;1267722492;47
+ihis;01-sample-uniqueness;true;true;40;0.5199898785425101;1438183536;279
+ihis;01-sample-uniqueness;false;true;41;0.8432187426453922;1284981632;47
+ihis;01-sample-uniqueness;true;true;41;0.5199898785425101;1471972554;282
+ihis;01-sample-uniqueness;false;true;42;0.8431547294539826;1273168054;48
+ihis;01-sample-uniqueness;true;true;42;0.5199915542805051;1474095454;277
+ihis;01-sample-uniqueness;false;true;43;0.8464360404322208;1300433208;44
+ihis;01-sample-uniqueness;true;true;43;0.5199907164115076;1492938692;284
+ihis;01-sample-uniqueness;false;true;44;0.8431028076431718;1285020668;47
+ihis;01-sample-uniqueness;true;true;44;0.5199890406735126;1495356538;283
+ihis;01-sample-uniqueness;false;true;45;0.8451688101217718;1295516632;45
+ihis;01-sample-uniqueness;true;true;45;0.5199957436254926;1519582286;281
+ihis;01-sample-uniqueness;false;true;46;0.8430914275202537;1325593216;44
+ihis;01-sample-uniqueness;true;true;46;0.5199915542805051;1491890448;277
+ihis;01-sample-uniqueness;false;true;47;0.8431198778275463;1311316434;44
+ihis;01-sample-uniqueness;true;true;47;0.5199890406735126;1531349674;280
+ihis;01-sample-uniqueness;false;true;48;0.8429989640215503;1301528988;42
+ihis;01-sample-uniqueness;true;true;48;0.5199848513285251;1531200836;279
+ihis;01-sample-uniqueness;false;true;49;0.8429932739600914;1298260618;41
+ihis;01-sample-uniqueness;true;true;49;0.5199756347695526;1391731240;449
+ihis;01-sample-uniqueness;false;true;50;0.8431369480119207;1313481750;39
+ihis;01-sample-uniqueness;true;true;50;0.5199856891975226;1503312232;282
+ihis;01-sample-uniqueness;false;true;51;0.8429989640215493;1307393138;43
+ihis;01-sample-uniqueness;true;true;51;0.5199806619835375;1513644740;282
+ihis;01-sample-uniqueness;false;true;52;0.8429690911988909;1332120026;40
+ihis;01-sample-uniqueness;true;true;52;0.5199831755905301;1538715140;267
+ihis;01-sample-uniqueness;false;true;53;0.8429939852177719;1313732304;39
+ihis;01-sample-uniqueness;true;true;53;0.51998652706652;1534773444;279
+ihis;01-sample-uniqueness;false;true;54;0.8429136130996685;1313996376;39
+ihis;01-sample-uniqueness;true;true;54;0.5199856891975226;1544390774;279
+ihis;01-sample-uniqueness;false;true;55;0.8428019456435426;1349940230;38
+ihis;01-sample-uniqueness;true;true;55;0.5199831755905301;1576526196;278
+ihis;01-sample-uniqueness;false;true;56;0.8450336935052996;1314060568;37
+ihis;01-sample-uniqueness;true;true;56;0.5199756347695526;1480484510;267
+ihis;01-sample-uniqueness;false;true;57;0.8449934460025215;1318965702;36
+ihis;01-sample-uniqueness;true;true;57;0.5199773105075475;1565844436;283
+ihis;01-sample-uniqueness;false;true;58;0.8451400619054981;1324185498;37
+ihis;01-sample-uniqueness;true;true;58;0.5199764726385501;1590223042;279
+ihis;01-sample-uniqueness;false;true;59;0.8449999143511815;1323260828;42
+ihis;01-sample-uniqueness;true;true;59;0.5199722832935625;1539340564;444
+ihis;01-sample-uniqueness;false;true;60;0.8427080596294734;1330893832;39
+ihis;01-sample-uniqueness;true;true;60;0.5199789862455425;1568900324;442
+ihis;01-sample-uniqueness;false;true;61;0.8450214755133831;1326300462;40
+ihis;01-sample-uniqueness;true;true;61;0.5199756347695526;1560621006;278
+ihis;01-sample-uniqueness;false;true;62;0.8427699390478351;1322144924;36
+ihis;01-sample-uniqueness;true;true;62;0.5199739590315575;1531616382;277
+ihis;01-sample-uniqueness;false;true;63;0.8449244502834717;1326173220;34
+ihis;01-sample-uniqueness;true;true;63;0.5199756347695526;1560197906;275
+ihis;01-sample-uniqueness;false;true;64;0.8427343761637177;1323997056;35
+ihis;01-sample-uniqueness;true;true;64;0.5199722832935625;1608879514;262
