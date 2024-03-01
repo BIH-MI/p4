@@ -297,8 +297,7 @@ public class ARXDistributedAnonymizer {
         long timePostprocess = System.currentTimeMillis();
         Data result = ARXPartition.getData(handles);
         timePostprocess =  System.currentTimeMillis() - timePostprocess;
-        result.getHandle().save(nodes + "_" + config.getQualityModel().getConfiguration().getGsFactor() + "_enhanced.csv");
-        
+
         // Track memory consumption
         long maxMemory = Long.MIN_VALUE;
         long numberOfMemoryMeasurements = 0;

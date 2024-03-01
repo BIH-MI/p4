@@ -350,8 +350,6 @@ public class Main {
                 tempNumberOfMemoryMeasurements = result.getNumberOfMemoryMeasurements();
                 System.out.println("Memory: " + memory + " from " + tempNumberOfMemoryMeasurements + "measurements");
             }
-            //result.getOutput().save("./" + benchmark.getName() + "_" + threads + "_" + local + ".csv");
-
 
             // First two are warmup
             if (i >= WARMUP) {
